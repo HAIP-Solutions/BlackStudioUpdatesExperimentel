@@ -133,7 +133,7 @@
         "sha256": "4c4c3743a091882eae0a128323b013b853536b87bad250f13c27582a9582259a"
     },
     "BlackStudio.exe": {
-        "sha256": "bf7cea894bcd65ca0d6dbf52cd8816f896254571263d7e0f6f0ade79b05c3e51"
+        "sha256": "5d5442f00ea7bcf95d6e49650ac75880302c273ab69e68459ab2d699ab6716a2"
     },
     "concrt140.dll": {
         "sha256": "43a8200d0b62cc36bab0af07bf985e090179bebc0b496847cf7b3f3f5bd8ea2b"
@@ -196,7 +196,7 @@
         "sha256": "1794a90e19985ee2dee89f9bdffac8dcb3676e2555db9469384493d14708aed5"
     },
     "lib/library.zip": {
-        "sha256": "5178326ee3efe2066d162cc108cb31905f2aab178dbfcf8a519f17be1bbe08f9"
+        "sha256": "32133037b0addd581966b9b94e9131565b66e9f6e4de5bcb33a347081600adaf"
     },
     "lib/libssl-3.dll": {
         "sha256": "2e9fbcd8f7fdc13a5179533239811456554f2b3aa2fb10e1b17be0df81c79006"
@@ -763,7 +763,7 @@
         "sha256": "aaeb920568256d52a71266a14476f4378521d27c3ad01a27b57f4c2f36353009"
     },
     "lib/BlackStudioUpdater/__init__.pyc": {
-        "sha256": "92873d862a90f52464d9f77feb48ef8bd9978d188875476bd9ae3bf50d43c3ea"
+        "sha256": "92f7ea0315304fc53b4050f258237a3613fd3408174c93f6e6926b66718095db"
     },
     "lib/certifi/cacert.pem": {
         "sha256": "c55b21f907f7f86d48add093552fb5651749ff5f860508ccbb423d6c1fbd80c7"
@@ -985,7 +985,7 @@
         "sha256": "7db62f60c8597a98fe771c16a4d52588e799fa7bcd7a87b65e9559dbcd67a705"
     },
     "lib/cv2/gapi/wip/draw/__init__.pyc": {
-        "sha256": "7f954ceb5ee2b2601e596bec6774830365025342bde4d7d80a237bf14ede3e0d"
+        "sha256": "4ce0f1bfe61bf93643611dd0dbc8361bb38fc2b962a3ac35a0b8daaa7198a99e"
     },
     "lib/cv2/mat_wrapper/__init__.pyc": {
         "sha256": "0ca1e5e2a2b0e15ee5d6cfd6f7e290690fea70224546de27dc00b069d818e0f7"
@@ -4209,6 +4209,9 @@
     "lib/numba/__init__.pyc": {
         "sha256": "c2b73d2495f511e33b40d41edf2de352da0f35d4439ae017453374a8e46182af"
     },
+    "lib/numba/__main__.pyc": {
+        "sha256": "bad6dfae606ab1c5feb9090bd84f4ce96da8ccfb53ee2ae0c2307975457a77d1"
+    },
     "lib/numba/cext/cext.h": {
         "sha256": "47e3069b1a88eb13ab4002ae6207b9880a763bf2a88b33d90eb3e8de680e56db"
     },
@@ -4232,6 +4235,9 @@
     },
     "lib/numba/cloudpickle/cloudpickle.pyc": {
         "sha256": "017105e91180a76ef5b1f78b19e01c6867a6811aeb3e0d1203cc639d6adcd490"
+    },
+    "lib/numba/cloudpickle/cloudpickle_fast.pyc": {
+        "sha256": "e8f3ed2ba48d0df1ebca6c4bdf9b03589e732d09b3a6a7604d44e19d9d62fec4"
     },
     "lib/numba/cloudpickle/__init__.pyc": {
         "sha256": "eac0f799c0373b0c82584785ee88c0ef7a224c2ac30bfe5473595b1fe78ad1d6"
@@ -4446,6 +4452,9 @@
     "lib/numba/core/datamodel/registry.pyc": {
         "sha256": "72fe32ae3b1f98cebb6176d91a10d60497fe6b3fefa6cb455fee609ccbd1004b"
     },
+    "lib/numba/core/datamodel/testing.pyc": {
+        "sha256": "3705c1267abc3ba3e8e728fbb4f20c444eb82bb0d8a8cdc10ac7f5c21c608f40"
+    },
     "lib/numba/core/datamodel/__init__.pyc": {
         "sha256": "1f27e4349186138489319a1ba87f9f84914a085923e8420ef186f056bfd5b959"
     },
@@ -4626,6 +4635,12 @@
     "lib/numba/core/unsafe/eh.pyc": {
         "sha256": "613a9a6a04b115bc57b564edb798b13258e7fdb451a9fbd18484c1cdd740f7bf"
     },
+    "lib/numba/core/unsafe/nrt.pyc": {
+        "sha256": "b4a073003542f394647578d51d58779f55a4533eba1f90fbeb4441fb7d53278c"
+    },
+    "lib/numba/core/unsafe/refcount.pyc": {
+        "sha256": "77b52e0582b59fdbceaf6e9d70af74e91f73ff7b5f672595994dfe574f7a60ce"
+    },
     "lib/numba/core/unsafe/__init__.pyc": {
         "sha256": "cb587ccc5f9106bb3e5d1ffb4e4b401c801ef1d11cdf58e24b750cfdf23301ba"
     },
@@ -4704,6 +4719,9 @@
     "lib/numba/cuda/args.pyc": {
         "sha256": "8136413daeaaabcb17caddaaeaab0a32d03aeba7e117fa5adc237cbefa32e3bc"
     },
+    "lib/numba/cuda/cg.pyc": {
+        "sha256": "5978e7cd931d66081061e4550dcd6f0ea7a05654fa6016c782c27e7450d19e18"
+    },
     "lib/numba/cuda/codegen.pyc": {
         "sha256": "312db7b70d41f94b9e3140f35c3c61f174ba89496e75860caf3ae92f97fd9444"
     },
@@ -4749,6 +4767,9 @@
     "lib/numba/cuda/extending.pyc": {
         "sha256": "a3506de2f857013b92215ff3c6b6589c29d5cd10485420acdb44d75ba5928b2b"
     },
+    "lib/numba/cuda/initialize.pyc": {
+        "sha256": "261a912d87f1009ab3755daeaf59312e30888e703be459e28078dde33192efd3"
+    },
     "lib/numba/cuda/intrinsics.pyc": {
         "sha256": "fea4b83f1f667b2439097f7e329d9cfb777a6d683e2aa07f89fac074ba600962"
     },
@@ -4779,6 +4800,9 @@
     "lib/numba/cuda/printimpl.pyc": {
         "sha256": "824bf930a3bb203359f645124d709caccc9e453b69c6a8123e6255a11c071a22"
     },
+    "lib/numba/cuda/random.pyc": {
+        "sha256": "31da1314f321f11db39423d22b9b9a58453e9cfe55213aa0c16f7f8e9f47b232"
+    },
     "lib/numba/cuda/simulator_init.pyc": {
         "sha256": "646196bdf8bc360ca08dc8154fd17d18dd56b0e4da4b7f858b980502dff6ea93"
     },
@@ -4799,6 +4823,9 @@
     },
     "lib/numba/cuda/vectorizers.pyc": {
         "sha256": "55897a0670a9f81bd7a24a00c03f99313b4a93c5616fb8607d4e2d2a3df9fa89"
+    },
+    "lib/numba/cuda/vector_types.pyc": {
+        "sha256": "af53b751d4f29f8b8a42f278936fbe9e1af31af5e945a78c8c8a955fecefa0f3"
     },
     "lib/numba/cuda/__init__.pyc": {
         "sha256": "b99abbf1e0144a54f6cb1da0340e7877bac298eb5761f30b0aef90230d28df87"
@@ -4823,6 +4850,9 @@
     },
     "lib/numba/cuda/cudadrv/libs.pyc": {
         "sha256": "c4c7a1509830f68bc02bb0c118958bdc5253561e484fbf659d326c62bddb4e1c"
+    },
+    "lib/numba/cuda/cudadrv/ndarray.pyc": {
+        "sha256": "d059001d611ebc901ec9b14b843cdf55c86cf60f8882423262474bc3ce7b9a6e"
     },
     "lib/numba/cuda/cudadrv/nvrtc.pyc": {
         "sha256": "7be8651f2f35aa9abf904471ec7c93b157bb2fed5a6465918d5c806c8924adf2"
@@ -4887,6 +4917,9 @@
     "lib/numba/cuda/simulator/cudadrv/error.pyc": {
         "sha256": "740c9fdd92ee134fc3b4d5239cbb8a2650e6f9d8320885000cd26bb02b9fae73"
     },
+    "lib/numba/cuda/simulator/cudadrv/libs.pyc": {
+        "sha256": "2568ebf57218f0ad838e4e6c38a61398da54a629328e7e9b65a46d0219c12b63"
+    },
     "lib/numba/cuda/simulator/cudadrv/nvvm.pyc": {
         "sha256": "be835df875f1210d4e45a5d9471a32855f9000c3775e699c28917431445aeedd"
     },
@@ -4895,6 +4928,363 @@
     },
     "lib/numba/cuda/simulator/cudadrv/__init__.pyc": {
         "sha256": "dcef4483760dd84d4406e531fcc2ffb89f9cfe310e24d947f46d0f79ca87c9e5"
+    },
+    "lib/numba/cuda/tests/__init__.pyc": {
+        "sha256": "646f98946dd0ad1730522912d2c01fdd044c18b712e5138253089c4720d3da8e"
+    },
+    "lib/numba/cuda/tests/cudadrv/test_array_attr.pyc": {
+        "sha256": "adafe894a0fc60255d2de438ab43d266914bcd338d8a00e6748d95eab09bd415"
+    },
+    "lib/numba/cuda/tests/cudadrv/test_context_stack.pyc": {
+        "sha256": "fb00f5196d4837e76a86b4197461d338a360c20097f1412cc7ae770b5b31893e"
+    },
+    "lib/numba/cuda/tests/cudadrv/test_cuda_array_slicing.pyc": {
+        "sha256": "2971ef59339dfd1e77a284d59ab0786f2bca157fa5aea57fdc56a01e68955615"
+    },
+    "lib/numba/cuda/tests/cudadrv/test_cuda_auto_context.pyc": {
+        "sha256": "b5aa607b698e0ed1578a04384134fa62e4cd2bc21941a1afe21157612a74d61e"
+    },
+    "lib/numba/cuda/tests/cudadrv/test_cuda_devicerecord.pyc": {
+        "sha256": "31315f214beb5b6bd0dbf323bf58c50d2423a25707afa96645386ce0f3170616"
+    },
+    "lib/numba/cuda/tests/cudadrv/test_cuda_driver.pyc": {
+        "sha256": "8196aa856ac304446f4cdf654a4fb52b9988245d60077f3241a5464c3452ea00"
+    },
+    "lib/numba/cuda/tests/cudadrv/test_cuda_libraries.pyc": {
+        "sha256": "ea441d922dc5c5c56d8e236c4a540c92c9a1ef288e8b8c0caad1ca28b899c27c"
+    },
+    "lib/numba/cuda/tests/cudadrv/test_cuda_memory.pyc": {
+        "sha256": "dff2a37004e5c24fa2dba587f1ecf79d41346a52c36fe2f71f3885575edbca25"
+    },
+    "lib/numba/cuda/tests/cudadrv/test_cuda_ndarray.pyc": {
+        "sha256": "0f31f0562111e76e0503f2aad444a5a2429ae128fff8f5737c3813549a003468"
+    },
+    "lib/numba/cuda/tests/cudadrv/test_deallocations.pyc": {
+        "sha256": "1f7b3ce02041803e1deb660ab111652145313054ff601d4970b33cd4b3e28be6"
+    },
+    "lib/numba/cuda/tests/cudadrv/test_detect.pyc": {
+        "sha256": "d4daff886e3fea0d13ff6681095a40d4d693bb3f67c54aca104aacb905d78105"
+    },
+    "lib/numba/cuda/tests/cudadrv/test_emm_plugins.pyc": {
+        "sha256": "f5d98a2b15fd55cdc44f3c3e0989a8cb26f989c8e8b87b09c4377ae33a35a3d9"
+    },
+    "lib/numba/cuda/tests/cudadrv/test_events.pyc": {
+        "sha256": "0b34529299678b05114f53896c5f010c31d37f855a65bb419dbe3519a0c9fedd"
+    },
+    "lib/numba/cuda/tests/cudadrv/test_host_alloc.pyc": {
+        "sha256": "8bc25d71100ef976f2495bef104147fbeaa3308ba1769cba4f67988d7d2d4b8c"
+    },
+    "lib/numba/cuda/tests/cudadrv/test_init.pyc": {
+        "sha256": "9c35b44cb9b8dac10064bc05e193f79d67390fdfb8f8dbadff0fda616758f7b6"
+    },
+    "lib/numba/cuda/tests/cudadrv/test_inline_ptx.pyc": {
+        "sha256": "7fcaf2de612bd1fea4016b57980c4552ff2bfa33742166c83c51f2ac6fbeebe6"
+    },
+    "lib/numba/cuda/tests/cudadrv/test_is_fp16.pyc": {
+        "sha256": "fa9edb67555e3b2ca1b76459c1e8e96335fdbdecd9f0e44878d93a4a95734881"
+    },
+    "lib/numba/cuda/tests/cudadrv/test_linker.pyc": {
+        "sha256": "19109e4684998f83f95ddc7faa53750775c23724a5d1f68adb3bd1488e4a6fda"
+    },
+    "lib/numba/cuda/tests/cudadrv/test_managed_alloc.pyc": {
+        "sha256": "0075fd056b446653aa933949dc016adc5f9fe1089804fa58f055cc60aa956572"
+    },
+    "lib/numba/cuda/tests/cudadrv/test_mvc.pyc": {
+        "sha256": "57ff79a910f4fe0aa1b106bb1c509a8af95ef0efabe18e04261f3d744d518225"
+    },
+    "lib/numba/cuda/tests/cudadrv/test_nvvm_driver.pyc": {
+        "sha256": "e5adafeb921db6673a60a6f073da5ab35350a5424b67701ec2d47b07d323ae66"
+    },
+    "lib/numba/cuda/tests/cudadrv/test_pinned.pyc": {
+        "sha256": "0a9bd3fd9ec9e527d7fce4069300baddbb472b6d73ec3c71ac6293b8cdb52148"
+    },
+    "lib/numba/cuda/tests/cudadrv/test_profiler.pyc": {
+        "sha256": "461dcffdc72bf117cd764b28c5994316dc300b09c6365f34bb19c6ab211f8027"
+    },
+    "lib/numba/cuda/tests/cudadrv/test_ptds.pyc": {
+        "sha256": "52b2f8e5c4cdc4144ebfd72f471b136d04920995e108ea555820434c6da15511"
+    },
+    "lib/numba/cuda/tests/cudadrv/test_reset_device.pyc": {
+        "sha256": "23fe18aeb8b8e76d3ed840748823e7edd6d5d3b331b80d39dc09cf905bedd80a"
+    },
+    "lib/numba/cuda/tests/cudadrv/test_runtime.pyc": {
+        "sha256": "21d22551a493e710ec6f0587db903044b73838780afed450da7ab1bd55a03f9f"
+    },
+    "lib/numba/cuda/tests/cudadrv/test_select_device.pyc": {
+        "sha256": "77690db9b14b0e7eb270760abf9df2a0b6125ef6834ee660477ce5e768c50ad2"
+    },
+    "lib/numba/cuda/tests/cudadrv/test_streams.pyc": {
+        "sha256": "2149e496d5f30190b4b94d4c7378fd070542a896cf7e6db96c2a37da064886a5"
+    },
+    "lib/numba/cuda/tests/cudadrv/__init__.pyc": {
+        "sha256": "84bc4e34460e1dfac7d836eefd1ec5d67827d2ef746252c34a04c6ad99ac9c18"
+    },
+    "lib/numba/cuda/tests/cudapy/cache_usecases.pyc": {
+        "sha256": "953a32e828290cb70330da0ae741d88666de48a5c890c02db86ebf2fd616e16d"
+    },
+    "lib/numba/cuda/tests/cudapy/cache_with_cpu_usecases.pyc": {
+        "sha256": "cfd974ae03ab3cb147a4b1d191a6ce527eb887d913070068693f9597420949ff"
+    },
+    "lib/numba/cuda/tests/cudapy/extensions_usecases.pyc": {
+        "sha256": "1d928b1dd10833d8f9b5ce9b4ee742cd012280f2a0832665f68648f96c57da45"
+    },
+    "lib/numba/cuda/tests/cudapy/recursion_usecases.pyc": {
+        "sha256": "64824f453ebf7f4143dbf28665a918fefeda152395fa955786e6c9ba75ee0630"
+    },
+    "lib/numba/cuda/tests/cudapy/test_alignment.pyc": {
+        "sha256": "6e03dc7e637683d46f90f68214bb223e07add46db0ce98175094b9eccf1a411c"
+    },
+    "lib/numba/cuda/tests/cudapy/test_array.pyc": {
+        "sha256": "46334d99c2f1afa218016d6abfc9469316a8074645c24fe797ee49ddd72de4f6"
+    },
+    "lib/numba/cuda/tests/cudapy/test_array_args.pyc": {
+        "sha256": "63379fb9920eeaa4c0b8957903cf5d80012965bc476638aa4b18e5ab43646a09"
+    },
+    "lib/numba/cuda/tests/cudapy/test_array_methods.pyc": {
+        "sha256": "2843ecff14dc70b2d76978653414c3b40d5363ac8a2789c085d103974fefef07"
+    },
+    "lib/numba/cuda/tests/cudapy/test_atomics.pyc": {
+        "sha256": "9cf8879d41e09b24d0606e06b4074d9be37476ef96e0cd19226380f78f511b12"
+    },
+    "lib/numba/cuda/tests/cudapy/test_blackscholes.pyc": {
+        "sha256": "04960a90330b736ee89d5e58f05f99ae6c02946044b8601bef793e4eb84ea679"
+    },
+    "lib/numba/cuda/tests/cudapy/test_boolean.pyc": {
+        "sha256": "c7f996fb5eb7c5d54c89d296765279d85efb7f7db5d6e15d6eae33c016f6ea88"
+    },
+    "lib/numba/cuda/tests/cudapy/test_caching.pyc": {
+        "sha256": "9d2ec7c37d04263d72ef8390209efa16332f668ffd3d4aea9ca121d1ab928de7"
+    },
+    "lib/numba/cuda/tests/cudapy/test_casting.pyc": {
+        "sha256": "5f065e2de2525d375f78e02997e3a6d3f53f329a9d746be7861eaa938339779d"
+    },
+    "lib/numba/cuda/tests/cudapy/test_cffi.pyc": {
+        "sha256": "b375ece76e426572423ffeace9d1ae33b650309f02d9b0b9c3c15486ddd755d0"
+    },
+    "lib/numba/cuda/tests/cudapy/test_compiler.pyc": {
+        "sha256": "ae7ecfeb9dbaf28b04e1dfd407927ff2c556081702b3c7a1c848bd383ceaef2a"
+    },
+    "lib/numba/cuda/tests/cudapy/test_complex.pyc": {
+        "sha256": "30d18e18f15dd4ccfc919134ec139cda5ab8342d225c7c9a8922885e2430e16a"
+    },
+    "lib/numba/cuda/tests/cudapy/test_complex_kernel.pyc": {
+        "sha256": "fab2c565d636d23804284a3a1534bba2ffae4499afd8de4f6d7ab521f38704b9"
+    },
+    "lib/numba/cuda/tests/cudapy/test_constmem.pyc": {
+        "sha256": "daba74924798831ff374cb67b9274291c3debb8323611232279f65b402020651"
+    },
+    "lib/numba/cuda/tests/cudapy/test_const_string.pyc": {
+        "sha256": "1cfd446ee2c3a7b447c4fbff75e060231df951dc46468b9ac17590f6626bdfed"
+    },
+    "lib/numba/cuda/tests/cudapy/test_cooperative_groups.pyc": {
+        "sha256": "bfa6c19f17778e747244765430ceba84b0e59acb9440533ab99047aa5a5adf48"
+    },
+    "lib/numba/cuda/tests/cudapy/test_cuda_array_interface.pyc": {
+        "sha256": "2d9a9813f47ce8bd81abdd7ab6f3824fcfc918beb1c603d934c789ff9190564e"
+    },
+    "lib/numba/cuda/tests/cudapy/test_cuda_jit_no_types.pyc": {
+        "sha256": "f5dc412233949866233ae3b8bc1e302e3977de7a1db6a35c96f95bde293a686d"
+    },
+    "lib/numba/cuda/tests/cudapy/test_datetime.pyc": {
+        "sha256": "6f8cabf97cd8b043c844b98c8514d0b96f245326f5b4ef925902639c5ea7a039"
+    },
+    "lib/numba/cuda/tests/cudapy/test_debug.pyc": {
+        "sha256": "887c0b721a3346a4f634ff1630d4b44b08668a46b1140edcde0d2cfa24e9113b"
+    },
+    "lib/numba/cuda/tests/cudapy/test_debuginfo.pyc": {
+        "sha256": "5788126e042bf6eb871b9d31ec1d474433194cd03b0de587125ae09d2abda435"
+    },
+    "lib/numba/cuda/tests/cudapy/test_device_func.pyc": {
+        "sha256": "3fd274379f7b37b4a86f128b78bdd27232215c343f9d67f9ff9898c7f39902d7"
+    },
+    "lib/numba/cuda/tests/cudapy/test_dispatcher.pyc": {
+        "sha256": "95872b0c26aefd428d1f5efb1db2649df6e547f3c25f4d2ec204bd1328f239ea"
+    },
+    "lib/numba/cuda/tests/cudapy/test_enums.pyc": {
+        "sha256": "7b0acb72a7f0fbb13593a134c02262c27f0d7cc1aa895c496601ab901cca951c"
+    },
+    "lib/numba/cuda/tests/cudapy/test_errors.pyc": {
+        "sha256": "e7c37ca52df4f56bca2a2c81967c3b47d596e8c76b08863123083ee9d2f24d12"
+    },
+    "lib/numba/cuda/tests/cudapy/test_exception.pyc": {
+        "sha256": "c11e1993a08be2465bd0a21eb1d15ce0ed5c8048f4b176022f93193231c53c35"
+    },
+    "lib/numba/cuda/tests/cudapy/test_extending.pyc": {
+        "sha256": "8fb69951a350777f967ef00aa054673820cdfc970776080d3ca262e876848dae"
+    },
+    "lib/numba/cuda/tests/cudapy/test_fastmath.pyc": {
+        "sha256": "cc03ed589c2091077c8fd674ba66e18a3b87512ec54fd82936a0bcd6cd75a091"
+    },
+    "lib/numba/cuda/tests/cudapy/test_forall.pyc": {
+        "sha256": "40ec6c68f9e75efc2775faac4e39282ad1f9c16a1940a04dcd35568b187fc1d7"
+    },
+    "lib/numba/cuda/tests/cudapy/test_freevar.pyc": {
+        "sha256": "1bf429075e326ff72d8d7b94078d3473c6fcf2284948f8d59db1c62a74d68768"
+    },
+    "lib/numba/cuda/tests/cudapy/test_frexp_ldexp.pyc": {
+        "sha256": "a65921ef397f6506ee49fad04c5fb8d197326b5989cf94b69e0dbdf421419d84"
+    },
+    "lib/numba/cuda/tests/cudapy/test_globals.pyc": {
+        "sha256": "4d2217677962e509b36ad511b967b3a242fb4aa1473fa9686b8c421b82cd8f58"
+    },
+    "lib/numba/cuda/tests/cudapy/test_gufunc.pyc": {
+        "sha256": "5ee732cf27c0bad71f35e9673ea5459b5feb8452324786c86fb6cbc7bf815027"
+    },
+    "lib/numba/cuda/tests/cudapy/test_gufunc_scalar.pyc": {
+        "sha256": "e9034a2aea562e241e7d3d052d34ed68c1244c156405c2c5ae9e477c944ed96d"
+    },
+    "lib/numba/cuda/tests/cudapy/test_gufunc_scheduling.pyc": {
+        "sha256": "ed065ec0a89f3b7dc8e59d997591b54b528e950aedc60950b103d6694d465bb2"
+    },
+    "lib/numba/cuda/tests/cudapy/test_idiv.pyc": {
+        "sha256": "da37b59e861e98377a720c942f85cbf187ca8c766893c306d590e91bd8c9c10e"
+    },
+    "lib/numba/cuda/tests/cudapy/test_inspect.pyc": {
+        "sha256": "92f2017021a9725073686aa1d6276b52a0f17c1446d6c19f7a3008a1e499950b"
+    },
+    "lib/numba/cuda/tests/cudapy/test_intrinsics.pyc": {
+        "sha256": "80d59e4c26e57408199d6a4d80a8a9d919d1e9a8e7c4e74be09313348c57a6ec"
+    },
+    "lib/numba/cuda/tests/cudapy/test_ipc.pyc": {
+        "sha256": "23511738294f54770616b1fb2c0fa5fb1c7031a6aa3db9cb10ddbfef8bb39b88"
+    },
+    "lib/numba/cuda/tests/cudapy/test_iterators.pyc": {
+        "sha256": "d2064334f910c09887324722b97c0dc676f00201fe581b211e2a1351cebb705e"
+    },
+    "lib/numba/cuda/tests/cudapy/test_lang.pyc": {
+        "sha256": "01b01131215b9857d79062281b2ad62430ca292f50fd98a05f1aa99d4fc5513c"
+    },
+    "lib/numba/cuda/tests/cudapy/test_laplace.pyc": {
+        "sha256": "41e7fe7aa673bfcc71dbe8c2476f624f17e1f45b552de7d0217e414f0059876d"
+    },
+    "lib/numba/cuda/tests/cudapy/test_libdevice.pyc": {
+        "sha256": "6191807c4a8dd187e631d43becf572b9acf9a19a4d51852aa7c1041f502b1a15"
+    },
+    "lib/numba/cuda/tests/cudapy/test_lineinfo.pyc": {
+        "sha256": "b620ee7512b74135f1414c22e9efb039e0b113ae0c9a8d5122ec00da63ebe021"
+    },
+    "lib/numba/cuda/tests/cudapy/test_localmem.pyc": {
+        "sha256": "b65091ce9d21f903be1f40e4ce4212c42aa0e7b99838fc7118ba04ae7d9c7048"
+    },
+    "lib/numba/cuda/tests/cudapy/test_mandel.pyc": {
+        "sha256": "eebafb00257631a86dc94f7ece8e3b750187dc2ce505f308cc8ac50c2d618d4f"
+    },
+    "lib/numba/cuda/tests/cudapy/test_math.pyc": {
+        "sha256": "23659de6c4a7a1e56a2d310bf2be21115c2fe2788ee3ea6dc76a94df2dd2c542"
+    },
+    "lib/numba/cuda/tests/cudapy/test_matmul.pyc": {
+        "sha256": "3b1f1ccf7de4dec493243bd0715e726f13a5cc8b8c0aaa224a5cb6f225ba2e7d"
+    },
+    "lib/numba/cuda/tests/cudapy/test_minmax.pyc": {
+        "sha256": "c4dc157929339c1f55e115d6d935692a6b7c065b508fc6dfb45f49cf2f9e7938"
+    },
+    "lib/numba/cuda/tests/cudapy/test_montecarlo.pyc": {
+        "sha256": "68602d0e47135698e1d6647d01fd8a1d1063d12febf9a94a44f2f64d2c699f02"
+    },
+    "lib/numba/cuda/tests/cudapy/test_multigpu.pyc": {
+        "sha256": "7ef99738f7f5d09ab654add45182a1be90fed1ccc3e46b035c8c606b30105c34"
+    },
+    "lib/numba/cuda/tests/cudapy/test_multiprocessing.pyc": {
+        "sha256": "543597bc8dc902a5d7f782cec9dc7e9ed5bc2cc31023a99e7b7dcc78493ad7c4"
+    },
+    "lib/numba/cuda/tests/cudapy/test_multithreads.pyc": {
+        "sha256": "42cc57853e2cfc30277f59cf9e54aa953968eb08d1acac2e7dde910e8d219944"
+    },
+    "lib/numba/cuda/tests/cudapy/test_nondet.pyc": {
+        "sha256": "1ddd79517b5c162257e8e5274b404385425a9b753355869cbec518c97a445645"
+    },
+    "lib/numba/cuda/tests/cudapy/test_operator.pyc": {
+        "sha256": "48dc46435bfb7f369f72cc67abd42e6cb477c2cc2609509cb8c3103fc38e7035"
+    },
+    "lib/numba/cuda/tests/cudapy/test_optimization.pyc": {
+        "sha256": "81688705bce596cffa9afc9147f23165009f0f44638b8504762b7176399e7761"
+    },
+    "lib/numba/cuda/tests/cudapy/test_overload.pyc": {
+        "sha256": "51c7f486e17f0e90990caa4ec7b450e811233030695cb509be65f360a4dcb964"
+    },
+    "lib/numba/cuda/tests/cudapy/test_powi.pyc": {
+        "sha256": "873cc27bb1311575dad718d4bd52759133015753c32ea40df811acc69f8560db"
+    },
+    "lib/numba/cuda/tests/cudapy/test_print.pyc": {
+        "sha256": "05e310fc57f7ad3a1d9bb647e42a7d8ef0c54aca1efb14d24d968ac62230c0a7"
+    },
+    "lib/numba/cuda/tests/cudapy/test_py2_div_issue.pyc": {
+        "sha256": "938ac6d9344223fbd9ff4cf3bbab0fc5c2d525744947a8e496bcc330af11439b"
+    },
+    "lib/numba/cuda/tests/cudapy/test_random.pyc": {
+        "sha256": "458841e1b44a5959f9aa6192b3fdb4ba7086a39e30cdb6ee70574be9fc5c7da6"
+    },
+    "lib/numba/cuda/tests/cudapy/test_record_dtype.pyc": {
+        "sha256": "b16ca798456d520ec8747f1d754b0effd400ccc84a07d896fa9ba4521bcd717d"
+    },
+    "lib/numba/cuda/tests/cudapy/test_recursion.pyc": {
+        "sha256": "9c7294207fc7db9074e8c488487be0dd941bafc4d3df23b1a066393b101ae3eb"
+    },
+    "lib/numba/cuda/tests/cudapy/test_reduction.pyc": {
+        "sha256": "cf584665a5da5accb5b693391b8ea2e5fc8b725b8828ac5d7e3f0882611c8d7c"
+    },
+    "lib/numba/cuda/tests/cudapy/test_retrieve_autoconverted_arrays.pyc": {
+        "sha256": "cbfceb136aed6c8a56e7fa5ff5d7e184d54990e067deec30d040989ffad92800"
+    },
+    "lib/numba/cuda/tests/cudapy/test_serialize.pyc": {
+        "sha256": "415d69c7451d3541fa8693b68fbcc75aa89925bdf9418523d9fdeee0c7a9b4db"
+    },
+    "lib/numba/cuda/tests/cudapy/test_slicing.pyc": {
+        "sha256": "3db34cbd98728790b25506c4e2cb0b0a09edf9440d7cb775c8d17f748565d251"
+    },
+    "lib/numba/cuda/tests/cudapy/test_sm.pyc": {
+        "sha256": "64d368c360a037176cb69d6f4d5fad3aa5140152b28e8ecea563962671f8fdfd"
+    },
+    "lib/numba/cuda/tests/cudapy/test_sm_creation.pyc": {
+        "sha256": "fb3a9388d32bd7723ea9a6eb6dcdc7643c2c8b20095f6886b987f0b6f04875f8"
+    },
+    "lib/numba/cuda/tests/cudapy/test_sync.pyc": {
+        "sha256": "3041dcd481d52402046311c1de8a42e2a9aae1bf3f231a1a065e534ce4c82f6f"
+    },
+    "lib/numba/cuda/tests/cudapy/test_transpose.pyc": {
+        "sha256": "006712846a8ee09baf2b1c8ca3d8a6b8306c18e0a33ae9daa445064b67ed3730"
+    },
+    "lib/numba/cuda/tests/cudapy/test_ufuncs.pyc": {
+        "sha256": "3a80b7f1fc4f4e98aad17c66b49fc8062b35da2a0936a37c1f508b7477296ce6"
+    },
+    "lib/numba/cuda/tests/cudapy/test_userexc.pyc": {
+        "sha256": "87a67283d4079de90c31c6239274c4b5b3b0439667123faefa5a7be3bafcd895"
+    },
+    "lib/numba/cuda/tests/cudapy/test_vectorize.pyc": {
+        "sha256": "20aefb1500f8dbd1d99ac6a3a70e97232cff61663babdcd1f368ba2d1068b942"
+    },
+    "lib/numba/cuda/tests/cudapy/test_vectorize_complex.pyc": {
+        "sha256": "c70b766bde1ef9205ee5c1ab8efdb9cf66ff413448970d6d6cf4242ca0d2b7af"
+    },
+    "lib/numba/cuda/tests/cudapy/test_vectorize_decor.pyc": {
+        "sha256": "b0b2c20bec4f2b006709f955519003d3d8abe4f31f70c903395b24ce5b101a5f"
+    },
+    "lib/numba/cuda/tests/cudapy/test_vectorize_device.pyc": {
+        "sha256": "6c9e6c05fa58848fde5a16a99f605bd52db733761172edb6bd4fb9fc177b303c"
+    },
+    "lib/numba/cuda/tests/cudapy/test_vectorize_scalar_arg.pyc": {
+        "sha256": "93bba4997d0508f06421d1536743da69d508209d27b231fa559c1a148cbc90ba"
+    },
+    "lib/numba/cuda/tests/cudapy/test_vector_type.pyc": {
+        "sha256": "7debe28a7066e9b946c045077c66d313939bf20aead58b74899722bc2e901776"
+    },
+    "lib/numba/cuda/tests/cudapy/test_warning.pyc": {
+        "sha256": "1f6a885664690d754e6263015b21165bb914e69faebe809b3d93c81b3225b55f"
+    },
+    "lib/numba/cuda/tests/cudapy/test_warp_ops.pyc": {
+        "sha256": "3e5fc46fa7da740bc1b280c747561d2d1f707b4a87affe4cde80de5a992e5485"
+    },
+    "lib/numba/cuda/tests/cudapy/__init__.pyc": {
+        "sha256": "cd8d2a7cb786363e199b45e2efd7e39884f227a93d30db0f1b13e2b94f1bb7d3"
+    },
+    "lib/numba/cuda/tests/cudasim/support.pyc": {
+        "sha256": "ff00551bb2db2e47696e43734d1d834ffaac16d9f0351f14e3b5865a02d080d5"
+    },
+    "lib/numba/cuda/tests/cudasim/test_cudasim_issues.pyc": {
+        "sha256": "121f77e827aa22e448d515f45f9a09d9c5d5d1e05e603622c3991a0d1d78a0f7"
+    },
+    "lib/numba/cuda/tests/cudasim/__init__.pyc": {
+        "sha256": "4109e04fdec85a2a910df4e4010a7b7c925dbe28e5523d22633f392a22e42de2"
     },
     "lib/numba/cuda/tests/data/cuda_include.cu": {
         "sha256": "34d2a5f18ac135bb24bebc4738789d0fc310506fa26c607fc43a85cfc56c6f64"
@@ -4911,11 +5301,71 @@
     "lib/numba/cuda/tests/data/warn.cu": {
         "sha256": "b18b18e1eb711725a90daa14243b90b1c087aa876477642bdf2fab2d6f0ef293"
     },
+    "lib/numba/cuda/tests/data/__init__.pyc": {
+        "sha256": "99b2acbefc0697e00a3c8bf634a66c8701db8064ea33d1e4755fbbd86a8e10a4"
+    },
+    "lib/numba/cuda/tests/doc_examples/test_cg.pyc": {
+        "sha256": "3338eafbcd30812376c0f588570dfe630b9f179672bb474fde734dc79d9cc56d"
+    },
+    "lib/numba/cuda/tests/doc_examples/test_cpu_gpu_compat.pyc": {
+        "sha256": "af0985d9dc815280a6357e6961d13fa88748632bd29fa7eea60554f85a5615bd"
+    },
+    "lib/numba/cuda/tests/doc_examples/test_ffi.pyc": {
+        "sha256": "064c21c0dcbc21a39e5e5ea6366f85f04443cd1514d43c3c96d4939166b20158"
+    },
+    "lib/numba/cuda/tests/doc_examples/test_laplace.pyc": {
+        "sha256": "d98fd22b4ae20c22fcdd5111f4113d0c5106bf796f5270ba2350ee3dac54b9b7"
+    },
+    "lib/numba/cuda/tests/doc_examples/test_matmul.pyc": {
+        "sha256": "9e3e1defbed44e52e913b19bd1572c0170e650361ab2de1c06980938ca081ad6"
+    },
+    "lib/numba/cuda/tests/doc_examples/test_montecarlo.pyc": {
+        "sha256": "3bba3dfd4bd88e23a302eccc0ff2c37a48408244845c313bffd242bffd331d2b"
+    },
+    "lib/numba/cuda/tests/doc_examples/test_random.pyc": {
+        "sha256": "96d0d74fc2e69eb9bba491dc5aa82879352b19f77d156b54cf60ad76afd556a6"
+    },
+    "lib/numba/cuda/tests/doc_examples/test_reduction.pyc": {
+        "sha256": "760ae9bc94799a8ef7998c2c89b8e308e3a5c0e3bcb548653c0c8679e9145382"
+    },
+    "lib/numba/cuda/tests/doc_examples/test_sessionize.pyc": {
+        "sha256": "25c2f923e2a30b1c9f7b8393243515270ed5873bb1aa52ce40f23e49270b9705"
+    },
+    "lib/numba/cuda/tests/doc_examples/test_ufunc.pyc": {
+        "sha256": "35e5310405ced23796ba29d1b2b6c0db4dbc1b7f49b44e7e302e434ae6551bc0"
+    },
+    "lib/numba/cuda/tests/doc_examples/test_vecadd.pyc": {
+        "sha256": "21621dd058efd1dac94735950ce4bd886300bb503104bf0c30c97c9739935ea5"
+    },
+    "lib/numba/cuda/tests/doc_examples/__init__.pyc": {
+        "sha256": "b2c8acb9797416dc9ce1c001c9ad9b2b0d22709df2007fa51158b2553b45c94b"
+    },
     "lib/numba/cuda/tests/doc_examples/ffi/functions.cu": {
         "sha256": "ff894aa4504081dfdef05766f7e2ee9abc7f28d85eb6d0777b46017731f52b1f"
     },
+    "lib/numba/cuda/tests/doc_examples/ffi/__init__.pyc": {
+        "sha256": "4864bb88ae4697312a183f943b4a3ebe8b003c5db0c015a6c9389136228281ad"
+    },
+    "lib/numba/cuda/tests/nocuda/test_function_resolution.pyc": {
+        "sha256": "61c85114b59edce5fafd2bc3086c7491230b0b0e67f2a3e0e2e9f7dd40b70626"
+    },
+    "lib/numba/cuda/tests/nocuda/test_import.pyc": {
+        "sha256": "de9c9acb6080d6722ac59a1ef13f2c4fe4721e73613662d3ad05d8c3224d015f"
+    },
+    "lib/numba/cuda/tests/nocuda/test_library_lookup.pyc": {
+        "sha256": "542ece8d9dbc2fb263f5d803bafe8833a43d4c04a7e1e85bc70ba95d00c23d14"
+    },
+    "lib/numba/cuda/tests/nocuda/test_nvvm.pyc": {
+        "sha256": "7d76e94d3504a47996dcb8693e9804ea75ee2b8c58af57ec4928466e81ee213f"
+    },
+    "lib/numba/cuda/tests/nocuda/__init__.pyc": {
+        "sha256": "aad946a7106acf2ebe17a70fda5ecc9a2135c1d248ab56981a78ab0361ba1a0b"
+    },
     "lib/numba/experimental/function_type.pyc": {
         "sha256": "f04f662e5e6d2e2bf9ee9a9b70c481b1a3a68c0a31a3a861fb98ab5a6b9f53f7"
+    },
+    "lib/numba/experimental/structref.pyc": {
+        "sha256": "402ac97f8173fa37f7a1b6a5ed31d669ae9a8dac88ad9724b1f681a3436273b0"
     },
     "lib/numba/experimental/__init__.pyc": {
         "sha256": "db0df29ddaa04e58d0076c6fa8f409e88966a42a1f3ca30c33fe580ee1463f99"
@@ -4962,6 +5412,9 @@
     "lib/numba/misc/gdb_hook.pyc": {
         "sha256": "959ae17168663a8702a7600e5443a46d7dffce3f36a388a9a47ce244eb777e3b"
     },
+    "lib/numba/misc/gdb_print_extension.pyc": {
+        "sha256": "bad730f40a9714d93e7dfa52f412bd3e3025424f9ccc87e2f1edd15c99b4f1bd"
+    },
     "lib/numba/misc/init_utils.pyc": {
         "sha256": "88752968dd28dc02670b4adcda7af38cbb7f758d3f6d51375f09e7144eb7149f"
     },
@@ -4977,20 +5430,44 @@
     "lib/numba/misc/mergesort.pyc": {
         "sha256": "c98d391dbcb7bcb8e5f86711e2eca7d4d112accb517ac7bafcf8febfad8442b6"
     },
+    "lib/numba/misc/numba_entry.pyc": {
+        "sha256": "9aaece8d7c6d8b691f0c24a934b7b9e47066e282c8966303be3676b49d6b122f"
+    },
+    "lib/numba/misc/numba_gdbinfo.pyc": {
+        "sha256": "b115b19c7f03f9462f359540f41cba0e3f5f3817ac7a29f2ae52d412a4d5cfd9"
+    },
+    "lib/numba/misc/numba_sysinfo.pyc": {
+        "sha256": "59f3fbbdf8a3a3544a57c5a361420565ca05f402dd707e4aa40ac3862b4cd689"
+    },
+    "lib/numba/misc/POST.pyc": {
+        "sha256": "8fe4169cf512f2bf55205ad0c4d3625293bb2794bdfb9d67eb71b12044a2fd28"
+    },
     "lib/numba/misc/quicksort.pyc": {
         "sha256": "68b1a70f9da4bc9dd86bf7d1992538369bf204bcb84b953f12c7cb0790b72394"
     },
     "lib/numba/misc/special.pyc": {
         "sha256": "f1c2620a955c6d3bafac8339a4ac7e1a1e0c397d801fdd189306dfff8d6c92d0"
     },
+    "lib/numba/misc/timsort.pyc": {
+        "sha256": "4236dfdc105d7ab9399d3f55252abcc8006ab71a46496fd8cc6f88c01c4aa243"
+    },
     "lib/numba/misc/__init__.pyc": {
         "sha256": "bdbef9cf59bae61a809c0947a19ff15cfd9d30cf872c94a330af1cbcd3c1a772"
+    },
+    "lib/numba/misc/help/inspector.pyc": {
+        "sha256": "1d7888d85edfed7f5135f477093d2f5302ff7eb4387a79aa7247477ee76af1be"
+    },
+    "lib/numba/misc/help/__init__.pyc": {
+        "sha256": "41d2d5b731e1e0670515d86d892b7325578daa74ecf6af090698ad7c813b6add"
     },
     "lib/numba/np/arraymath.pyc": {
         "sha256": "eda087dbdd1138cb5ac0ff002a4ef3017eb1f84286ec3bf2995aafc163277820"
     },
     "lib/numba/np/arrayobj.pyc": {
         "sha256": "9aa0ab699758105d472893b98b665270f21d6ccefab342f356cb0b507d413776"
+    },
+    "lib/numba/np/extensions.pyc": {
+        "sha256": "b34b37d621d1eb948f713de0c4739c9525b3fa35ead588c572b406e270f84c3c"
     },
     "lib/numba/np/linalg.pyc": {
         "sha256": "1b58c1bb7d5b883efdca5001860a53ee6ce50f59b2759ae325ad0343c6d5b3d3"
@@ -5145,6 +5622,12 @@
     "lib/numba/pycc/__init__.pyc": {
         "sha256": "468d90576d2ea6361d3f38d256de279d3ea007ef0d4993575cc640620e10d392"
     },
+    "lib/numba/scripts/generate_lower_listing.pyc": {
+        "sha256": "891bc843e9db4c64ce1c01e6c96eb28b24944149136845055346cd3849c2c775"
+    },
+    "lib/numba/scripts/__init__.pyc": {
+        "sha256": "b455aec9602baffbe291c976d904662d1d56b0e800e92ff6619a2f6c6e42c5f1"
+    },
     "lib/numba/stencils/stencil.pyc": {
         "sha256": "863be28219b40ffc6b89cbed736d619405c74516c1d025b474754edcd11f3c44"
     },
@@ -5160,17 +5643,815 @@
     "lib/numba/testing/main.pyc": {
         "sha256": "70598a3695ad8886b86878de252f6eef3b88ee3bf1b9ee00fd60132a066e9c8f"
     },
+    "lib/numba/testing/notebook.pyc": {
+        "sha256": "9369878184ffecb0604fbe3a337a708fd9360cfbe1b81b15c3e08cb27a49f62f"
+    },
     "lib/numba/testing/_runtests.pyc": {
         "sha256": "f529f3c0486e185cb25971fd0bdaebb83298e2ff68907838c9a3e6aa2f0d7f87"
     },
     "lib/numba/testing/__init__.pyc": {
         "sha256": "f40b01c3ecaa59e0904e95b35b33b53f3b0764ea423637126aa8649326a8ff98"
     },
+    "lib/numba/testing/__main__.pyc": {
+        "sha256": "943bd0dc0a2434109affa6f4ba89cf6ee04a03210f389e0dd64c256bf7c6a044"
+    },
+    "lib/numba/tests/annotation_usecases.pyc": {
+        "sha256": "d5b2c3951a2f6cff3ae2851d0740615d78dc0bc64d290bcb5cc4753f80bb3028"
+    },
+    "lib/numba/tests/cache_usecases.pyc": {
+        "sha256": "0c794bb3cf0ff766a24e57370ae784532ee556f095535ccdc1aac7d149d114f8"
+    },
+    "lib/numba/tests/cffi_usecases.pyc": {
+        "sha256": "834758fa0ad03be07f731df0f2c5375419d60fdba342f6928ace5dbb0728d278"
+    },
+    "lib/numba/tests/cfunc_cache_usecases.pyc": {
+        "sha256": "0b6b6f86f4cc87b68fde3c6b1fb1943e4e25f8df331c3f54d4909220dfc0d9b8"
+    },
+    "lib/numba/tests/chained_assign_usecases.pyc": {
+        "sha256": "638873daacac2c3c4f60562a0c7f1b8165f6ffeef476e62ffbe452b1b28d89e8"
+    },
+    "lib/numba/tests/cloudpickle_main_class.pyc": {
+        "sha256": "a4d272e57169e0406aefa29103591ac777a8e78917cfe77570bf779bfa577e7b"
+    },
+    "lib/numba/tests/compile_with_pycc.pyc": {
+        "sha256": "a25b4b55a9487d864cc4ab5d4cc9dd42fb1e2072ce52fc8030e49b45603d1089"
+    },
+    "lib/numba/tests/complex_usecases.pyc": {
+        "sha256": "32334416295fa246d6e8f87227bcd9103ea0e24ac258d16ae56bdd040777d925"
+    },
+    "lib/numba/tests/ctypes_usecases.pyc": {
+        "sha256": "367bca289c89cdcf9bcfb0d6bedde4f024a02f9f3d07f5b7efb42e570e17abba"
+    },
+    "lib/numba/tests/doctest_usecase.pyc": {
+        "sha256": "3f4286222064337d3687793304b4bbb294fdd322e8d0fb2530077838efb596d2"
+    },
+    "lib/numba/tests/dummy_module.pyc": {
+        "sha256": "5bd96da23d25bb49386d98fa89486759a9f57a1f9eebd1af40cf7cdeb00e65b7"
+    },
+    "lib/numba/tests/enum_usecases.pyc": {
+        "sha256": "63039eb98244bb20392f92e513555a73d459d4f909a2d7e5068b50627ed49024"
+    },
+    "lib/numba/tests/errorhandling_usecases.pyc": {
+        "sha256": "69303517ddb157f81c387784e63f8c2389feb9db3d4ace6932c64bcd42ca55d6"
+    },
+    "lib/numba/tests/error_usecases.pyc": {
+        "sha256": "6caba7c6840f2181e93166e0700238d159f9578ad94251cadcacf5bb2c8c34f4"
+    },
+    "lib/numba/tests/gdb_support.pyc": {
+        "sha256": "340d158de599e287570c6aecba5c4eeefd3dc0f9de6370bbe2ee2e1307b2e276"
+    },
+    "lib/numba/tests/inlining_usecases.pyc": {
+        "sha256": "59dc3a05985a3aa4fc3c743d7b15d1de6814b764051100e0bbab3827bf61eac8"
+    },
+    "lib/numba/tests/matmul_usecase.pyc": {
+        "sha256": "b62dc3ff39d8789af37e6cc0a277169922db4ce6537b056014c1d4596a4fd21a"
+    },
+    "lib/numba/tests/orphaned_semaphore_usecase.pyc": {
+        "sha256": "81634085352099230f845f00237427094ec99c7780b19058110c930ec66097cf"
+    },
+    "lib/numba/tests/overload_usecases.pyc": {
+        "sha256": "913d3ae4eb162b0a0a9827bf1aca3fd7520e05b99a09deeec61aae4c90f0f502"
+    },
+    "lib/numba/tests/parfors_cache_usecases.pyc": {
+        "sha256": "ebc10b883d1f6a20a2d3defe8c9c04348db128451dbc1db7605b4d061118421f"
+    },
+    "lib/numba/tests/parfor_iss9490_usecase.pyc": {
+        "sha256": "8a864dd54ad1a2686bb819d0cb6ca6c4006cc5f6198ec9dedb391204f36534c0"
+    },
+    "lib/numba/tests/pdlike_usecase.pyc": {
+        "sha256": "d8a353706cb967ac785ffa4ced3310c344b93dd9b58469548470cccb17869c98"
+    },
+    "lib/numba/tests/recursion_usecases.pyc": {
+        "sha256": "67612def84a35aa1672d906ccba79d382a51f33d613e3f0875c23e1916ba95e2"
+    },
+    "lib/numba/tests/serialize_usecases.pyc": {
+        "sha256": "ec13db9acb6d380b6a3e6b4b84f3ad34c1a6d79f45742703c65e2a5b26aac4a5"
+    },
     "lib/numba/tests/support.pyc": {
         "sha256": "4986cbd0e3f485ab672fb6843e845b90fc6c460c12b49897c14dccac5d64c22a"
     },
+    "lib/numba/tests/test_alignment.pyc": {
+        "sha256": "5bb8e6371cfdc6df785c07d06f4784996cf63f8c878e7ff00b3801cf78f29976"
+    },
+    "lib/numba/tests/test_analysis.pyc": {
+        "sha256": "73f8c60951db01c4361a8a7c0623f5db795b00789649c1acae707394e1ce0e51"
+    },
+    "lib/numba/tests/test_annotations.pyc": {
+        "sha256": "30f2a997adbfa6dd11ffb0d8b1b330c86cfc9ca6f7a3db4af253cc9353c8ac68"
+    },
+    "lib/numba/tests/test_api.pyc": {
+        "sha256": "aaaca725086dc69a0728c851421670b11cb3d96055874b008072b006fecbfe3f"
+    },
+    "lib/numba/tests/test_array_analysis.pyc": {
+        "sha256": "b398d425906d651990980abdb668e82fe1d9c79095da64ad6b8e7c171474cfc2"
+    },
+    "lib/numba/tests/test_array_attr.pyc": {
+        "sha256": "ffdbae95ff150ad382461889dd3e8e498f99c06a4a988ec317a5b39a8566dd7c"
+    },
+    "lib/numba/tests/test_array_constants.pyc": {
+        "sha256": "271c2f63c176d27fcb8fedb7beeae9be5182c7b25527e035f3adf3c35b51f5e2"
+    },
+    "lib/numba/tests/test_array_exprs.pyc": {
+        "sha256": "c51175bfa428158ec4a2528c43d8c00194e5df0eac7938accdcf4ec397705bb8"
+    },
+    "lib/numba/tests/test_array_iterators.pyc": {
+        "sha256": "0855fafcfd29cf39873fc4d11181f598b9fa52418ece58a50e7ac620d6a86bab"
+    },
+    "lib/numba/tests/test_array_manipulation.pyc": {
+        "sha256": "7e4955fbe031bae73ab60cc0858d30b7979639505a39b4e0d65005a2c1011f56"
+    },
+    "lib/numba/tests/test_array_methods.pyc": {
+        "sha256": "0412a7983bd28daa2a669b89e4e1c7ad47a167950c3559a0d347013de6060270"
+    },
+    "lib/numba/tests/test_array_reductions.pyc": {
+        "sha256": "66c61b4cdf8e36c865a28a0114a08a47bb3775d3955d6988ec3e046731d20789"
+    },
+    "lib/numba/tests/test_array_return.pyc": {
+        "sha256": "9e024f4dfcf77015ecc0d55a23a54eaaf094207bd6e546c77d465c709868d908"
+    },
+    "lib/numba/tests/test_asnumbatype.pyc": {
+        "sha256": "0fc55ff47500c39f096fbc08fc1dbbe12b973e4d2f342a908773a767731f4ae4"
+    },
+    "lib/numba/tests/test_auto_constants.pyc": {
+        "sha256": "41f17f9d437bd6b6f39ca2eda2f261a95b02d0c51c085cfae9a8d41cb0795dc4"
+    },
+    "lib/numba/tests/test_blackscholes.pyc": {
+        "sha256": "3d80c5b9a337823d11697f23215399224772b79e05a92797436ef32bb5365b0d"
+    },
+    "lib/numba/tests/test_boundscheck.pyc": {
+        "sha256": "028847ab5c6c164fd781f561f5dc030a703693c8bce3669f9998e2c96471e35b"
+    },
+    "lib/numba/tests/test_buffer_protocol.pyc": {
+        "sha256": "0c398782ed8092f5896c67daba4261487df0d3f0f68c73849b911d1292defeef"
+    },
+    "lib/numba/tests/test_builtins.pyc": {
+        "sha256": "5fb90e1a0e875cbb6fd879810df46bf5b9988fa1d92430dd33a6d9ba97b998ab"
+    },
+    "lib/numba/tests/test_byteflow.pyc": {
+        "sha256": "778be38bacef02c002d8484d94669a00b1829111f6bfd3f90321ae935c20fbe2"
+    },
+    "lib/numba/tests/test_caching.pyc": {
+        "sha256": "7ae4ab40cbc699437e8b980c2c4ec5e11b6e6aca4a3414890f826123fb5cc2c9"
+    },
+    "lib/numba/tests/test_casting.pyc": {
+        "sha256": "e388921fc4efb5e19756f5e8b860655ff1eca2758844d19d6439bd4c8d16abc6"
+    },
+    "lib/numba/tests/test_cffi.pyc": {
+        "sha256": "fb8a3d917dba5ba204f5f442ddbd4fd7d1463d466f9a2a4976787a74dd0ab9f1"
+    },
+    "lib/numba/tests/test_cfunc.pyc": {
+        "sha256": "d7f144e93f809819757b32e8994850575d7766dfc871320c1db1f83306b74c23"
+    },
+    "lib/numba/tests/test_cgutils.pyc": {
+        "sha256": "06a99dbbaf9954c7c441a74780c7b3662a9f1f9fc3ca9bb440839895ee20cee0"
+    },
+    "lib/numba/tests/test_chained_assign.pyc": {
+        "sha256": "d3deaf37b084095e7658ae9d9fb8903ee29378b5129a752c806d94a47ee14847"
+    },
+    "lib/numba/tests/test_chrome_trace.pyc": {
+        "sha256": "0a8e2df582dca95985936e86ae2c23031c4a2059573279f0aa31eace92f6498a"
+    },
+    "lib/numba/tests/test_cli.pyc": {
+        "sha256": "6c020ea098abd5db0bbd9ca99ba379f8b4f2de0b91fd2c98fb51a610648fa363"
+    },
+    "lib/numba/tests/test_closure.pyc": {
+        "sha256": "79511ae495277af80694901a0757aafedfe1ffdb6665ecccc5d6a02b43240e19"
+    },
+    "lib/numba/tests/test_codegen.pyc": {
+        "sha256": "b666b7b957eba01c92126822356b8e45c37ed581b99b63e04ddfb7dfefa3e27d"
+    },
+    "lib/numba/tests/test_compiler_flags.pyc": {
+        "sha256": "b67e7a29ba6031975a873f2cabfa547ce281428da20b9e78aa25f89335ec05e5"
+    },
+    "lib/numba/tests/test_compiler_lock.pyc": {
+        "sha256": "84101bb68539b4334e013f1d5d13a27855dc3caf1e4a32a6f5faee0576f0aead"
+    },
+    "lib/numba/tests/test_compile_cache.pyc": {
+        "sha256": "75b03d64423863a858fe83144c6e932f2ea1c0e004939d181a65d430a0dc28a2"
+    },
+    "lib/numba/tests/test_complex.pyc": {
+        "sha256": "eabf3ed7ec31f082323aced3c01f035d2212055eaf1b64971b82a071593e10c9"
+    },
+    "lib/numba/tests/test_comprehension.pyc": {
+        "sha256": "a5985c263f9e98bb4266731fd75e8fc5f2c145247e2267b613d79f57a31ce8bf"
+    },
+    "lib/numba/tests/test_conditions_as_predicates.pyc": {
+        "sha256": "716cebd989e7b20e516abbc95150fb68a63e38beee8e8339d032abe9ce1ee376"
+    },
+    "lib/numba/tests/test_config.pyc": {
+        "sha256": "0f86c4cb9e719af0dc9d26fe5730fc1e904f0da49e185fb07176c6006cce7767"
+    },
+    "lib/numba/tests/test_conversion.pyc": {
+        "sha256": "6274afa5eaf1b986a39aa83dfcddf93eaa728ed29708a7af0e63d182ce189a89"
+    },
+    "lib/numba/tests/test_copy_propagate.pyc": {
+        "sha256": "778535e856870e1f939ddee8910d52ade8dcd94cbd4af185fada724ac6482ead"
+    },
+    "lib/numba/tests/test_ctypes.pyc": {
+        "sha256": "0d03f34f073e72ab374003294feb9a9fe9d51f943927a2686e38da98293fc90c"
+    },
+    "lib/numba/tests/test_dataflow.pyc": {
+        "sha256": "8a7de04de8889c2144334fac332903f853ddb8961901ccc27f930dc7e7d30f4f"
+    },
+    "lib/numba/tests/test_datamodel.pyc": {
+        "sha256": "f455deb09b047167e7d7493f2ccde9ee6c7c8801e27c21edf0860ed97a254868"
+    },
+    "lib/numba/tests/test_debug.pyc": {
+        "sha256": "2de5fe9d613a839260cbd1b5fe8174c22b8515c04660f724419d7aafd2adfafe"
+    },
+    "lib/numba/tests/test_debuginfo.pyc": {
+        "sha256": "0958913a312ff4e1d58333570fe6ed2b85189454b03031859e64721464330541"
+    },
+    "lib/numba/tests/test_deprecations.pyc": {
+        "sha256": "87b68139c523e86225fab6b2e16c97d4b3e597d5bcd41c9b2201cef0d5ea91be"
+    },
+    "lib/numba/tests/test_dictimpl.pyc": {
+        "sha256": "ec23ca0c85667189c0ec52bbd437b625f449e882a2c57048a9b3a6346feeb2ba"
+    },
+    "lib/numba/tests/test_dictobject.pyc": {
+        "sha256": "3a41a16183ec4afd75145cc9b659aeff51e21d853f07ab37eb9213dd683952d6"
+    },
+    "lib/numba/tests/test_dicts.pyc": {
+        "sha256": "563fe5a2723610e69dac85e2bbc8e1f0d34333037334ca7d140025633bada106"
+    },
+    "lib/numba/tests/test_dispatcher.pyc": {
+        "sha256": "eb9c1e5f853edfcfd383977525cae26ea0dd16917c0c68c2192daa6e158fa7cc"
+    },
+    "lib/numba/tests/test_doctest.pyc": {
+        "sha256": "dccedffde3b2ab85e6ef332b6c215119e425489045efda04a48aa92613c3ab3f"
+    },
+    "lib/numba/tests/test_dummyarray.pyc": {
+        "sha256": "101d82ad74824e534f984f9884b7b82870a3b181e028dbb49bae8b071cc7fbf8"
+    },
+    "lib/numba/tests/test_dyn_array.pyc": {
+        "sha256": "687c7221597c5af3b27f23fc110d287ecfd4038b78f2c80c93188de6d250befb"
+    },
+    "lib/numba/tests/test_dyn_func.pyc": {
+        "sha256": "061f93bb4dcfc5b9dd29954453022d2e3383a490b6e78a90852400c6512f1bf2"
+    },
+    "lib/numba/tests/test_entrypoints.pyc": {
+        "sha256": "c8087075278c1e103de365bd99b6fc61a17f6066699d3a0f448de8a2c69c8ad1"
+    },
+    "lib/numba/tests/test_enums.pyc": {
+        "sha256": "65699b6a7cea9f93300c6fad5ddd23e20eef801bc1dee037646d18abc00a259d"
+    },
+    "lib/numba/tests/test_errorhandling.pyc": {
+        "sha256": "73391fbbaa404e28132d2a9338900514bc82cbd5bd3a5a94ddb1a6295a7234d9"
+    },
+    "lib/numba/tests/test_errormodels.pyc": {
+        "sha256": "303ed2ad3487f9f0cb1c34ff16c061d4bd181d73de4daaa0ec2df3775d5f02ab"
+    },
+    "lib/numba/tests/test_event.pyc": {
+        "sha256": "602f50b6f3c3697a3635a1ede6941d636fc4ca9faf80b378f9fb1c45b39ffe65"
+    },
+    "lib/numba/tests/test_exceptions.pyc": {
+        "sha256": "ec4db987e7cc600a65ededddf7f7928c2d9f08030fa9286d78af6205b87bd6d5"
+    },
+    "lib/numba/tests/test_extended_arg.pyc": {
+        "sha256": "1b9802a4eb0623476d5891216d92e40034edbbdd44d4ae614d3526d6776260fd"
+    },
+    "lib/numba/tests/test_extending.pyc": {
+        "sha256": "3c28551b4127db6e52f713d620cb0f9dab9a49af6aa4b6db17ad0f6219e73ccd"
+    },
+    "lib/numba/tests/test_extending_types.pyc": {
+        "sha256": "e14865eedb76c3158943fbc17d810cbfc8142af486511b3fccc99c4a2cc6594d"
+    },
+    "lib/numba/tests/test_fancy_indexing.pyc": {
+        "sha256": "837f39bcb620338b2ae15ed3364ae4d0a75c39b5587a1c0f103fd7e00a3c33d4"
+    },
+    "lib/numba/tests/test_fastmath.pyc": {
+        "sha256": "da191a031a81b23bf997fc457df11a72be34a902a5cff158b6f9e20ff9d51385"
+    },
+    "lib/numba/tests/test_findlib.pyc": {
+        "sha256": "7ef53a1cecb5f99d700258fa8a289160229cda85a2cd794efe75e32673ca9606"
+    },
+    "lib/numba/tests/test_firstlinefinder.pyc": {
+        "sha256": "2617b38bb50d8c2926991e45311f1fa60e70a0b404a4c061f56658bfd09c1979"
+    },
+    "lib/numba/tests/test_flow_control.pyc": {
+        "sha256": "0d63c8c63222383c3f3726abe52273a308a69de4a736705388d5b1cf6913ca6e"
+    },
+    "lib/numba/tests/test_funcdesc.pyc": {
+        "sha256": "adead50a95fc31af19fd414abb9b6c96ff096381b98322a6f28e5a6dbf059313"
+    },
+    "lib/numba/tests/test_function_type.pyc": {
+        "sha256": "4d9de33e3a773a51a3753186cec2fe1d8f3aa4e6e3dcebf68ebfd86a96ed1340"
+    },
+    "lib/numba/tests/test_func_interface.pyc": {
+        "sha256": "8c5316401f8495fc308a7d6d2c339fe8fec75d6a24051fdfa622fa7e4d34e56b"
+    },
+    "lib/numba/tests/test_func_lifetime.pyc": {
+        "sha256": "44e021d71f0ba1678e2a01f4b8905f7cfc5792b217dc4e67c72ac07063beaade"
+    },
+    "lib/numba/tests/test_gdb_bindings.pyc": {
+        "sha256": "a9452f775d5e56d392a22ae1f0b38b2948c30fadfa393e553bd9791740a49c78"
+    },
+    "lib/numba/tests/test_gdb_dwarf.pyc": {
+        "sha256": "07a998dd74aa37142afd95c668cdcff03f01ff0d889baabba15dd0ee29979569"
+    },
+    "lib/numba/tests/test_generators.pyc": {
+        "sha256": "ec248fdc7560ca8c716815413030068f9d1c9a28b5fcffc1303add5b21fa2ad3"
+    },
+    "lib/numba/tests/test_getitem_on_types.pyc": {
+        "sha256": "550a6b897deb3db2aaaa2b13533553a7c3e903bcbc244e23211189530ab98830"
+    },
+    "lib/numba/tests/test_gil.pyc": {
+        "sha256": "e83cb22c5b1bf072fed09cbfbef784256bfffa1c903bf064c91e8ef8bc602769"
+    },
+    "lib/numba/tests/test_globals.pyc": {
+        "sha256": "6b5b3bd9ef30aa92e0c55f928d562a9a811e53ec267c05701a5e685921ff5b0f"
+    },
+    "lib/numba/tests/test_hashing.pyc": {
+        "sha256": "f7668edb5932f52f74ce8dac16e2d3e7c09282ab66e265db045a18fc7312988e"
+    },
+    "lib/numba/tests/test_heapq.pyc": {
+        "sha256": "ea67bc9a798a8564916dc7a3724ff9875729ebc40cfb2b94cc8aee500ab2a975"
+    },
+    "lib/numba/tests/test_help.pyc": {
+        "sha256": "b8e520f8394029c205b54f8814648e5f3c45d50fcd94503f59a9875289653a6f"
+    },
+    "lib/numba/tests/test_import.pyc": {
+        "sha256": "766240877b3dd1accd6d071041ec15d1ad9d3d62f8345e830bfb73b4a9b2a12e"
+    },
+    "lib/numba/tests/test_indexing.pyc": {
+        "sha256": "77cd8bf05744a2d7c0e61fe00c8cfd3f31b0098e1fe0001f914693cd89e583f4"
+    },
+    "lib/numba/tests/test_init_utils.pyc": {
+        "sha256": "949f1fb26385ebc5e6d536b32a13fb68cff572f850865feea77a3679731a9e49"
+    },
+    "lib/numba/tests/test_inlining.pyc": {
+        "sha256": "750a91cf6a29c65ce775e1f1376a0efdccacd196fc78dbb73f68bdbbe327184f"
+    },
+    "lib/numba/tests/test_interpreter.pyc": {
+        "sha256": "ff3214c03363d86cf02c2ae1c10794f563dfbc9786cb6268838f86640dc7e59d"
+    },
+    "lib/numba/tests/test_interproc.pyc": {
+        "sha256": "c1bb712f83b99e68f14bd2765e860d8fba4ae21c75c38c73b57e7618a462b1af"
+    },
+    "lib/numba/tests/test_intwidth.pyc": {
+        "sha256": "2f96042832391e20cf42b0e6b5299a24550be49e254f817473f574651dea6690"
+    },
+    "lib/numba/tests/test_ir.pyc": {
+        "sha256": "27b599bf18feb6d3401becfd58452fc3ac21fbdde8b4fc07e2b2e080de1bdb39"
+    },
+    "lib/numba/tests/test_ir_inlining.pyc": {
+        "sha256": "a690b4f22855ef531b770f01181fc0fcfd26f2c654788e586d1c9642dd1b506d"
+    },
+    "lib/numba/tests/test_ir_utils.pyc": {
+        "sha256": "64d5d82b3a052cc96ff8fb0890dc046ba36b02c3b2e16b1ab826e92f85e227ec"
+    },
+    "lib/numba/tests/test_itanium_mangler.pyc": {
+        "sha256": "b4656302334b7fe05f89b7c1d9ecc83ae848cc12186641c53bf31dc015d21dcf"
+    },
+    "lib/numba/tests/test_iteration.pyc": {
+        "sha256": "c30567a355244e871e64f6205b0a98a6ab13e959922b7abaf2269b7331e796df"
+    },
+    "lib/numba/tests/test_jitclasses.pyc": {
+        "sha256": "3d3f34450784ab653b26f9ab36604e974c55cee007911519eeed5aa6fd3e7541"
+    },
+    "lib/numba/tests/test_jitmethod.pyc": {
+        "sha256": "1cb5a39c9ecf6c631c0a7764bd898f5c984c0ea31bee41181897119dd0826b9c"
+    },
+    "lib/numba/tests/test_jit_module.pyc": {
+        "sha256": "20db6c5e83b77b9ceb53fba02213b012e1960411c7d962c30824802b9d4aeab7"
+    },
+    "lib/numba/tests/test_linalg.pyc": {
+        "sha256": "595ebd3749482606c552494fabcd0cb468cea2b6206f5a3da3546976fe77bcce"
+    },
+    "lib/numba/tests/test_listimpl.pyc": {
+        "sha256": "b3b12042959e5c1a724011e840ac02147c4ccb6cc659a5700aefee348d76c8dc"
+    },
+    "lib/numba/tests/test_listobject.pyc": {
+        "sha256": "9d4ffbbb36385eddb4e70d27e6ea11ab775c13bf15e8d8caf1ac23b3d9639f7c"
+    },
+    "lib/numba/tests/test_lists.pyc": {
+        "sha256": "872436b831b0c689bbdbeb4a121a180c11dab488b597550938856a7efa15ab09"
+    },
+    "lib/numba/tests/test_literal_dispatch.pyc": {
+        "sha256": "4c749bea2c235746026fd4584eadecb20e72cbe41b1d01379a168c958af93007"
+    },
+    "lib/numba/tests/test_llvm_pass_timings.pyc": {
+        "sha256": "e3ee55e366f553805ea130c03d7addb8b89784da2c9d203773630aab57ca3657"
+    },
+    "lib/numba/tests/test_llvm_version_check.pyc": {
+        "sha256": "39c08708fbf79680e5ab7c92118ea22459361fc73831173ba3725a51d0ed8035"
+    },
+    "lib/numba/tests/test_locals.pyc": {
+        "sha256": "ae4646e8162de39af92dcbba8d91667d6d7bb113aa246839b083ce95cf25018d"
+    },
+    "lib/numba/tests/test_looplifting.pyc": {
+        "sha256": "d842485a21f0d627353b6c03f9875e9f6bec39ac582314b77a657ff8f4809630"
+    },
+    "lib/numba/tests/test_make_function_to_jit_function.pyc": {
+        "sha256": "30a220e1993bd2e8c9c47620c230ad0c85505a16b2faee86148731b812dc08d0"
+    },
+    "lib/numba/tests/test_mandelbrot.pyc": {
+        "sha256": "6acfdf596641b44c1a85013b8bdedf5e9a137928a3369a35835dd71933e1e010"
+    },
+    "lib/numba/tests/test_mangling.pyc": {
+        "sha256": "6329efae96de336d311ed5169a180ebf91ec7cf8305b6cc84eaf0379d35dd517"
+    },
+    "lib/numba/tests/test_map_filter_reduce.pyc": {
+        "sha256": "13698e46b5ebb2cc0b0840059e63ddb3d7add12e17f0788baddf457ac3d954a6"
+    },
+    "lib/numba/tests/test_mathlib.pyc": {
+        "sha256": "6e26a53524d2815a5128ccfb58f92eeee1ac2f8aff3452058a3c361c9c16b8c9"
+    },
+    "lib/numba/tests/test_maxmin.pyc": {
+        "sha256": "ca47accfc7960101bcb2d5375377d3cbf137a662bf154007642f882e1187708e"
+    },
+    "lib/numba/tests/test_mixed_tuple_unroller.pyc": {
+        "sha256": "a7e8df989d2fe6b648241e6e9da332d83c716a2edc9180a90154d20ab7f7767f"
+    },
+    "lib/numba/tests/test_moved_modules.pyc": {
+        "sha256": "b85d5b1c0f1ff9277a2cdacc2ff353769a8b68ee75126be66473db71499cd99c"
+    },
+    "lib/numba/tests/test_multi3.pyc": {
+        "sha256": "b83de625b1b9c2acf3e9a742015338a5fabd961ac0f9008a41babc09b6b3deb6"
+    },
+    "lib/numba/tests/test_nan.pyc": {
+        "sha256": "6ee3205cf56d0c7524b60a830c1a8d0e714a437a25ec8aeeeda0029f1a6ea519"
+    },
+    "lib/numba/tests/test_ndarray_subclasses.pyc": {
+        "sha256": "44703b75c22d8d10ee8301f4994021df31e9c410bb7eecc0392820117c58cc51"
+    },
+    "lib/numba/tests/test_nested_calls.pyc": {
+        "sha256": "110737d04272490ee81938b8b64562d1ecf4793e4d35f44e694a02ecf7f84ea5"
+    },
+    "lib/numba/tests/test_npdatetime.pyc": {
+        "sha256": "8513d50674fe69dc8099071ceb710b6dcfec3d3faa5a213f818643072ee0fe8e"
+    },
+    "lib/numba/tests/test_np_functions.pyc": {
+        "sha256": "9ee3b250578dbd2151b3373bd935c967de3ab8a99f6287e1a032baaa3dac0ae7"
+    },
+    "lib/numba/tests/test_np_randomgen.pyc": {
+        "sha256": "fa9296c50985f8f08746dc69994fd0af0f1edc6585a014447b4a462ca38280fa"
+    },
+    "lib/numba/tests/test_nrt.pyc": {
+        "sha256": "66e3b85a8900fd199c11f940647c6bdef2616ffdce2dd2cc76d50f4f92c31c80"
+    },
+    "lib/numba/tests/test_nrt_refct.pyc": {
+        "sha256": "843e688a77a41794e763d3fe4a6eb33eabccbb70aeeae119f1a08efb1dda5b5e"
+    },
+    "lib/numba/tests/test_numberctor.pyc": {
+        "sha256": "270d8f5d765459719e4ef5719cf68893762e8efc3b5d4ca3a698e1c779ba5cd4"
+    },
+    "lib/numba/tests/test_numbers.pyc": {
+        "sha256": "7ba1908da147b6f1d54678683ce8dc85596683a6eb768cc516c6bf05eb4f2a99"
+    },
+    "lib/numba/tests/test_numconv.pyc": {
+        "sha256": "3bfb58257ab2b2a2b543346c4c3c7ae8856b994fb9de7ee6a843e34ef8192d8e"
+    },
+    "lib/numba/tests/test_numpyadapt.pyc": {
+        "sha256": "a5d58ea5f30d21ad4d190943c0989c7cd33719d1526b3765f0d16fa2db792d5b"
+    },
+    "lib/numba/tests/test_numpy_support.pyc": {
+        "sha256": "1362c825c33855a25f29ea70f1bef93c9272d050294200abf5f2f91bbf6c2299"
+    },
+    "lib/numba/tests/test_num_threads.pyc": {
+        "sha256": "e803c07bde884a1d397db15046febd656bdeaf148170f9569923c2597948132b"
+    },
+    "lib/numba/tests/test_objects.pyc": {
+        "sha256": "38daf40f5113030740db4999cd6fb94476eb6424f025af65a378c2fa1cb221ae"
+    },
+    "lib/numba/tests/test_object_mode.pyc": {
+        "sha256": "0ab5349e153b3bf22f6cc96a2e4fa934a6ba375bfa8d51c221680b5e9b34af07"
+    },
+    "lib/numba/tests/test_obj_lifetime.pyc": {
+        "sha256": "401883a53cfcb645cf6695b53cc3a51e22a4331d02d52f2876b8f761097b03a6"
+    },
+    "lib/numba/tests/test_operators.pyc": {
+        "sha256": "2da70c7d9a519e882e5e6350bbfb39f53cfb940c102daeb5393de4925473218e"
+    },
+    "lib/numba/tests/test_optional.pyc": {
+        "sha256": "3296898b87c8b54ce8f3483d20e33a9185e7d437c2e5b95a0077f2a07146fa56"
+    },
+    "lib/numba/tests/test_overlap.pyc": {
+        "sha256": "e18d169954ddfe9e4ce563ed4a2587167fb6cba7d2e9b1ea44163b5fb2172a17"
+    },
+    "lib/numba/tests/test_parallel_backend.pyc": {
+        "sha256": "500c8e44ae31b115c7c34e89f715711b11c63b9210316a1d3900d1d83bf586c1"
+    },
+    "lib/numba/tests/test_parfors.pyc": {
+        "sha256": "4b5592546ad66568b89e857ca587e0caaf82264c9b32a493fd2445012fb8dff3"
+    },
+    "lib/numba/tests/test_parfors_caching.pyc": {
+        "sha256": "499a128b5b11234ab9ebc2489807723554c2674822ff115833b02f311a4c7a08"
+    },
+    "lib/numba/tests/test_parfors_passes.pyc": {
+        "sha256": "b6a1bce7626f7f28f9c41360cdf338e2a6f35c057523dd58ad2ba208a2f18360"
+    },
+    "lib/numba/tests/test_pipeline.pyc": {
+        "sha256": "822c248df136de59c7a9f0d41396319a2bc6ab6809c4c831dd2af024c4761527"
+    },
+    "lib/numba/tests/test_polynomial.pyc": {
+        "sha256": "ccca6eb97931731bca1ad0fa3474cfd7b1e9c644819b9155a2b7c5d342d0e28d"
+    },
+    "lib/numba/tests/test_practical_lowering_issues.pyc": {
+        "sha256": "20c826cee6f4b5b81723f7c6f5c19320ebfc2244c5337499ac192e5c4dc85e2f"
+    },
+    "lib/numba/tests/test_print.pyc": {
+        "sha256": "78eafdfce2e829edbbcab2cbca9c5d1c5fac4f5c7448d8902b38a5c5d22519b0"
+    },
+    "lib/numba/tests/test_profiler.pyc": {
+        "sha256": "7eb312f176f7064f6962c309916424918621ae47c1c989b9d09d183eef7a2dcb"
+    },
+    "lib/numba/tests/test_pycc.pyc": {
+        "sha256": "b34e884df00036b4c03aec7651988c6294b7146414d414dbebda6512d0304a15"
+    },
+    "lib/numba/tests/test_pythonapi.pyc": {
+        "sha256": "cbd087c95c26a7a46716fb56b8327cce5be4f637ea63553bb448c53618518cae"
+    },
+    "lib/numba/tests/test_python_int.pyc": {
+        "sha256": "203252cfefe833915d79728670970aa8384b406587f91b03d6706cd9d6fc2e6a"
+    },
+    "lib/numba/tests/test_random.pyc": {
+        "sha256": "af85d7a3df4b4dec2894f7c348739be8b9bd4068f8732a089507ec45a27ed059"
+    },
+    "lib/numba/tests/test_range.pyc": {
+        "sha256": "992c16e8a8b3a47a089409761f54bb5a847b949f1e52e7be1f1c92d49ef6acf6"
+    },
+    "lib/numba/tests/test_recarray_usecases.pyc": {
+        "sha256": "9196a3fd5e26f6b24b7535e93edb66e1025ce33a1606e4b0c803243842c99896"
+    },
+    "lib/numba/tests/test_record_dtype.pyc": {
+        "sha256": "0a0786742612ccaf8fb4c590b07947e3801b0aa9a1b51e4a7dfa304a44b16df0"
+    },
+    "lib/numba/tests/test_recursion.pyc": {
+        "sha256": "d039f555dcfe2f0367c9d9776eed67b195ab1109d48e85acd6e45b6e350e8380"
+    },
+    "lib/numba/tests/test_refop_pruning.pyc": {
+        "sha256": "e7315a1f4391c48bb836ee5fe502a5197c5fae31bf5295aa9d352bde7f1734be"
+    },
+    "lib/numba/tests/test_remove_dead.pyc": {
+        "sha256": "4e2363bc6ec8426d5fd280b84b6196a6d8b8c41c3a116f1d1f5fb280561ee2a8"
+    },
+    "lib/numba/tests/test_repr.pyc": {
+        "sha256": "33a03387f2fae8d8965f0d17683a052d4c54d48afd41bd0c8f91b4fc3bb8cfe6"
+    },
+    "lib/numba/tests/test_return_values.pyc": {
+        "sha256": "e06064bf45fa680721fa166feb3518b6aae8a12ffe1e7f58530f0673b7a1036c"
+    },
+    "lib/numba/tests/test_runtests.pyc": {
+        "sha256": "b4d8fd2878b57a479c942b48310f6bd9caeaf672500549a1a682492897b1349d"
+    },
+    "lib/numba/tests/test_serialize.pyc": {
+        "sha256": "73d7e8212d692c922e7339583c7cb4ff9dbdd45832dd82145ffaea062a36341b"
+    },
+    "lib/numba/tests/test_sets.pyc": {
+        "sha256": "53e0ba7e14ffeaa1387d8a2b9245669db771db94fa0d278d345276f775ce596f"
+    },
+    "lib/numba/tests/test_slices.pyc": {
+        "sha256": "b225c184f67f6bbf2c6b0dfba77c10c938daa2ff3427092953f9c653bd567847"
+    },
+    "lib/numba/tests/test_sort.pyc": {
+        "sha256": "17cbd04462e26854238a7737717ae5bc50bcfd98bcf8a185329327ba0a885930"
+    },
+    "lib/numba/tests/test_ssa.pyc": {
+        "sha256": "1d7a9ddc8b01f39db1a8176d1a4e68156637dba37c8cfb30f8bb08242c783e5c"
+    },
+    "lib/numba/tests/test_stencils.pyc": {
+        "sha256": "57f4774be7e2d7412c763fa21d58ed61f09676a7ad798e851ca85ac29f562bde"
+    },
+    "lib/numba/tests/test_storeslice.pyc": {
+        "sha256": "189653a1d3e86e4e7a32cdfcc54ad2b88fc503fdadac1ba2baed74a3f0982883"
+    },
+    "lib/numba/tests/test_struct_ref.pyc": {
+        "sha256": "ead096f8dcd5eecfa7a93c034dbc8e38b60957209372a19c354d40239204528f"
+    },
+    "lib/numba/tests/test_support.pyc": {
+        "sha256": "f4e48d5d19773c5ceaed1406770a9f825b256c4eda363458aea0c24a5991eea3"
+    },
+    "lib/numba/tests/test_svml.pyc": {
+        "sha256": "f5e7d4bea322cd1249a2ab584d07bd9d8c1f7d1e5d1537651bc43113a43e55eb"
+    },
+    "lib/numba/tests/test_sysinfo.pyc": {
+        "sha256": "6c9611ccd775f5adf9501e33e3128ae3395c72d9d6960dc90db4301b363ef90f"
+    },
+    "lib/numba/tests/test_sys_monitoring.pyc": {
+        "sha256": "4b4942f826055226978c67d959923ccbd7da24dee6fca6c4f0fb0bf98707bc12"
+    },
+    "lib/numba/tests/test_sys_stdin_assignment.pyc": {
+        "sha256": "58c714eea968b3d7df1513ac1e65231024850e514fb24972dbe80bdb65fc01a5"
+    },
+    "lib/numba/tests/test_target_extension.pyc": {
+        "sha256": "1af1b7234835e1a60e12008e692cb3962758d1912ce49b212b0aba138b463d48"
+    },
+    "lib/numba/tests/test_target_overloadselector.pyc": {
+        "sha256": "0dc66ffac4720c12ff88884445c4237918b41f317200d1c96c1e882c16e26031"
+    },
+    "lib/numba/tests/test_threadsafety.pyc": {
+        "sha256": "efa400a8ef20d3a9229799c8c804b191b15c7c328586e187cc673f048412511c"
+    },
+    "lib/numba/tests/test_tracing.pyc": {
+        "sha256": "79cd64fe5e98722b9fdebec77ffafb70a3eb57f546ca1485d176f4d111c79657"
+    },
+    "lib/numba/tests/test_try_except.pyc": {
+        "sha256": "0fd42a369be7cfbd700dd141f5f540ff7a0b57325d3529b3529247d7ac6f48a5"
+    },
+    "lib/numba/tests/test_tuples.pyc": {
+        "sha256": "21b40d77fde912553cf289fe3588ea9c0242328616d5214dbc7c04e79b0a8aa3"
+    },
+    "lib/numba/tests/test_typeconv.pyc": {
+        "sha256": "cc6d52035dd21f81892d2cb751a617ebcb36e035bee7c58ab35581b18dc56634"
+    },
+    "lib/numba/tests/test_typedlist.pyc": {
+        "sha256": "41bf07923499bd2efe6f5ce4976d0a40953d60802546bae21f2c0abd58cd860c"
+    },
+    "lib/numba/tests/test_typedobjectutils.pyc": {
+        "sha256": "17d0f17cd369715252944501d47700cfd9b293cdc6a1ad81a87f53bb9fd23037"
+    },
+    "lib/numba/tests/test_typeguard.pyc": {
+        "sha256": "d3ccf46c0b81d6cb37b8bfd7193cb0b8ac4d609aa51baf4841f92f086f48df80"
+    },
+    "lib/numba/tests/test_typeinfer.pyc": {
+        "sha256": "52f001b4589c01fb3e2d1a5475745422c91cd1d932f7a8180852fde44b6185f0"
+    },
+    "lib/numba/tests/test_typenames.pyc": {
+        "sha256": "d7eec38d509ed671a3a47e43fa2e6ae7ffa069f357a2cd8e31314fc862c4ad41"
+    },
+    "lib/numba/tests/test_typeof.pyc": {
+        "sha256": "134b1d8ccc1592f0d83066041cfb49ef9fa49eabf8bcf8dbd9448ab7cfcd333b"
+    },
+    "lib/numba/tests/test_types.pyc": {
+        "sha256": "eaf073f2c612075f861145f78cfb2f20f48ec5bd6cf0f1790114537e321ca855"
+    },
+    "lib/numba/tests/test_typingerror.pyc": {
+        "sha256": "a42a2c323a3295e7d48d9c7ce69836d0188d5f5390d111c55373b2d7fcb1ce5e"
+    },
+    "lib/numba/tests/test_ufuncs.pyc": {
+        "sha256": "0ce7349b66a9960d45ecc520265a863910b8ce21c2519e3ba35dd717123e06e7"
+    },
+    "lib/numba/tests/test_unicode.pyc": {
+        "sha256": "ed0af0a451044a7ef5324d9595b376e4cdb0c50f2a0ab77ff3cef63eba99670f"
+    },
+    "lib/numba/tests/test_unicode_array.pyc": {
+        "sha256": "1c4444f188b6ebfbc3510edc53fd5e0b5a5d20a785ef45e1d97f31455cba8954"
+    },
+    "lib/numba/tests/test_unicode_names.pyc": {
+        "sha256": "85a791dc2db7f571b0dfcbdd70c396025421bac989cb0d40c66d11620ee57dc8"
+    },
+    "lib/numba/tests/test_unpack_sequence.pyc": {
+        "sha256": "fb9fbbae438256ec159ecd8b1b26f235c291dc50e0f82ef5325c71411e1386f6"
+    },
+    "lib/numba/tests/test_unpickle_without_module.pyc": {
+        "sha256": "4b39ae02ad13a3205e808a2e0b3a43c4959e459754f24736049bb0a7ca51e6da"
+    },
+    "lib/numba/tests/test_unsafe_intrinsics.pyc": {
+        "sha256": "605730946a54b82cbb19f92aeb25f611e127928a8f332b2753d616fdaeb2bb87"
+    },
+    "lib/numba/tests/test_usecases.pyc": {
+        "sha256": "9da467d92883ac6865c73d3514dc2ea1fce97e8bd74f0002a2834fcedbaef283"
+    },
+    "lib/numba/tests/test_vectorization.pyc": {
+        "sha256": "4b3ce3a3cc68105bc5ca37f8ed0b2b0f8a1a96da488c36bdd15691ccac81377d"
+    },
+    "lib/numba/tests/test_vectorization_type_inference.pyc": {
+        "sha256": "b49c3d5d2c71dcf5253b0471efaa944d92dba44295da482eb62025e87f140efa"
+    },
+    "lib/numba/tests/test_warnings.pyc": {
+        "sha256": "632ecc5ef341b73015ceebb732d1c7921315e7b0bbd14081b8ccf3cb74005f41"
+    },
+    "lib/numba/tests/test_withlifting.pyc": {
+        "sha256": "48dc78dd68ef46978c351fef00d2bac45781149dca90939c77da877933224fe3"
+    },
+    "lib/numba/tests/threading_backend_usecases.pyc": {
+        "sha256": "a25e18c33409380a44eb54c60401f59bbbe937714d073a74a09657ed7d713b93"
+    },
+    "lib/numba/tests/typedlist_usecases.pyc": {
+        "sha256": "0f24b59d362a6c7aeac802ffc84cffa9f13c7b38577cf3b80de102e5f808a916"
+    },
+    "lib/numba/tests/usecases.pyc": {
+        "sha256": "f3a2a53d303a4518f09a57e464719d3a87625307f04326337576da49c3628929"
+    },
     "lib/numba/tests/__init__.pyc": {
         "sha256": "16f96c52deacb3580eaa91b3d6a34e7ae7098c3b0f408d491dcffc6ca28747dd"
+    },
+    "lib/numba/tests/doc_examples/test_examples.pyc": {
+        "sha256": "9ba79fe88223ee23f88bc90aa1deabf57f959994f9b27f9161d1b88e52a4f8c6"
+    },
+    "lib/numba/tests/doc_examples/test_interval_example.pyc": {
+        "sha256": "506543325e5ad4d9a2dd2e44d1098d2f9ea78e2a93c4829b062253ce9d1f8a3d"
+    },
+    "lib/numba/tests/doc_examples/test_jitclass.pyc": {
+        "sha256": "e81683a53ec6e53fe815d3fb39754450e544285da6221f463b66075e95905fda"
+    },
+    "lib/numba/tests/doc_examples/test_literally_usage.pyc": {
+        "sha256": "909dd324593a08528ee7edb46d7d411dff4c7a99d7dddcc7e614bb5f6a51ae94"
+    },
+    "lib/numba/tests/doc_examples/test_literal_container_usage.pyc": {
+        "sha256": "5f59c3dcb400be7ff0867b595855e8628a24adbf3a0c24dc5b51fc6b9d6a9ba0"
+    },
+    "lib/numba/tests/doc_examples/test_llvm_pass_timings.pyc": {
+        "sha256": "fac375b7dc702d5c05eb7f0d61f1ab00078e0751c03c2193515c6cf2e91947d8"
+    },
+    "lib/numba/tests/doc_examples/test_numpy_generators.pyc": {
+        "sha256": "9cea3f6055af66ddab4e010474496d2a37dabf4cf5c54ce65fbb798aa2a8e037"
+    },
+    "lib/numba/tests/doc_examples/test_parallel_chunksize.pyc": {
+        "sha256": "a4d5f999632e89bfcbcade75f09518a797584e81e7037c048a6028bc96c3554c"
+    },
+    "lib/numba/tests/doc_examples/test_rec_array.pyc": {
+        "sha256": "845d29f9583aa58bec81688a93e2c9cfa7a8ee2a321191d487e9af22155e12da"
+    },
+    "lib/numba/tests/doc_examples/test_structref_usage.pyc": {
+        "sha256": "0c75d56cc6b3604d36f16e9d5f20961c87777b7c2574a30c8f539240afede804"
+    },
+    "lib/numba/tests/doc_examples/test_typed_dict_usage.pyc": {
+        "sha256": "d9ab6570269ed7a688533c755e6c45714e0c4ee913c2fa466fe5c9e743bff4b7"
+    },
+    "lib/numba/tests/doc_examples/test_typed_list_usage.pyc": {
+        "sha256": "ec2de024d2898b9a976cf38a48ded1e67756df4aea434deb71667843d7ac89f5"
+    },
+    "lib/numba/tests/doc_examples/__init__.pyc": {
+        "sha256": "e736bdfd570c55e9076cd6d06afd0f64063d8a9c4193699dc2f37975bd088101"
+    },
+    "lib/numba/tests/gdb/test_array_arg.pyc": {
+        "sha256": "5295e8937576fa69ae34e17eb725bc88d9106f0836ec98a9acaa8d874a1e457d"
+    },
+    "lib/numba/tests/gdb/test_basic.pyc": {
+        "sha256": "d5fabd78f2246b6a1fd5f6fba471ea0dc43db9aab92176582d90131cdecab402"
+    },
+    "lib/numba/tests/gdb/test_break_on_symbol.pyc": {
+        "sha256": "ca4b36d679b3e04fa259d1524a1e51d398d4b233470da75cc3201bf63c05d36c"
+    },
+    "lib/numba/tests/gdb/test_break_on_symbol_version.pyc": {
+        "sha256": "4b8167c53dcd4d2f59a5b3cce2a0c142f3045bc86b5f4b74d1e0d0ecaf2e5518"
+    },
+    "lib/numba/tests/gdb/test_conditional_breakpoint.pyc": {
+        "sha256": "db46c9f11476874714d982ed25f27ff68ed2ab5e4846efd6ab7d360008662a47"
+    },
+    "lib/numba/tests/gdb/test_pretty_print.pyc": {
+        "sha256": "dd52725ec5439dbc036cc6557be3fde284ac57659d70721047e57e69e11915c8"
+    },
+    "lib/numba/tests/gdb/__init__.pyc": {
+        "sha256": "7933ae9e35849fe07edb54ec5da57b711295c5de94008aa24929a1a71a5f34ee"
+    },
+    "lib/numba/tests/npyufunc/cache_usecases.pyc": {
+        "sha256": "b88f2c2a2eabf62b6a517b1d3f3f7288c8961ee44bd235eb437c81ee565af199"
+    },
+    "lib/numba/tests/npyufunc/test_caching.pyc": {
+        "sha256": "d739058862732bcd543b06bbf0889ddde7e49e50ea966669542eb0b465bc1212"
+    },
+    "lib/numba/tests/npyufunc/test_dufunc.pyc": {
+        "sha256": "f4f86e83ea7c6c97492b42a266498eca386cd33081473c46be1589347e32694b"
+    },
+    "lib/numba/tests/npyufunc/test_errors.pyc": {
+        "sha256": "da6ecd1d2d98c3de4c0eb4e3f9f5a7880f654c429c4ee9d8369c54d58bae92d6"
+    },
+    "lib/numba/tests/npyufunc/test_gufunc.pyc": {
+        "sha256": "6d21804d895195da2d02b5ac9905b26b9eb5f3a69bfc4be9380d0ed9928f6b68"
+    },
+    "lib/numba/tests/npyufunc/test_parallel_env_variable.pyc": {
+        "sha256": "a2bbaefb4ff87354d45aa3578f6a6f047583c34fbb9e74824aad682410bd6958"
+    },
+    "lib/numba/tests/npyufunc/test_parallel_low_work.pyc": {
+        "sha256": "222f4894075d5a87322119902eddc61d9f88fcc3ab667bddd0a5e3a68af5d924"
+    },
+    "lib/numba/tests/npyufunc/test_parallel_ufunc_issues.pyc": {
+        "sha256": "ef4116202169854b6dfc69b735c5ea0d64eb5c65f5d2b5d20644ceca4a4c3fb4"
+    },
+    "lib/numba/tests/npyufunc/test_ufunc.pyc": {
+        "sha256": "ece004f7c2c4c735fb30b138933c71fa6160e359856ffa79c675451ac00126c0"
+    },
+    "lib/numba/tests/npyufunc/test_ufuncbuilding.pyc": {
+        "sha256": "8888f7049528aa665f19aa22d271cc3765dac493d8a5069c652a2907a0f863ea"
+    },
+    "lib/numba/tests/npyufunc/test_update_inplace.pyc": {
+        "sha256": "17b570e4ce014016e964403d25b9953db36fccfe840104dd0a786860b92cfcf8"
+    },
+    "lib/numba/tests/npyufunc/test_vectorize_decor.pyc": {
+        "sha256": "ddeeb4c2f95395bb6519c42c657c9fb81e1f90e0f0331898a6326275a60817e0"
+    },
+    "lib/numba/tests/npyufunc/ufuncbuilding_usecases.pyc": {
+        "sha256": "7dcef747bd684a7021d5489812f2b2187ecc693d154f5278bc0516185f7ce4d1"
+    },
+    "lib/numba/tests/npyufunc/__init__.pyc": {
+        "sha256": "87eca8cd529889fbae7b667e10c0c7cf2623501f34cea19f3d74fe9dc64b10a4"
+    },
+    "lib/numba/tests/pycc_distutils_usecase/setup_distutils.pyc": {
+        "sha256": "352dd084ffd8aebb8ce45086dc2883caf105c38f52e2e831eb5ca6698a47a09a"
+    },
+    "lib/numba/tests/pycc_distutils_usecase/setup_distutils_nested.pyc": {
+        "sha256": "0da4a7c3dbbf94b7bca8837c2d0ca87925077aa32a3d7f9b8b05aed72a6d1f32"
+    },
+    "lib/numba/tests/pycc_distutils_usecase/setup_setuptools.pyc": {
+        "sha256": "72541647545e7995d23554f39a57c431e7b98b6931ca07be6359fb3164450534"
+    },
+    "lib/numba/tests/pycc_distutils_usecase/setup_setuptools_nested.pyc": {
+        "sha256": "f1df8645128b37e8aa4155792ddaf5f9652b3b57e789229bd31c6b7ef5bda8e1"
+    },
+    "lib/numba/tests/pycc_distutils_usecase/source_module.pyc": {
+        "sha256": "c82d85c85fed881d9e8094200853ec5d1b282106a81f53f6b457011f8e70d105"
+    },
+    "lib/numba/tests/pycc_distutils_usecase/__init__.pyc": {
+        "sha256": "baf743cffb8adbe811bcf4486568700f570b27b4e15cffe02b0aa01c2657da4f"
+    },
+    "lib/numba/tests/pycc_distutils_usecase/nested/source_module.pyc": {
+        "sha256": "18505b7dda12e2a36db50fe1a7774f451c8f68d17491ebbd0d7f74bc7499281c"
+    },
+    "lib/numba/tests/pycc_distutils_usecase/nested/__init__.pyc": {
+        "sha256": "c35da49a60e07861829576119295b25f22a1c82df7878c325a77be67841dfa65"
     },
     "lib/numba/typed/dictimpl.pyc": {
         "sha256": "0862dd372f852e88904d5f0d9d6ed8cb6a7c111cc8e9069f664e736e406c7d94"
@@ -16000,7 +17281,7 @@
         "sha256": "bd33548dbdbb178873be92901b282bad9c6817e3eac154ca50a666d5753fd7ec"
     },
     "lib/pywin32_system32/__init__.pyc": {
-        "sha256": "4d67f89dfb4b5e23a186794b8ed90030dbb9ce1314e9e7542f1228c100ef30d2"
+        "sha256": "2151ad0ab2950cd70d29b83a41b0151abb9335ab2da2e54c65d29338b976b1aa"
     },
     "lib/re/_casefix.pyc": {
         "sha256": "00e3615f61bf785fa28443fdb967c836e20cbbc9b5eaf75e28e3dc44bb5594c5"
@@ -22285,7 +23566,7 @@
         "sha256": "011ff9f74be52f1f0fc3e0c14c863de05971e171f933ccf5b69d23f466b43fc1"
     },
     "res/BlackStudioUpdater/BlackStudioUpdater.exe": {
-        "sha256": "e23470d078f7b3c88b100139921f7ac432392eca9dcf880c3c553909164890c6"
+        "sha256": "7b4267fe82eb5569e0b162c7e28cee28b33e5bdbb98fa2f3235782771a0bcf11"
     },
     "res/BlackStudioUpdater/libcrypto-3.dll": {
         "sha256": "05fe080eab7fc535c51e10c1bd76a2f3e6217f9c91a25034774588881c3f99de"
