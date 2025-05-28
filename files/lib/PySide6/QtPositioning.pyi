@@ -14,12 +14,14 @@ import PySide6.QtCore
 
 import os
 import enum
-from typing import Any, Any, ClassVar, Dict, Dict, IO, List, List, Optional, Sequence, Tuple, Tuple, Type, Union, overload
+from typing import Any, ClassVar, Dict, IO, List, Optional, Sequence, Tuple, Type, Union, overload
 from PySide6.QtCore import Signal
 from shiboken6 import Shiboken
+from typing import TypeAlias, TypeVar
 
 
 NoneType: TypeAlias = type[None]
+PlaceHolderType = TypeVar("PlaceHolderType", bound=QObject)
 
 
 class QGeoAddress(Shiboken.Object):

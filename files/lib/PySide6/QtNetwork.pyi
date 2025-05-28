@@ -14,12 +14,14 @@ import PySide6.QtCore
 
 import os
 import enum
-from typing import Any, Any, Callable, ClassVar, Dict, Dict, Generator, IO, List, List, Optional, Optional, OrderedDict, OrderedDict, Protocol, Sequence, Text, Tuple, Tuple, Union, overload
+from typing import Any, Callable, ClassVar, Dict, Generator, IO, List, Optional, OrderedDict, Protocol, Sequence, Text, Tuple, Union, overload
 from PySide6.QtCore import Signal
 from shiboken6 import Shiboken
+from typing import TypeAlias, TypeVar
 
 
 NoneType: TypeAlias = type[None]
+PlaceHolderType = TypeVar("PlaceHolderType", bound=QObject)
 
 
 class QAbstractNetworkCache(PySide6.QtCore.QObject):

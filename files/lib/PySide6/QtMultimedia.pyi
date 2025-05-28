@@ -15,12 +15,14 @@ import PySide6.QtGui
 
 import os
 import enum
-from typing import Any, Any, ClassVar, IO, List, List, Optional, Type, Union, Union, overload
+from typing import Any, ClassVar, IO, List, Optional, Type, Union, overload
 from PySide6.QtCore import Signal
 from shiboken6 import Shiboken
+from typing import TypeAlias, TypeVar
 
 
 NoneType: TypeAlias = type[None]
+PlaceHolderType = TypeVar("PlaceHolderType", bound=QObject)
 
 
 class QAudio(Shiboken.Object):

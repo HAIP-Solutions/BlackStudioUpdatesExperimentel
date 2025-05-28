@@ -14,12 +14,14 @@ import PySide6.QtCore
 import PySide6.QtGui
 
 import enum
-from typing import Any, Any, ClassVar, List, List, Optional, Pattern, Sequence, Text, Tuple, Tuple, Union, Union, overload
+from typing import Any, ClassVar, List, Optional, Pattern, Sequence, Text, Tuple, Union, overload
 from PySide6.QtCore import Signal
 from shiboken6 import Shiboken
+from typing import TypeAlias, TypeVar
 
 
 NoneType: TypeAlias = type[None]
+PlaceHolderType = TypeVar("PlaceHolderType", bound=QObject)
 
 
 class QAbstractOpenGLFunctions(Shiboken.Object):
@@ -13793,7 +13795,7 @@ class QOpenGLTexture(Shiboken.Object):
 
 
     @overload
-    def __init__(self, image: Union[PySide6.QtGui.QImage, str], genMipMaps: PySide6.QtOpenGL.QOpenGLTexture.MipMapGeneration = ...) -> None: ...
+    def __init__(self, image: PySide6.QtGui.QImage, genMipMaps: PySide6.QtOpenGL.QOpenGLTexture.MipMapGeneration = ...) -> None: ...
     @overload
     def __init__(self, target: PySide6.QtOpenGL.QOpenGLTexture.Target) -> None: ...
 
@@ -13878,7 +13880,7 @@ class QOpenGLTexture(Shiboken.Object):
     @overload
     def setCompressedData(self, mipLevel: int, layer: int, layerCount: int, cubeFace: PySide6.QtOpenGL.QOpenGLTexture.CubeMapFace, dataSize: int, data: int, options: Optional[PySide6.QtOpenGL.QOpenGLPixelTransferOptions] = ...) -> None: ...
     @overload
-    def setData(self, image: Union[PySide6.QtGui.QImage, str], genMipMaps: PySide6.QtOpenGL.QOpenGLTexture.MipMapGeneration = ...) -> None: ...
+    def setData(self, image: PySide6.QtGui.QImage, genMipMaps: PySide6.QtOpenGL.QOpenGLTexture.MipMapGeneration = ...) -> None: ...
     @overload
     def setData(self, mipLevel: int, layer: int, cubeFace: PySide6.QtOpenGL.QOpenGLTexture.CubeMapFace, sourceFormat: PySide6.QtOpenGL.QOpenGLTexture.PixelFormat, sourceType: PySide6.QtOpenGL.QOpenGLTexture.PixelType, data: int, options: Optional[PySide6.QtOpenGL.QOpenGLPixelTransferOptions] = ...) -> None: ...
     @overload

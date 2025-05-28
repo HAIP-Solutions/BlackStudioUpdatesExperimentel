@@ -15,12 +15,14 @@ import PySide6.QtGui
 import PySide6.QtWidgets
 
 import enum
-from typing import Any, Any, List, List, Optional, Sequence, Union, Union, overload
+from typing import Any, List, Optional, Sequence, Union, overload
 from PySide6.QtCore import SignalInstance
 from shiboken6 import Shiboken
+from typing import TypeAlias, TypeVar
 
 
 NoneType: TypeAlias = type[None]
+PlaceHolderType = TypeVar("PlaceHolderType", bound=QObject)
 
 
 class QAbstractItemModelTester(PySide6.QtCore.QObject):

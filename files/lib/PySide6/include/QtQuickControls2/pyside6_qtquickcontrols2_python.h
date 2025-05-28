@@ -40,6 +40,9 @@ enum : int {
 // This variable stores all Python types exported by this module.
 extern Shiboken::Module::TypeInitStruct *SbkPySide6_QtQuickControls2TypeStructs;
 
+// This variable stores all Python types exported by this module in a backwards compatible way with identical indexing.
+[[deprecated]] extern PyTypeObject **SbkPySide6_QtQuickControls2Types;
+
 // This variable stores the Python module object exported by this module.
 extern PyObject *SbkPySide6_QtQuickControls2ModuleObject;
 

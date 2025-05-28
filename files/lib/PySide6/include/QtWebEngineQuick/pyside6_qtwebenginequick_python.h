@@ -12,6 +12,11 @@
 #include <pyside6_qtqml_python.h>
 #include <pyside6_qtcore_python.h>
 #include <pyside6_qtnetwork_python.h>
+#include <pyside6_qtwebenginecore_python.h>
+#include <pyside6_qtgui_python.h>
+#include <pyside6_qtprintsupport_python.h>
+#include <pyside6_qtwidgets_python.h>
+#include <pyside6_qtwebchannel_python.h>
 
 // Bound library includes
 #include <QtWebEngineQuick/qquickwebengineprofile.h>
@@ -40,6 +45,9 @@ enum : int {
 
 // This variable stores all Python types exported by this module.
 extern Shiboken::Module::TypeInitStruct *SbkPySide6_QtWebEngineQuickTypeStructs;
+
+// This variable stores all Python types exported by this module in a backwards compatible way with identical indexing.
+[[deprecated]] extern PyTypeObject **SbkPySide6_QtWebEngineQuickTypes;
 
 // This variable stores the Python module object exported by this module.
 extern PyObject *SbkPySide6_QtWebEngineQuickModuleObject;

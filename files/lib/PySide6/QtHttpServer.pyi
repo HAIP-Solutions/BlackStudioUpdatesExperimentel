@@ -15,11 +15,13 @@ import PySide6.QtNetwork
 
 import os
 import enum
-from typing import Callable, Dict, Dict, List, List, Optional, Tuple, Tuple, Type, Type, Union, overload
+from typing import Callable, Dict, List, Optional, Tuple, Type, Union, overload
 from shiboken6 import Shiboken
+from typing import TypeAlias, TypeVar
 
 
 NoneType: TypeAlias = type[None]
+PlaceHolderType = TypeVar("PlaceHolderType", bound=QObject)
 
 
 class QAbstractHttpServer(PySide6.QtCore.QObject):

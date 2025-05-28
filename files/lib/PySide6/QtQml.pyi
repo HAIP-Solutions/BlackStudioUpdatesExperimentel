@@ -15,12 +15,14 @@ import PySide6.QtNetwork
 
 import os
 import enum
-from typing import Any, Any, Callable, ClassVar, Dict, List, List, Optional, Optional, Sequence, Tuple, Tuple, Union, Union, overload
+from typing import Any, Callable, ClassVar, Dict, List, Optional, Sequence, Tuple, Union, overload
 from PySide6.QtCore import Signal
 from shiboken6 import Shiboken
+from typing import TypeAlias, TypeVar
 
 
 NoneType: TypeAlias = type[None]
+PlaceHolderType = TypeVar("PlaceHolderType", bound=QObject)
 
 
 class ListProperty(PySide6.QtCore.Property):

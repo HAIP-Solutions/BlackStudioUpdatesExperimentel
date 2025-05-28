@@ -16,9 +16,11 @@ import PySide6.QtWidgets
 import PySide6.QtSvg
 
 from typing import Optional, Union, overload
+from typing import TypeAlias, TypeVar
 
 
 NoneType: TypeAlias = type[None]
+PlaceHolderType = TypeVar("PlaceHolderType", bound=QObject)
 
 
 class QGraphicsSvgItem(PySide6.QtWidgets.QGraphicsObject):
