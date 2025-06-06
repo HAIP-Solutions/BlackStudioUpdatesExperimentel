@@ -10748,6 +10748,11 @@
                         "returnType": "void"
                     },
                     {
+                        "access": "public",
+                        "name": "evaluateEol",
+                        "returnType": "void"
+                    },
+                    {
                         "access": "private",
                         "name": "onReleaseCachedResources",
                         "returnType": "void"
@@ -11474,28 +11479,6 @@
                             }
                         ],
                         "name": "setInverseBindPoses",
-                        "returnType": "void"
-                    },
-                    {
-                        "access": "private",
-                        "arguments": [
-                            {
-                                "name": "node",
-                                "type": "QQuick3DNode*"
-                            }
-                        ],
-                        "name": "onJointChanged",
-                        "returnType": "void"
-                    },
-                    {
-                        "access": "private",
-                        "arguments": [
-                            {
-                                "name": "object",
-                                "type": "QObject*"
-                            }
-                        ],
-                        "name": "onJointDestroyed",
                         "returnType": "void"
                     }
                 ],

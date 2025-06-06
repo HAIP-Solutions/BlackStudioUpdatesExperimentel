@@ -1289,6 +1289,7 @@
      qRegisterMetaType&lt;QList&lt;QPersistentModelIndex&gt; &gt;("QList_QPersistentModelIndex");
    </inject-code>
     <modify-function signature="internalPointer()const">
+        <modify-argument index="return" pyi-type="Any"/>
         <inject-code class="target" position="beginning">
             <insert-template name="return_internal_pointer" />
         </inject-code>
@@ -1625,7 +1626,8 @@
 
   <value-type name="QModelRoleData"/>
 
-  <object-type name="QAbstractItemModel">
+  <!-- Register meta type for QML properties -->
+  <object-type name="QAbstractItemModel" qt-register-metatype="yes">
     <enum-type name="CheckIndexOption" flags="CheckIndexOptions"/>
     <enum-type name="LayoutChangeHint"/>
      <!-- This function was replaced by a added function -->
@@ -1677,8 +1679,9 @@
     <add-function signature="operator==(const QItemSelection&amp;)" return-type="bool"/>
     <add-function signature="operator!=(const QItemSelection&amp;)" return-type="bool"/>
     <!-- For some reason, the empty selection is not seen. Maybe related to the new [default]
-         tag in Qt6? -->
-    <declare-function signature="QItemSelection()" return-type="QItemSelection" />
+         tag in Qt6?
+         PYSIDE-2756: The return-type attribute is unnecessary -->
+    <declare-function signature="QItemSelection()"/>
     <!-- The __add__ function creates a result list, instead of using the inherited type.
          Fixed by adding with the correct type. -->
     <add-function signature="operator+(QItemSelection)" return-type="QItemSelection">
@@ -1845,7 +1848,7 @@
 
         </inject-documentation>
         <inject-code class="target" position="beginning" file="../glue/qtcore.cpp" snippet="qobject-findchild-2"/>
-      <modify-argument index="return">
+      <modify-argument index="return" pyi-type="Optional[PlaceHolderType]">
         <parent index="this" action="add"/>
       </modify-argument>
     </add-function>
@@ -1855,14 +1858,14 @@
         Like the method *findChild*, the first parameter should be the child's type.
         </inject-documentation>
         <inject-code class="target" position="beginning" file="../glue/qtcore.cpp" snippet="qobject-findchildren"/>
-        <modify-argument index="return">
+        <modify-argument index="return" pyi-type="Iterable[PlaceHolderType]">
             <parent index="this" action="add"/>
         </modify-argument>
     </add-function>
     <add-function signature="findChildren(PyTypeObject*@type@,const QRegularExpression&amp;@pattern@,Qt::FindChildOptions@options@=Qt::FindChildrenRecursively)"
                   return-type="PySequence*" >
         <inject-code class="target" position="beginning" file="../glue/qtcore.cpp" snippet="qobject-findchildren"/>
-        <modify-argument index="return">
+        <modify-argument index="return" pyi-type="Iterable[PlaceHolderType]">
             <parent index="this" action="add"/>
         </modify-argument>
     </add-function>
@@ -2227,6 +2230,9 @@
     <add-function signature="__msetitem__">
         <inject-code class="target" position="beginning" file="../glue/qtcore.cpp" snippet="qbytearray-msetitem"/>
     </add-function>
+    <modify-function signature="fromRawData(const char*, qsizetype)">
+      <modify-argument index="1" pyi-type="str"/>
+    </modify-function>
   </value-type>
   <primitive-type name="QByteArrayView" view-on="QByteArray">
     <conversion-rule>
@@ -2551,6 +2557,11 @@
             <remove-argument />
         </modify-argument>
         <inject-code file="../glue/qtcore.cpp" snippet="qtranslator-load"/>
+    </modify-function>
+    <modify-function signature="translate(const char*,const char*, const char*,int)const">
+        <modify-argument index="1" pyi-type="str"/>
+        <modify-argument index="2" pyi-type="str"/>
+        <modify-argument index="3" pyi-type="Optional[str]"/>
     </modify-function>
   </object-type>
   <object-type name="QWaitCondition">
@@ -3103,6 +3114,7 @@
   </object-type>
   <value-type name="QModelIndex">
     <modify-function signature="internalPointer()const">
+        <modify-argument index="return" pyi-type="Any"/>
         <inject-code class="target" position="beginning">
             <insert-template name="return_internal_pointer" />
         </inject-code>
