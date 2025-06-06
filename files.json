@@ -133,7 +133,7 @@
         "sha256": "4c4c3743a091882eae0a128323b013b853536b87bad250f13c27582a9582259a"
     },
     "BlackStudio.exe": {
-        "sha256": "a6650ba2d9fb3869e2b8ebf8773d7ae5696d55282cd509d82cd8cf13825838b5"
+        "sha256": "0cb5efd93c1d3168a6de9b6fe3914a4795c170e352d07d6e53ed04d1fd52ae30"
     },
     "concrt140.dll": {
         "sha256": "43a8200d0b62cc36bab0af07bf985e090179bebc0b496847cf7b3f3f5bd8ea2b"
@@ -196,7 +196,7 @@
         "sha256": "1794a90e19985ee2dee89f9bdffac8dcb3676e2555db9469384493d14708aed5"
     },
     "lib/library.zip": {
-        "sha256": "dc2cf279f5c2208d305988b9dc69e2c85e6012beaca886514e031a9bf9904245"
+        "sha256": "bccc6758c4e3b331f607f47b3e0dc3f066e8f01a318096996a2c02a06ff554b6"
     },
     "lib/libssl-3.dll": {
         "sha256": "2e9fbcd8f7fdc13a5179533239811456554f2b3aa2fb10e1b17be0df81c79006"
@@ -207,9 +207,6 @@
     "lib/pyside6.abi3.dll": {
         "sha256": "5c35844409df9f9a13211105193861ab0ee1511836437222a0260621a03d1352"
     },
-    "lib/python3.dll": {
-        "sha256": "a59487ea2c8723277f4579067248836b216a801c2152efb19afee4ac9785d6fb"
-    },
     "lib/python312.dll": {
         "sha256": "789a42ac160cef98f8925cb347473eeeb4e70f5513242e7faba5139ba06edf2d"
     },
@@ -219,20 +216,35 @@
     "lib/pywintypes312.dll": {
         "sha256": "bd33548dbdbb178873be92901b282bad9c6817e3eac154ca50a666d5753fd7ec"
     },
-    "lib/qt6core.dll": {
+    "lib/Qt6Core.dll": {
         "sha256": "d843621c8134a38368534c3e140ee7c2e133591e497576a06ad48e302ecc773c"
     },
-    "lib/qt6gui.dll": {
+    "lib/Qt6Gui.dll": {
         "sha256": "aa9b7959af3581f26b7df83313ac498ffb8c4a4042bf5271bea5395df095dd3c"
     },
-    "lib/qt6network.dll": {
+    "lib/Qt6Network.dll": {
         "sha256": "9a347f933033c1ff8f31e8c1a9cc0b2c94541614d34db19c0c2a5138b158f35f"
+    },
+    "lib/Qt6OpenGL.dll": {
+        "sha256": "d08329ec1580596d06ecb4a10951d89ba26ed369825c4acc84d53390a78f0b9e"
     },
     "lib/Qt6Pdf.dll": {
         "sha256": "dfa1981278c7636d1b5a988e188ff679c694eaf93935bbbe1f7f6cd43c069b45"
     },
+    "lib/Qt6Qml.dll": {
+        "sha256": "de52d79047caa9da2d3302d4ffc0601661f8959f02ff8176183ee6ef874cc4f1"
+    },
+    "lib/Qt6QmlModels.dll": {
+        "sha256": "8a5daaf53b65bbebb417cf1280f5007be51eb55686911a82c19aa4ad46026903"
+    },
+    "lib/Qt6Quick.dll": {
+        "sha256": "7e5b176e781cf7a5657e0c9c214753747379378ef195589d51c3f93d09ab8f40"
+    },
     "lib/Qt6Svg.dll": {
         "sha256": "7ed21961364a2a3fa55ff3535cdf82b15a40f1a88a68c6753e1335dc11e4c43d"
+    },
+    "lib/Qt6VirtualKeyboard.dll": {
+        "sha256": "148df89035d551d18749c91ce98f6f7219b82229b95fcc4e4c04cd7b074a69c5"
     },
     "lib/Qt6Widgets.dll": {
         "sha256": "8153dd6f3e75f021f3adfd06f2a51c49dc9486affbfe50b60d064425027ded62"
@@ -757,13 +769,13 @@
         "sha256": "4085e79c73e8b9c9835a46e936c5933fe7202756e7f257bb0e3c916bfc1875ec"
     },
     "lib/BlackStudioUpdater/BlackStudioUpdaterSettings.pyc": {
-        "sha256": "2c97a7882daef4902a8481a82ca3467ac198f77931b6702c84877b1bf01fc758"
+        "sha256": "760b8681dd7edbab2cc116d71686e34ba979a355197cb1d57c2090a423925274"
     },
     "lib/BlackStudioUpdater/HAIPUpdaterAPI.pyc": {
-        "sha256": "cb3c2ed79d6559c662c042d46dd621b68204e8f293e0b5d5060ff39bbbddc16e"
+        "sha256": "ff763d9769e076c105c45e54f7fefe9be0be5400608ccbe3959383ad01840f89"
     },
     "lib/BlackStudioUpdater/__init__.pyc": {
-        "sha256": "6592f249f309c7c089ffc2e96685bb25e68dea23e8353da90ad84031bd1e25ef"
+        "sha256": "52c46b5e5a69d29540c35054a1dcf72fb452e3d2d43f88ff4dba10a50709fe09"
     },
     "lib/certifi/cacert.pem": {
         "sha256": "c55b21f907f7f86d48add093552fb5651749ff5f860508ccbb423d6c1fbd80c7"
@@ -903,11 +915,16 @@
     "lib/cv2/config.pyc": {
         "sha256": "ab41838a0394878ee0d28d6e6774f8f7f87d457448a05f5ff1027258385f9905"
     },
-    "lib/cv2/cv2.pyd.part_0": {
-        "sha256": "c328f8f308333b4328eb798de3700c99f2ba78f79dd63c468c9aa905400c69ef"
-    },
-    "lib/cv2/cv2.pyd.part_1": {
-        "sha256": "03781261dcbc6857d6bc918b3cf19bba9bc2e60edc2501c253dae2ee34f93104"
+    "lib/cv2/cv2.pyd": {
+        "sha256": "a73aeb87dc1b2f6cd6e978b653e89604f09be4b9531573020695cb48eb998e8a",
+        "parts": {
+            "lib/cv2/cv2.pyd.part_0": {
+                "sha256": "c328f8f308333b4328eb798de3700c99f2ba78f79dd63c468c9aa905400c69ef"
+            },
+            "lib/cv2/cv2.pyd.part_1": {
+                "sha256": "03781261dcbc6857d6bc918b3cf19bba9bc2e60edc2501c253dae2ee34f93104"
+            }
+        }
     },
     "lib/cv2/load_config_py3.pyc": {
         "sha256": "88c553bd1561adbd540033e745cafda27e73f6bd30d966512b2d8d201aac880a"
@@ -985,7 +1002,7 @@
         "sha256": "7db62f60c8597a98fe771c16a4d52588e799fa7bcd7a87b65e9559dbcd67a705"
     },
     "lib/cv2/gapi/wip/draw/__init__.pyc": {
-        "sha256": "a717aca72846a27c57cc0e838a2be7a92f749decbb7d28a69e2743cc98e99a4b"
+        "sha256": "6744d5d335921edd7bf502ac40c752250c7d6f15a2fc5dc3849a803e30fce20d"
     },
     "lib/cv2/mat_wrapper/__init__.pyc": {
         "sha256": "0ca1e5e2a2b0e15ee5d6cfd6f7e290690fea70224546de27dc00b069d818e0f7"
@@ -2628,11 +2645,16 @@
     "lib/llvmlite/binding/linker.pyc": {
         "sha256": "8143386c95dfd7d0769c5a642e885c3121d892a5e57cc3b5a513c5ac2a5e43be"
     },
-    "lib/llvmlite/binding/llvmlite.dll.part_0": {
-        "sha256": "f5f581c63404afd95f0405e7985f67012609abb65332060c60262f3248d9df5f"
-    },
-    "lib/llvmlite/binding/llvmlite.dll.part_1": {
-        "sha256": "b3e00870e29e1513abe83c8f89f5fdf2d29289bfaef20280040c92ec8fd166ad"
+    "lib/llvmlite/binding/llvmlite.dll": {
+        "sha256": "70042dc5e4b5536971f24f00871e679332fd47f20cebbd55d7aa8e64a5f5aa1c",
+        "parts": {
+            "lib/llvmlite/binding/llvmlite.dll.part_0": {
+                "sha256": "f5f581c63404afd95f0405e7985f67012609abb65332060c60262f3248d9df5f"
+            },
+            "lib/llvmlite/binding/llvmlite.dll.part_1": {
+                "sha256": "b3e00870e29e1513abe83c8f89f5fdf2d29289bfaef20280040c92ec8fd166ad"
+            }
+        }
     },
     "lib/llvmlite/binding/module.pyc": {
         "sha256": "dc88d08cbb82ee8ca1742f3f13cb4ca69ea8ae4d6f246bd497a42f3c7ec16454"
@@ -10182,14 +10204,19 @@
     "lib/PySide6/Qt6WebChannelQuick.dll": {
         "sha256": "74e40b854b32156f0e47b710decdab02755e4a752c736b3878c66c5c39577492"
     },
-    "lib/PySide6/Qt6WebEngineCore.dll.part_0": {
-        "sha256": "0ef58a9f0b3ae0905018a8e05e9c4ba122ffc7cdd007a0020f339ab32add7ce0"
-    },
-    "lib/PySide6/Qt6WebEngineCore.dll.part_1": {
-        "sha256": "0c4c7e5b87c3860cc52b154c42bc98476d13a4344dd14cf1dfa7b48d789772b7"
-    },
-    "lib/PySide6/Qt6WebEngineCore.dll.part_2": {
-        "sha256": "f0a32112374060c8af334567e1ce5383c74e45702dadd34f5f207cf04fc5b6b2"
+    "lib/PySide6/Qt6WebEngineCore.dll": {
+        "sha256": "ca633b53828635ee39ca2b4e38959be11a308ea210b694af048a431a99825353",
+        "parts": {
+            "lib/PySide6/Qt6WebEngineCore.dll.part_0": {
+                "sha256": "0ef58a9f0b3ae0905018a8e05e9c4ba122ffc7cdd007a0020f339ab32add7ce0"
+            },
+            "lib/PySide6/Qt6WebEngineCore.dll.part_1": {
+                "sha256": "0c4c7e5b87c3860cc52b154c42bc98476d13a4344dd14cf1dfa7b48d789772b7"
+            },
+            "lib/PySide6/Qt6WebEngineCore.dll.part_2": {
+                "sha256": "f0a32112374060c8af334567e1ce5383c74e45702dadd34f5f207cf04fc5b6b2"
+            }
+        }
     },
     "lib/PySide6/Qt6WebEngineQuick.dll": {
         "sha256": "0479d0afa0e9c5d21bec8cc359b45c8c2352afec81de9268fa2a21838c55dfa4"
@@ -17281,7 +17308,7 @@
         "sha256": "bd33548dbdbb178873be92901b282bad9c6817e3eac154ca50a666d5753fd7ec"
     },
     "lib/pywin32_system32/__init__.pyc": {
-        "sha256": "c37efb3ccec7290110cbe5d0d5948fe37c636e968140b7474afa1d1c5ff4e7af"
+        "sha256": "160654994edc17574397710f4867adafbec19d862b6400d9b14498ea5fe5e6db"
     },
     "lib/re/_casefix.pyc": {
         "sha256": "00e3615f61bf785fa28443fdb967c836e20cbbc9b5eaf75e28e3dc44bb5594c5"
@@ -23460,6 +23487,60 @@
     "lib/xmlrpc/__init__.pyc": {
         "sha256": "c577d341ca11db30660f6d82e928347edd148e61bca3d0ee193da4c7c1f8d8e2"
     },
+    "lib/yaml/composer.pyc": {
+        "sha256": "27ff9d82fbe7a043ff6053c90117ffda9f56323332a75a0a725520faaada7d51"
+    },
+    "lib/yaml/constructor.pyc": {
+        "sha256": "99a000e6901a73d1f9ff3cb609cf0739171d175f4420adeb789fff95ef85ef13"
+    },
+    "lib/yaml/cyaml.pyc": {
+        "sha256": "cf581e86597024c57985b0d09b0d4e7a81bf1feff6024454099f566d0d63af6d"
+    },
+    "lib/yaml/dumper.pyc": {
+        "sha256": "17ea9d711b0efebcd8ac58f002d81555fbea688c491109c05a1807ac4fe021b7"
+    },
+    "lib/yaml/emitter.pyc": {
+        "sha256": "0c2352b742b7554890095debb810b9c7b4c4a964c0a2a1f721f7d800c784b342"
+    },
+    "lib/yaml/error.pyc": {
+        "sha256": "6f60933f30de28ce0bd1c81a99cb0ed92abee15464ee3b1af26bcef6147f1a06"
+    },
+    "lib/yaml/events.pyc": {
+        "sha256": "1a99c2d73dfbcf3a1d13b448a862e7b17b8b6fa5570c8167cc3187462b1fdbd7"
+    },
+    "lib/yaml/loader.pyc": {
+        "sha256": "33ccabb73733ceebcaa243b3830d997803c756e8fa674a7890dde27d31b76b26"
+    },
+    "lib/yaml/nodes.pyc": {
+        "sha256": "e102f6fd26ba0311aeed005e0d3100a63cb5a133f8ff53c2f306a88a70ccf592"
+    },
+    "lib/yaml/parser.pyc": {
+        "sha256": "eb5c552bb99533351e206c314f4adb7cb25158f728eccd519dee803486f84a39"
+    },
+    "lib/yaml/reader.pyc": {
+        "sha256": "2eb3bf602137e1df25c6cd0f929f96d7f2abc433d7d834afb62cdf3aa3d16450"
+    },
+    "lib/yaml/representer.pyc": {
+        "sha256": "2ee97c0d9932d00eca3f2b36b92f86a968bf3675c4e75bb6858e997819df30d4"
+    },
+    "lib/yaml/resolver.pyc": {
+        "sha256": "d603e8510ef5af23a3bc424c7cd8161927586f0d9812663535ed60e324139963"
+    },
+    "lib/yaml/scanner.pyc": {
+        "sha256": "b6e5b0362eb2e8ca3600a814dda6f6d8c7f30b114a23370ab6414cb343dd5abd"
+    },
+    "lib/yaml/serializer.pyc": {
+        "sha256": "f6fb66dbfeedb241667eced31cdd6ef565a1884fad074a41ce75b0ce6a1efe74"
+    },
+    "lib/yaml/tokens.pyc": {
+        "sha256": "9230232f0ef0e9973e2269ebcfca3aba05b50a6fb8d3a69a774c3d19dd8e35a5"
+    },
+    "lib/yaml/_yaml.cp312-win_amd64.pyd": {
+        "sha256": "071edefcb110c7b727775fc0f7f9c2969dd7efb83efcbc356a8000b5865bc169"
+    },
+    "lib/yaml/__init__.pyc": {
+        "sha256": "7dff78ec65daa5bd2fac7a4ed41efc94770ee81c338b9c51e3bd1b55fc9a0b44"
+    },
     "lib/yarl/py.typed": {
         "sha256": "6b2e4e30ee3be4f95c67f15bba7f666875bb63a3014e4d145cbe33b47c7722e8"
     },
@@ -23565,208 +23646,538 @@
     "res/start.png": {
         "sha256": "011ff9f74be52f1f0fc3e0c14c863de05971e171f933ccf5b69d23f466b43fc1"
     },
-    "res/BlackStudioUpdater/BlackStudioUpdater.exe": {
-        "sha256": "1e4d9f4fe8a8e1862802e96840079ea0a756c52d8f5aceb80f079798bc828c88"
+    "res/uninstall_cleanup.bat": {
+        "sha256": "595f279f7756178c16462bb5a172bbbdbae8029ad8cbe40f126a903619b447a8"
     },
-    "res/BlackStudioUpdater/libcrypto-3.dll": {
+    "res/BlackStudioUpdater/BlackStudioUpdater.exe": {
+        "sha256": "5bb0bbc96eab5cd5585ea0ba95f953a0f9c998f69044f623bc45d6f55753a53a"
+    },
+    "res/BlackStudioUpdater/_internal/base_library.zip": {
+        "sha256": "eb30828276bd909677fd2ea89a3f50b337186a37136ae664994c07d8198199b3"
+    },
+    "res/BlackStudioUpdater/_internal/libcrypto-3.dll": {
         "sha256": "05fe080eab7fc535c51e10c1bd76a2f3e6217f9c91a25034774588881c3f99de"
     },
-    "res/BlackStudioUpdater/libffi-8.dll": {
+    "res/BlackStudioUpdater/_internal/libffi-8.dll": {
         "sha256": "eff52743773eb550fcc6ce3efc37c85724502233b6b002a35496d828bd7b280a"
     },
-    "res/BlackStudioUpdater/libssl-3.dll": {
+    "res/BlackStudioUpdater/_internal/libssl-3.dll": {
         "sha256": "2e9fbcd8f7fdc13a5179533239811456554f2b3aa2fb10e1b17be0df81c79006"
     },
-    "res/BlackStudioUpdater/pyexpat.pyd": {
+    "res/BlackStudioUpdater/_internal/pyexpat.pyd": {
         "sha256": "c42874e2cf034fb5034f0be35f7592b8a96e8903218da42e6650c504a85b37cc"
     },
-    "res/BlackStudioUpdater/pyside6.abi3.dll": {
-        "sha256": "5c35844409df9f9a13211105193861ab0ee1511836437222a0260621a03d1352"
-    },
-    "res/BlackStudioUpdater/python3.dll": {
+    "res/BlackStudioUpdater/_internal/python3.dll": {
         "sha256": "a59487ea2c8723277f4579067248836b216a801c2152efb19afee4ac9785d6fb"
     },
-    "res/BlackStudioUpdater/python312.dll": {
+    "res/BlackStudioUpdater/_internal/python312.dll": {
         "sha256": "789a42ac160cef98f8925cb347473eeeb4e70f5513242e7faba5139ba06edf2d"
     },
-    "res/BlackStudioUpdater/qt6core.dll": {
-        "sha256": "d843621c8134a38368534c3e140ee7c2e133591e497576a06ad48e302ecc773c"
-    },
-    "res/BlackStudioUpdater/qt6gui.dll": {
-        "sha256": "aa9b7959af3581f26b7df83313ac498ffb8c4a4042bf5271bea5395df095dd3c"
-    },
-    "res/BlackStudioUpdater/qt6network.dll": {
-        "sha256": "9a347f933033c1ff8f31e8c1a9cc0b2c94541614d34db19c0c2a5138b158f35f"
-    },
-    "res/BlackStudioUpdater/qt6pdf.dll": {
-        "sha256": "dfa1981278c7636d1b5a988e188ff679c694eaf93935bbbe1f7f6cd43c069b45"
-    },
-    "res/BlackStudioUpdater/qt6svg.dll": {
-        "sha256": "7ed21961364a2a3fa55ff3535cdf82b15a40f1a88a68c6753e1335dc11e4c43d"
-    },
-    "res/BlackStudioUpdater/qt6widgets.dll": {
-        "sha256": "8153dd6f3e75f021f3adfd06f2a51c49dc9486affbfe50b60d064425027ded62"
-    },
-    "res/BlackStudioUpdater/select.pyd": {
+    "res/BlackStudioUpdater/_internal/select.pyd": {
         "sha256": "af358285a7450de6e2e5e7ff074f964d6a257fb41d9eb750146e03c7dda503ca"
     },
-    "res/BlackStudioUpdater/shiboken6.abi3.dll": {
-        "sha256": "93911b2c8c6c5f536b64ff880555a25358698dd4fe7ba1ccffc7dedca153b323"
-    },
-    "res/BlackStudioUpdater/unicodedata.pyd": {
+    "res/BlackStudioUpdater/_internal/unicodedata.pyd": {
         "sha256": "be942308d99cc954931fe6f48ed8cc7a57891ccbe99aae728121bcda1fd929ab"
     },
-    "res/BlackStudioUpdater/_asyncio.pyd": {
+    "res/BlackStudioUpdater/_internal/_asyncio.pyd": {
         "sha256": "f7069734d5174f54e89b88d717133bff6a41b01e57f79957ab3f02daa583f9e2"
     },
-    "res/BlackStudioUpdater/_bz2.pyd": {
+    "res/BlackStudioUpdater/_internal/_bz2.pyd": {
         "sha256": "706d4a0c26dd454538926cbb2ff6c64257c3d9bd48c956f7cabd6def36ffd13e"
     },
-    "res/BlackStudioUpdater/_ctypes.pyd": {
+    "res/BlackStudioUpdater/_internal/_ctypes.pyd": {
         "sha256": "f20dfa748b878751ea1c4fe77a230d65212720652b99c4e5577bce461bbd9089"
     },
-    "res/BlackStudioUpdater/_decimal.pyd": {
+    "res/BlackStudioUpdater/_internal/_decimal.pyd": {
         "sha256": "3b9ad1d2bc9ec03d37da86135853dac73b3fe851b164fe52265564a81eb8c544"
     },
-    "res/BlackStudioUpdater/_hashlib.pyd": {
+    "res/BlackStudioUpdater/_internal/_hashlib.pyd": {
         "sha256": "4adfbbd6366d9b55d902fc54d2b42e7c8c989a83016ed707bd7a302fc3fc7b67"
     },
-    "res/BlackStudioUpdater/_lzma.pyd": {
+    "res/BlackStudioUpdater/_internal/_lzma.pyd": {
         "sha256": "6216173194b29875e84963cd4dc4752f7ca9493f5b1fd7e4130ca0e411c8ac6a"
     },
-    "res/BlackStudioUpdater/_multiprocessing.pyd": {
+    "res/BlackStudioUpdater/_internal/_multiprocessing.pyd": {
         "sha256": "c7bbcfe2511fd1b71b916a22ad6537d60948ffa7bde207fefabee84ef53cafb5"
     },
-    "res/BlackStudioUpdater/_overlapped.pyd": {
+    "res/BlackStudioUpdater/_internal/_overlapped.pyd": {
         "sha256": "c21b50a7bf9dbe1a0768f5030cac378d58705a9fe1f08d953129332beb0fbefc"
     },
-    "res/BlackStudioUpdater/_queue.pyd": {
+    "res/BlackStudioUpdater/_internal/_queue.pyd": {
         "sha256": "fb57ee6adf6e7b11451b6920ddd2fb943dcd9561c9eae64fdda27c7ed0bc1b04"
     },
-    "res/BlackStudioUpdater/_socket.pyd": {
+    "res/BlackStudioUpdater/_internal/_socket.pyd": {
         "sha256": "5cc62aac52edf87916deb4ebbad9abb58a6a3565b32e7544f672aca305c38027"
     },
-    "res/BlackStudioUpdater/_ssl.pyd": {
+    "res/BlackStudioUpdater/_internal/_ssl.pyd": {
         "sha256": "72bb15cd8c14ba008a52d23cdcfc851a9a4bde13deee302a5667c8ad60f94a57"
     },
-    "res/BlackStudioUpdater/_uuid.pyd": {
+    "res/BlackStudioUpdater/_internal/_uuid.pyd": {
         "sha256": "720e9b68c41c8d9157865e4dd243fb1731f627f3af29c43250804a5995a82016"
     },
-    "res/BlackStudioUpdater/_wmi.pyd": {
+    "res/BlackStudioUpdater/_internal/_wmi.pyd": {
         "sha256": "aa1443a715fbf84a84f39bd89707271fc11a77b597d7324ce86fc5cfa56a63a9"
     },
-    "res/BlackStudioUpdater/aiohttp/_http_parser.pyd": {
+    "res/BlackStudioUpdater/_internal/aiohttp/_http_parser.cp312-win_amd64.pyd": {
         "sha256": "a0593334cef6fa1c0e191daf1aeec48da99ca07574337803ee1e89ed8b2991f5"
     },
-    "res/BlackStudioUpdater/aiohttp/_http_writer.pyd": {
+    "res/BlackStudioUpdater/_internal/aiohttp/_http_writer.cp312-win_amd64.pyd": {
         "sha256": "80883abc1dbfa9acf0d660b19b8ba2c9e71305e363bc05d976c7ee13e365bb2b"
     },
-    "res/BlackStudioUpdater/aiohttp/_websocket/mask.pyd": {
+    "res/BlackStudioUpdater/_internal/aiohttp/_websocket/mask.cp312-win_amd64.pyd": {
         "sha256": "38984bc9d502068c17dca4b54b6cd0385324b09259845c738014cfcd00fadacc"
     },
-    "res/BlackStudioUpdater/aiohttp/_websocket/reader_c.pyd": {
+    "res/BlackStudioUpdater/_internal/aiohttp/_websocket/reader_c.cp312-win_amd64.pyd": {
         "sha256": "9f62574907f999aad0c3b0dc4c8930f704eaab37479abb7d1a2cdae7cdc3ce76"
     },
-    "res/BlackStudioUpdater/certifi/cacert.pem": {
+    "res/BlackStudioUpdater/_internal/attrs-25.3.0.dist-info/INSTALLER": {
+        "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508"
+    },
+    "res/BlackStudioUpdater/_internal/attrs-25.3.0.dist-info/METADATA": {
+        "sha256": "5b7f1c4448fbb35c2a35fd5f838855c1998bd7187401d4a9e0886d4cc44e8a7c"
+    },
+    "res/BlackStudioUpdater/_internal/attrs-25.3.0.dist-info/RECORD": {
+        "sha256": "099bd869f0c18482a544b9c909055b4b16d94d7d8cccdd11b2972551c974b630"
+    },
+    "res/BlackStudioUpdater/_internal/attrs-25.3.0.dist-info/WHEEL": {
+        "sha256": "aad0b0a12256807936d52d4a6f88a1773236ae527564a688bab4e3fe780e8724"
+    },
+    "res/BlackStudioUpdater/_internal/attrs-25.3.0.dist-info/licenses/LICENSE": {
+        "sha256": "882115c95dfc2af1eeb6714f8ec6d5cbcabf667caff8729f42420da63f714e9f"
+    },
+    "res/BlackStudioUpdater/_internal/certifi/cacert.pem": {
         "sha256": "c55b21f907f7f86d48add093552fb5651749ff5f860508ccbb423d6c1fbd80c7"
     },
-    "res/BlackStudioUpdater/charset_normalizer/md.pyd": {
+    "res/BlackStudioUpdater/_internal/certifi/py.typed": {
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "res/BlackStudioUpdater/_internal/charset_normalizer/md.cp312-win_amd64.pyd": {
         "sha256": "5c11b2fbe20a75aedcde205fbf0fdda2fa1ca9bd914ae72656dc6fb651bfded0"
     },
-    "res/BlackStudioUpdater/charset_normalizer/md__mypyc.pyd": {
+    "res/BlackStudioUpdater/_internal/charset_normalizer/md__mypyc.cp312-win_amd64.pyd": {
         "sha256": "ffe8d64a38b4060055beb2076e669b61034c045e3ec53bac74ee66bba3fc26c0"
     },
-    "res/BlackStudioUpdater/frozenlist/_frozenlist.pyd": {
+    "res/BlackStudioUpdater/_internal/frozenlist/_frozenlist.cp312-win_amd64.pyd": {
         "sha256": "8be6e6cc104018c0dc1ae0694330f44b94fabb6c50eec086373ddf24117d78a7"
     },
-    "res/BlackStudioUpdater/multidict/_multidict.pyd": {
+    "res/BlackStudioUpdater/_internal/multidict/_multidict.cp312-win_amd64.pyd": {
         "sha256": "e18dd2da2916e918aacd385b0305f7dbcce3afe98bd0bc03626274b698306993"
     },
-    "res/BlackStudioUpdater/propcache/_helpers_c.pyd": {
+    "res/BlackStudioUpdater/_internal/propcache/_helpers_c.cp312-win_amd64.pyd": {
         "sha256": "5e998c47526d89eadc7c391910657ed0aa79f98c3bc58f3221974ca16196a054"
     },
-    "res/BlackStudioUpdater/PySide6/QtCore.pyd": {
+    "res/BlackStudioUpdater/_internal/PySide6/opengl32sw.dll": {
+        "sha256": "01214cfb889382482e01f55b06665aa20d4939a1bc73ca5c7fc529d0a71960a7"
+    },
+    "res/BlackStudioUpdater/_internal/PySide6/pyside6.abi3.dll": {
+        "sha256": "5c35844409df9f9a13211105193861ab0ee1511836437222a0260621a03d1352"
+    },
+    "res/BlackStudioUpdater/_internal/PySide6/Qt6Core.dll": {
+        "sha256": "d843621c8134a38368534c3e140ee7c2e133591e497576a06ad48e302ecc773c"
+    },
+    "res/BlackStudioUpdater/_internal/PySide6/Qt6Gui.dll": {
+        "sha256": "aa9b7959af3581f26b7df83313ac498ffb8c4a4042bf5271bea5395df095dd3c"
+    },
+    "res/BlackStudioUpdater/_internal/PySide6/Qt6Network.dll": {
+        "sha256": "9a347f933033c1ff8f31e8c1a9cc0b2c94541614d34db19c0c2a5138b158f35f"
+    },
+    "res/BlackStudioUpdater/_internal/PySide6/Qt6OpenGL.dll": {
+        "sha256": "d08329ec1580596d06ecb4a10951d89ba26ed369825c4acc84d53390a78f0b9e"
+    },
+    "res/BlackStudioUpdater/_internal/PySide6/Qt6Pdf.dll": {
+        "sha256": "dfa1981278c7636d1b5a988e188ff679c694eaf93935bbbe1f7f6cd43c069b45"
+    },
+    "res/BlackStudioUpdater/_internal/PySide6/Qt6Qml.dll": {
+        "sha256": "de52d79047caa9da2d3302d4ffc0601661f8959f02ff8176183ee6ef874cc4f1"
+    },
+    "res/BlackStudioUpdater/_internal/PySide6/Qt6QmlModels.dll": {
+        "sha256": "8a5daaf53b65bbebb417cf1280f5007be51eb55686911a82c19aa4ad46026903"
+    },
+    "res/BlackStudioUpdater/_internal/PySide6/Qt6Quick.dll": {
+        "sha256": "7e5b176e781cf7a5657e0c9c214753747379378ef195589d51c3f93d09ab8f40"
+    },
+    "res/BlackStudioUpdater/_internal/PySide6/Qt6Svg.dll": {
+        "sha256": "7ed21961364a2a3fa55ff3535cdf82b15a40f1a88a68c6753e1335dc11e4c43d"
+    },
+    "res/BlackStudioUpdater/_internal/PySide6/Qt6VirtualKeyboard.dll": {
+        "sha256": "148df89035d551d18749c91ce98f6f7219b82229b95fcc4e4c04cd7b074a69c5"
+    },
+    "res/BlackStudioUpdater/_internal/PySide6/Qt6Widgets.dll": {
+        "sha256": "8153dd6f3e75f021f3adfd06f2a51c49dc9486affbfe50b60d064425027ded62"
+    },
+    "res/BlackStudioUpdater/_internal/PySide6/QtCore.pyd": {
         "sha256": "cf93f7a38000cfd2cb834bf968368c9060a7bd2102d3377a2469d95b1f821b3f"
     },
-    "res/BlackStudioUpdater/PySide6/QtGui.pyd": {
+    "res/BlackStudioUpdater/_internal/PySide6/QtGui.pyd": {
         "sha256": "4d241624d7c39b1c7bd810d5724b66606a780fdb74fec38b2a0a5720faed3c92"
     },
-    "res/BlackStudioUpdater/PySide6/QtNetwork.pyd": {
+    "res/BlackStudioUpdater/_internal/PySide6/QtNetwork.pyd": {
         "sha256": "82b0f2f64bb86693f1223e81a6fe500800acd3d91f24cfdcaf959edb7e90a75c"
     },
-    "res/BlackStudioUpdater/PySide6/QtWidgets.pyd": {
+    "res/BlackStudioUpdater/_internal/PySide6/QtWidgets.pyd": {
         "sha256": "0ce69cadb94033309413af1aab1597b03cf84769728bd429b0f5ede140373871"
     },
-    "res/BlackStudioUpdater/PySide6/qt-plugins/iconengines/qsvgicon.dll": {
+    "res/BlackStudioUpdater/_internal/PySide6/plugins/generic/qtuiotouchplugin.dll": {
+        "sha256": "bec95c66ef45c07c5e6b4f1033644fa1ea98d8ca353046c57dae6e36db8dd5e9"
+    },
+    "res/BlackStudioUpdater/_internal/PySide6/plugins/iconengines/qsvgicon.dll": {
         "sha256": "a49062eefedc75177e6bd812ee7199b4ab3371c8005c9b8e66b3852a4ba1a358"
     },
-    "res/BlackStudioUpdater/PySide6/qt-plugins/imageformats/qgif.dll": {
+    "res/BlackStudioUpdater/_internal/PySide6/plugins/imageformats/qgif.dll": {
         "sha256": "4b9b705fbc0b943c94c5243afe434252d679686434856608bf59275949230e9f"
     },
-    "res/BlackStudioUpdater/PySide6/qt-plugins/imageformats/qicns.dll": {
+    "res/BlackStudioUpdater/_internal/PySide6/plugins/imageformats/qicns.dll": {
         "sha256": "31d1c2447df02d2655d6c1632553c5d51feecf68c379635bf52972dc9c9b2e12"
     },
-    "res/BlackStudioUpdater/PySide6/qt-plugins/imageformats/qico.dll": {
+    "res/BlackStudioUpdater/_internal/PySide6/plugins/imageformats/qico.dll": {
         "sha256": "9190840409c5981e21d2abf033d0631c8b17e6dcdae008431f8daad7697cd1b0"
     },
-    "res/BlackStudioUpdater/PySide6/qt-plugins/imageformats/qjpeg.dll": {
+    "res/BlackStudioUpdater/_internal/PySide6/plugins/imageformats/qjpeg.dll": {
         "sha256": "7c7e9935637e2184a5c50cdddefba4c39de63477584ca1a04a6e1a832462d7c8"
     },
-    "res/BlackStudioUpdater/PySide6/qt-plugins/imageformats/qpdf.dll": {
+    "res/BlackStudioUpdater/_internal/PySide6/plugins/imageformats/qpdf.dll": {
         "sha256": "03c87eddc4814054a20910906fc962f359b77fda427a7166d40929a40f68e7e2"
     },
-    "res/BlackStudioUpdater/PySide6/qt-plugins/imageformats/qsvg.dll": {
+    "res/BlackStudioUpdater/_internal/PySide6/plugins/imageformats/qsvg.dll": {
         "sha256": "bf1ddee8ec523f6a0dc266dd2b6caf398f5fb9fac66c3c886d1b708d46a51136"
     },
-    "res/BlackStudioUpdater/PySide6/qt-plugins/imageformats/qtga.dll": {
+    "res/BlackStudioUpdater/_internal/PySide6/plugins/imageformats/qtga.dll": {
         "sha256": "f9a3f2e921a0bef549b5face9c981de4446f1b7b9ff95d08d7676d7d4b6817c8"
     },
-    "res/BlackStudioUpdater/PySide6/qt-plugins/imageformats/qtiff.dll": {
+    "res/BlackStudioUpdater/_internal/PySide6/plugins/imageformats/qtiff.dll": {
         "sha256": "6df6ece2d3cc1e65d969751ca5713ce16390cff92fc509b8b6078ac05eb06d3a"
     },
-    "res/BlackStudioUpdater/PySide6/qt-plugins/imageformats/qwbmp.dll": {
+    "res/BlackStudioUpdater/_internal/PySide6/plugins/imageformats/qwbmp.dll": {
         "sha256": "7c7f5e8d5a07dee267ffe6689e2ff48030e859783a7ab275b2856baddc94228d"
     },
-    "res/BlackStudioUpdater/PySide6/qt-plugins/imageformats/qwebp.dll": {
+    "res/BlackStudioUpdater/_internal/PySide6/plugins/imageformats/qwebp.dll": {
         "sha256": "0aaae6636640dca7cd41ebb8a71e01fa1262f129a2d0be0e46f464f964227040"
     },
-    "res/BlackStudioUpdater/PySide6/qt-plugins/platforms/qdirect2d.dll": {
+    "res/BlackStudioUpdater/_internal/PySide6/plugins/networkinformation/qnetworklistmanager.dll": {
+        "sha256": "70b5d445f8f013df7136775625abaf4a3cc465246f68dd964188826583345681"
+    },
+    "res/BlackStudioUpdater/_internal/PySide6/plugins/platforminputcontexts/qtvirtualkeyboardplugin.dll": {
+        "sha256": "9fd6a01a3f845a081d104dbddad95f3df0b80ee71b365997a304a518f92d320c"
+    },
+    "res/BlackStudioUpdater/_internal/PySide6/plugins/platforms/qdirect2d.dll": {
         "sha256": "a49c6e7437695ba82f85bc7e46a0462f9646e2fec83af8e0d5f6fc83ce232c68"
     },
-    "res/BlackStudioUpdater/PySide6/qt-plugins/platforms/qminimal.dll": {
+    "res/BlackStudioUpdater/_internal/PySide6/plugins/platforms/qminimal.dll": {
         "sha256": "40e476905a95d16b9d71bf5869771f60be433c635904c466e0c9762c3b9dadcb"
     },
-    "res/BlackStudioUpdater/PySide6/qt-plugins/platforms/qoffscreen.dll": {
+    "res/BlackStudioUpdater/_internal/PySide6/plugins/platforms/qoffscreen.dll": {
         "sha256": "5f55b25970d49e15a416857a1fc414fa6ce65c8114274f3c11febfb74736b3f8"
     },
-    "res/BlackStudioUpdater/PySide6/qt-plugins/platforms/qwindows.dll": {
+    "res/BlackStudioUpdater/_internal/PySide6/plugins/platforms/qwindows.dll": {
         "sha256": "a7b870573859a7dc1c277d0ea97ef6116a4036be45e04bfa93daa10d100d43e4"
     },
-    "res/BlackStudioUpdater/PySide6/qt-plugins/styles/qmodernwindowsstyle.dll": {
+    "res/BlackStudioUpdater/_internal/PySide6/plugins/styles/qmodernwindowsstyle.dll": {
         "sha256": "da0d003d06f88eeff2d2be1eb08214390417dc2301256d15aaa1db2603a70064"
     },
-    "res/BlackStudioUpdater/PySide6/qt-plugins/tls/qcertonlybackend.dll": {
+    "res/BlackStudioUpdater/_internal/PySide6/plugins/tls/qcertonlybackend.dll": {
         "sha256": "a5d92fe9901c00e423bb1034ec4cf54e367b253565adf7adae7ef5d24f185206"
     },
-    "res/BlackStudioUpdater/PySide6/qt-plugins/tls/qopensslbackend.dll": {
+    "res/BlackStudioUpdater/_internal/PySide6/plugins/tls/qopensslbackend.dll": {
         "sha256": "ba7e11b44dbcf6fadbfab640533a2f1a2d1d7027f6a2187a94e93c20214b61c5"
     },
-    "res/BlackStudioUpdater/PySide6/qt-plugins/tls/qschannelbackend.dll": {
+    "res/BlackStudioUpdater/_internal/PySide6/plugins/tls/qschannelbackend.dll": {
         "sha256": "ccd117013d095fee6cbb794e0f3705f1ecb12c2bcace52bbcde21943287ba3d0"
     },
-    "res/BlackStudioUpdater/res/haip-green.ico": {
+    "res/BlackStudioUpdater/_internal/PySide6/translations/qtbase_ar.qm": {
+        "sha256": "e03fe68d83201543698fd7fe267dd5dfc5bfd195147e74ff2f19ac3491401263"
+    },
+    "res/BlackStudioUpdater/_internal/PySide6/translations/qtbase_bg.qm": {
+        "sha256": "e448ac9e3f16c29eb27af3012efe21052daa78fabfb34cd6dff2f69ee3bd3cdb"
+    },
+    "res/BlackStudioUpdater/_internal/PySide6/translations/qtbase_ca.qm": {
+        "sha256": "005b0aa0c9a5b930dfdd870661958a8069bbec862d75f98bce20bf7401bea13d"
+    },
+    "res/BlackStudioUpdater/_internal/PySide6/translations/qtbase_cs.qm": {
+        "sha256": "03028b42df5479270371e4c3bdc7df2f56cbbe6dda956a2864ac6f6415861fe8"
+    },
+    "res/BlackStudioUpdater/_internal/PySide6/translations/qtbase_da.qm": {
+        "sha256": "7d1e5ca3310b54d104c19bf2abd402b38e584e87039a70e153c4a9af74b25c22"
+    },
+    "res/BlackStudioUpdater/_internal/PySide6/translations/qtbase_de.qm": {
+        "sha256": "8e6c0b5a773e36d60942795e8971d729439d77a8613ec466fc24d0f73a2ce663"
+    },
+    "res/BlackStudioUpdater/_internal/PySide6/translations/qtbase_en.qm": {
+        "sha256": "9959b510b15d18937848ad13007e30459d2e993c67e564badbfc18f935695c85"
+    },
+    "res/BlackStudioUpdater/_internal/PySide6/translations/qtbase_es.qm": {
+        "sha256": "4ffda56ba3bb5414ab0482d1dde64a6f226e3488f6b7f3f11a150e01f53fa4c8"
+    },
+    "res/BlackStudioUpdater/_internal/PySide6/translations/qtbase_fa.qm": {
+        "sha256": "f78e59b5bdd586181a999034ba418868ed17fe9c05707fb65e523f70e92253d2"
+    },
+    "res/BlackStudioUpdater/_internal/PySide6/translations/qtbase_fi.qm": {
+        "sha256": "e47fe13713e184d07fa4495dde0c589b0e8f562e91574a3558a9363443a4fa72"
+    },
+    "res/BlackStudioUpdater/_internal/PySide6/translations/qtbase_fr.qm": {
+        "sha256": "314243a55c32679ad473fdfe48dc7d66e973ad0fc8bf2164480c58dddb50c1a7"
+    },
+    "res/BlackStudioUpdater/_internal/PySide6/translations/qtbase_gd.qm": {
+        "sha256": "63b439dd44139aa3aed54c2ebe03fa9bc77f22c14ed8fba8eff2608445bb233d"
+    },
+    "res/BlackStudioUpdater/_internal/PySide6/translations/qtbase_he.qm": {
+        "sha256": "e1ebca16afe8994356f81ca007fbdb9ddf865842010fe908923d873b687cad3f"
+    },
+    "res/BlackStudioUpdater/_internal/PySide6/translations/qtbase_hr.qm": {
+        "sha256": "bb9eec9a9a652c1340dc75eb2e749be50df00f885b3d6900dfc76799c45b244d"
+    },
+    "res/BlackStudioUpdater/_internal/PySide6/translations/qtbase_hu.qm": {
+        "sha256": "6cf10d2b00cf6910e9d04a814684fe0213c395650baabfa04fd6adf49c00a16b"
+    },
+    "res/BlackStudioUpdater/_internal/PySide6/translations/qtbase_it.qm": {
+        "sha256": "7808ed542a7833c4bd94ec8bdfbbca00bb4f2fe15979b9121ce3249323687300"
+    },
+    "res/BlackStudioUpdater/_internal/PySide6/translations/qtbase_ja.qm": {
+        "sha256": "2b9581c69b975f59be505b127cd3c19d403ef3d12e0e8386fb97238223e9c1df"
+    },
+    "res/BlackStudioUpdater/_internal/PySide6/translations/qtbase_ka.qm": {
+        "sha256": "e55e4b72fa620bebee5297ca59dfe2f49894a1e544f2b7485b1cfd8829289d6f"
+    },
+    "res/BlackStudioUpdater/_internal/PySide6/translations/qtbase_ko.qm": {
+        "sha256": "0179ed1b136e1cb3f583351eaa2c545ba3d83a6ee3f82c32505926a1a5f5f183"
+    },
+    "res/BlackStudioUpdater/_internal/PySide6/translations/qtbase_lv.qm": {
+        "sha256": "846e047573ae40c83671c3ba7f73e27efc24b98c82701da0df9973e574178bb2"
+    },
+    "res/BlackStudioUpdater/_internal/PySide6/translations/qtbase_nl.qm": {
+        "sha256": "f61513bcdbb6ad800585f9437a95d018aab17fa12ee414aa31462ff279d8240e"
+    },
+    "res/BlackStudioUpdater/_internal/PySide6/translations/qtbase_nn.qm": {
+        "sha256": "983734b40aa4d250421ba0d1614416cb8b424d6f140f4a7dbf8b11e65eef63dc"
+    },
+    "res/BlackStudioUpdater/_internal/PySide6/translations/qtbase_pl.qm": {
+        "sha256": "3cf6b5c14d5eb0cf81e9af2066e66b3aa579a6b9b3c323ed670761f6254a8c54"
+    },
+    "res/BlackStudioUpdater/_internal/PySide6/translations/qtbase_pt_BR.qm": {
+        "sha256": "8344f5bc333c45d37cfd425a09124eb11f12439f33737ec0b8683d04a416746e"
+    },
+    "res/BlackStudioUpdater/_internal/PySide6/translations/qtbase_ru.qm": {
+        "sha256": "3da6605668f9178d11a838c4515478084dcfb4f9cf22f99d7a92b492db9c224b"
+    },
+    "res/BlackStudioUpdater/_internal/PySide6/translations/qtbase_sk.qm": {
+        "sha256": "d586ae2c314074cf398417fdecb40709d5478dfeb0a67c2fe60d509ee9b59ed7"
+    },
+    "res/BlackStudioUpdater/_internal/PySide6/translations/qtbase_tr.qm": {
+        "sha256": "4013c3340dab7ae2ae594bfb779a15d9e65c8ee3e7b34e11074ef9295250de02"
+    },
+    "res/BlackStudioUpdater/_internal/PySide6/translations/qtbase_uk.qm": {
+        "sha256": "51b8ff55b37dc5907d637a8ddda12fbe816852b0244c74eb4f0fb84867a786e0"
+    },
+    "res/BlackStudioUpdater/_internal/PySide6/translations/qtbase_zh_CN.qm": {
+        "sha256": "98fd4b97dbec8af5cdd15f85a16c33efc77301b1aeb0469daafc04b9ab2f3570"
+    },
+    "res/BlackStudioUpdater/_internal/PySide6/translations/qtbase_zh_TW.qm": {
+        "sha256": "21012b2b427f8d09d31ce9cae582ca27955b478ca3dc2ec18a3068d808638c6a"
+    },
+    "res/BlackStudioUpdater/_internal/PySide6/translations/qt_ar.qm": {
+        "sha256": "b11333c520ccd8e375cde20985df402d586a1a95e0796313bbeb9f717d4db22e"
+    },
+    "res/BlackStudioUpdater/_internal/PySide6/translations/qt_bg.qm": {
+        "sha256": "1e22ee126ec9f76031d880285a907b3a0c4510392319ff700dcdee964abbb1ad"
+    },
+    "res/BlackStudioUpdater/_internal/PySide6/translations/qt_ca.qm": {
+        "sha256": "17ab2623c7f6e8def44b3dbcb517544185817d65f1298ddb10ef71136f232bdc"
+    },
+    "res/BlackStudioUpdater/_internal/PySide6/translations/qt_cs.qm": {
+        "sha256": "c585918fb1d4821a054ea40bdcf279f275ca76c88a5793f433dac6a611ac7e8f"
+    },
+    "res/BlackStudioUpdater/_internal/PySide6/translations/qt_da.qm": {
+        "sha256": "f6773c672acb73fdef6e092060d69d1e5dfee840012bac912d1e92de28714386"
+    },
+    "res/BlackStudioUpdater/_internal/PySide6/translations/qt_de.qm": {
+        "sha256": "0401c316aa3b50a172eb44a4ff1ec384924073beec7c928ef888ec48e4612688"
+    },
+    "res/BlackStudioUpdater/_internal/PySide6/translations/qt_en.qm": {
+        "sha256": "9959b510b15d18937848ad13007e30459d2e993c67e564badbfc18f935695c85"
+    },
+    "res/BlackStudioUpdater/_internal/PySide6/translations/qt_es.qm": {
+        "sha256": "648ed4519bc45d7a4779479a7626ea16cf9aa23e93a0b178546cc47bea0591ab"
+    },
+    "res/BlackStudioUpdater/_internal/PySide6/translations/qt_fa.qm": {
+        "sha256": "3f4c989c6b2990d80cc6299408214b31698923b52f154483b3371875de91f88e"
+    },
+    "res/BlackStudioUpdater/_internal/PySide6/translations/qt_fi.qm": {
+        "sha256": "342d01c7eeb234e431d0506821c4cd03c0433115d8d63fee3357be2331858879"
+    },
+    "res/BlackStudioUpdater/_internal/PySide6/translations/qt_fr.qm": {
+        "sha256": "c896a38892a92346b033793d56440993236b23e47e06f3974afdb0552f628387"
+    },
+    "res/BlackStudioUpdater/_internal/PySide6/translations/qt_gd.qm": {
+        "sha256": "49df855a004a17950338af3146466f6df4d5852410bd0b58ea80e0d0203a9d24"
+    },
+    "res/BlackStudioUpdater/_internal/PySide6/translations/qt_gl.qm": {
+        "sha256": "204a01ac7deb6b5bae193afecbd1e50d18c73bf7d94badeb2bbfdf6123c4ed93"
+    },
+    "res/BlackStudioUpdater/_internal/PySide6/translations/qt_he.qm": {
+        "sha256": "36f01fff2f25e116d4b7af78097b7e49520fd5b7fb6fb120e40be228c05c045f"
+    },
+    "res/BlackStudioUpdater/_internal/PySide6/translations/qt_help_ar.qm": {
+        "sha256": "222088c9752d1cc3bab985ef2dc77e5ae78578dce18a61ec15b39f02e588163d"
+    },
+    "res/BlackStudioUpdater/_internal/PySide6/translations/qt_help_bg.qm": {
+        "sha256": "cbcdd1e0bbae332d80ddb0a286056f17c824fa28d353d7fdf12fc97d9f6fe054"
+    },
+    "res/BlackStudioUpdater/_internal/PySide6/translations/qt_help_ca.qm": {
+        "sha256": "8c98b5ee246e18397d0de7bd76b2891773a975553ec5dcdce42f8a696e5b34de"
+    },
+    "res/BlackStudioUpdater/_internal/PySide6/translations/qt_help_cs.qm": {
+        "sha256": "4ac56fc63e400943bab13f1d4c418502138908e1d488c24aee6131d3d17552aa"
+    },
+    "res/BlackStudioUpdater/_internal/PySide6/translations/qt_help_da.qm": {
+        "sha256": "6bb092552a398687119f6d52145f04bf8373977446d8f00c0dcbd56b96829f0f"
+    },
+    "res/BlackStudioUpdater/_internal/PySide6/translations/qt_help_de.qm": {
+        "sha256": "9962523fbae9f1e4c3b5c3c16860d059291cb30dc5ebe5a5eda4c836a03fed1e"
+    },
+    "res/BlackStudioUpdater/_internal/PySide6/translations/qt_help_en.qm": {
+        "sha256": "9959b510b15d18937848ad13007e30459d2e993c67e564badbfc18f935695c85"
+    },
+    "res/BlackStudioUpdater/_internal/PySide6/translations/qt_help_es.qm": {
+        "sha256": "fd16b279f8cf69077f75e94d90c9c07a2afff3948a579e3789f5ffb5e5f4202d"
+    },
+    "res/BlackStudioUpdater/_internal/PySide6/translations/qt_help_fr.qm": {
+        "sha256": "875ee2dcdc64e3dea888d84048e382d3921a175f12847de2e6b1cb12ad9add50"
+    },
+    "res/BlackStudioUpdater/_internal/PySide6/translations/qt_help_gl.qm": {
+        "sha256": "7399a248609974773f60866c87b78ea7dfbc4f750313d692f7886cd763883c9f"
+    },
+    "res/BlackStudioUpdater/_internal/PySide6/translations/qt_help_hr.qm": {
+        "sha256": "8c8cc3c5b1ab2b074f82937001b896603420ef75592b3b78172177360dd7ea61"
+    },
+    "res/BlackStudioUpdater/_internal/PySide6/translations/qt_help_hu.qm": {
+        "sha256": "8e71cba20ba79902afd79554ab490a387eba6dba7143b4db22d60e08fdf8be0b"
+    },
+    "res/BlackStudioUpdater/_internal/PySide6/translations/qt_help_it.qm": {
+        "sha256": "316fe8d0815e2b4b396895beb38ef1a40431915b5e054df80f4c0cd556f26e4b"
+    },
+    "res/BlackStudioUpdater/_internal/PySide6/translations/qt_help_ja.qm": {
+        "sha256": "ae603b2c0d434d40cde433ffcba65f9ee27978a9e19316007be7fe782a5b8b47"
+    },
+    "res/BlackStudioUpdater/_internal/PySide6/translations/qt_help_ka.qm": {
+        "sha256": "159c74f94b384b5ee6afdf38b6cfc4806bc99ecf73be02d4a7021d4ceba7ec7e"
+    },
+    "res/BlackStudioUpdater/_internal/PySide6/translations/qt_help_ko.qm": {
+        "sha256": "f11c64694e8e34e1d2c46c1a1d15d6ba9f2db7b61de4fdf54eca5ab977c3e052"
+    },
+    "res/BlackStudioUpdater/_internal/PySide6/translations/qt_help_nl.qm": {
+        "sha256": "44a8a0daf775d14352180052d13f623814d7bdf98e2c5c80144b7bf74214e3b0"
+    },
+    "res/BlackStudioUpdater/_internal/PySide6/translations/qt_help_nn.qm": {
+        "sha256": "4c8a7213942078e4f72f5babd26c41b77ace70189714a58b5504a7d5ad0193dc"
+    },
+    "res/BlackStudioUpdater/_internal/PySide6/translations/qt_help_pl.qm": {
+        "sha256": "cc6cb4d8c54086224672f2e49e623c8cb7c0c1cd65b8d5ecd42fc9ba3a6065bd"
+    },
+    "res/BlackStudioUpdater/_internal/PySide6/translations/qt_help_pt_BR.qm": {
+        "sha256": "17a164045c0fc53d0507cfc90c3970fe1afdfa1c4a8e5c881d34fa1f86a821bf"
+    },
+    "res/BlackStudioUpdater/_internal/PySide6/translations/qt_help_ru.qm": {
+        "sha256": "557b644e6da5f1ec720ef93965617087e4d1f40b2494cc5aa524cf3796108de7"
+    },
+    "res/BlackStudioUpdater/_internal/PySide6/translations/qt_help_sk.qm": {
+        "sha256": "f41e33e1d790bd0d3eb180f1f875bc191fe74773628f25c2cad95e1402e66867"
+    },
+    "res/BlackStudioUpdater/_internal/PySide6/translations/qt_help_sl.qm": {
+        "sha256": "2ec955e662407ebcd8dcdae5aaa21e4108e0b5b0aee0e9db712c27072943535f"
+    },
+    "res/BlackStudioUpdater/_internal/PySide6/translations/qt_help_tr.qm": {
+        "sha256": "6ec2b8c5c775bc76d258d325a1dc9792ab5c1d8eeaf08f41b0f938b02cd4642e"
+    },
+    "res/BlackStudioUpdater/_internal/PySide6/translations/qt_help_uk.qm": {
+        "sha256": "497cfc473684692ee44d7a3795e8fb2270c57069fd9eb98a615dd29ab9be8a7c"
+    },
+    "res/BlackStudioUpdater/_internal/PySide6/translations/qt_help_zh_CN.qm": {
+        "sha256": "e256d1f6034a5a5521c62f129f91731216e474f71e1d9caea3d3dcb11b670deb"
+    },
+    "res/BlackStudioUpdater/_internal/PySide6/translations/qt_help_zh_TW.qm": {
+        "sha256": "67e6df0a6c65e0fcf33798dfb417f9bbf0cde4512b56e9e3149aa5d18f7b0198"
+    },
+    "res/BlackStudioUpdater/_internal/PySide6/translations/qt_hr.qm": {
+        "sha256": "fc9e4146f33be3d09b234be01e56235d3037d8d82d64f0700b4d4a6e253a61a7"
+    },
+    "res/BlackStudioUpdater/_internal/PySide6/translations/qt_hu.qm": {
+        "sha256": "c2fa649f167cdb801d1cc0cb69c1d93594fd5bf8c0b7e79b969935da5c3e19aa"
+    },
+    "res/BlackStudioUpdater/_internal/PySide6/translations/qt_it.qm": {
+        "sha256": "9e7a18bc20ebeec54baaaf41c918a74534511271f796dffffd0f9b9ec31c68d3"
+    },
+    "res/BlackStudioUpdater/_internal/PySide6/translations/qt_ja.qm": {
+        "sha256": "0f5fe50452947d1ee9755249d860354bff6977279b4c496a5bc77e5b89dd745e"
+    },
+    "res/BlackStudioUpdater/_internal/PySide6/translations/qt_ka.qm": {
+        "sha256": "00b67c6dfc255079b5b98a5640f82519c96b2520a028682fba4078b39d743eaa"
+    },
+    "res/BlackStudioUpdater/_internal/PySide6/translations/qt_ko.qm": {
+        "sha256": "1d254b535e1cb35cbcad8210b15b89f4488159826bf35b4504696263dd102fa3"
+    },
+    "res/BlackStudioUpdater/_internal/PySide6/translations/qt_lt.qm": {
+        "sha256": "47eb5f97467df769261421d54a5bea1131c9fb9b6388791d38bb6574335b64bf"
+    },
+    "res/BlackStudioUpdater/_internal/PySide6/translations/qt_lv.qm": {
+        "sha256": "addeca285282338294f24ca50d37d08a5f68d3785d0a94af86dd4ec8f2a3b449"
+    },
+    "res/BlackStudioUpdater/_internal/PySide6/translations/qt_nl.qm": {
+        "sha256": "39e870cbd25c0f97fa9b1828d5ea1ed9849857a2e26c5321b3f13c76be8f0548"
+    },
+    "res/BlackStudioUpdater/_internal/PySide6/translations/qt_nn.qm": {
+        "sha256": "4e544e23f75eafe1553dc896973db23b5795cd243786d5c653cc0f36a46ca74f"
+    },
+    "res/BlackStudioUpdater/_internal/PySide6/translations/qt_pl.qm": {
+        "sha256": "e6890afa0caf0f6db0248e4c94f6016b8ec8bc266f1e0e9b8f01e8ea912cf968"
+    },
+    "res/BlackStudioUpdater/_internal/PySide6/translations/qt_pt_BR.qm": {
+        "sha256": "0e24c58e35271853f8cdfb3f0f7b0741b5a9a588e43cdec62ae85a3842771e0a"
+    },
+    "res/BlackStudioUpdater/_internal/PySide6/translations/qt_pt_PT.qm": {
+        "sha256": "2c1e7bbf5168a64b43752dd4c547601c0bde6d610f8671fa3e3af38597e84783"
+    },
+    "res/BlackStudioUpdater/_internal/PySide6/translations/qt_ru.qm": {
+        "sha256": "1b388e2d6d1bd405603e794e498c6d7ec5f5a5ad819243546f6399181da36758"
+    },
+    "res/BlackStudioUpdater/_internal/PySide6/translations/qt_sk.qm": {
+        "sha256": "840c3b01c89df976fc1d2e5bfc6fc84b65666b8a3ceb4cbf5aa0c22af3d2a383"
+    },
+    "res/BlackStudioUpdater/_internal/PySide6/translations/qt_sl.qm": {
+        "sha256": "c44e0313a9414cc0e490b65b0c036fa11bca959353b228886547bc2c8492034f"
+    },
+    "res/BlackStudioUpdater/_internal/PySide6/translations/qt_sv.qm": {
+        "sha256": "4b4b6ff7fd237c9da0301b4946132e68653d15eb5faf38e4c5fbfebb12dd97f7"
+    },
+    "res/BlackStudioUpdater/_internal/PySide6/translations/qt_tr.qm": {
+        "sha256": "59e8a0c411be3b0802a68561b090f182099d6b75c4fe46f398e55f11528e11b9"
+    },
+    "res/BlackStudioUpdater/_internal/PySide6/translations/qt_uk.qm": {
+        "sha256": "053ec1f677c4dba48c6a97eb28f4fc78c1511324d1843d7f4cec2c7c00a66145"
+    },
+    "res/BlackStudioUpdater/_internal/PySide6/translations/qt_zh_CN.qm": {
+        "sha256": "c0e29d32c9540a7e78643b74214e633c56f6ab11f018e516629f2c11b1fb09fc"
+    },
+    "res/BlackStudioUpdater/_internal/PySide6/translations/qt_zh_TW.qm": {
+        "sha256": "24e226954491689549a1a1990db3b8cb78888008d8163b2fd2442b772b6d1b5f"
+    },
+    "res/BlackStudioUpdater/_internal/res/haip-green.ico": {
         "sha256": "6ca679044e42bc15e36cdf2158f19c2d769c27c55f1ecb038ba445251c3432d4"
     },
-    "res/BlackStudioUpdater/shiboken6/Shiboken.pyd": {
+    "res/BlackStudioUpdater/_internal/shiboken6/Shiboken.pyd": {
         "sha256": "f78e20a0b37ba3829778e75a41a84344a498c7d1d6051c6f8bf08f751bb6528b"
     },
-    "res/BlackStudioUpdater/yarl/_quoting_c.pyd": {
+    "res/BlackStudioUpdater/_internal/shiboken6/shiboken6.abi3.dll": {
+        "sha256": "93911b2c8c6c5f536b64ff880555a25358698dd4fe7ba1ccffc7dedca153b323"
+    },
+    "res/BlackStudioUpdater/_internal/yaml/_yaml.cp312-win_amd64.pyd": {
+        "sha256": "071edefcb110c7b727775fc0f7f9c2969dd7efb83efcbc356a8000b5865bc169"
+    },
+    "res/BlackStudioUpdater/_internal/yarl/_quoting_c.cp312-win_amd64.pyd": {
         "sha256": "a31202d5780c233e3fa7197dd457ddad094b10768a3426d927785e69668f50be"
     },
-    "res/BlackStudioUpdater/zstandard/backend_c.pyd": {
+    "res/BlackStudioUpdater/_internal/zstandard/backend_c.cp312-win_amd64.pyd": {
         "sha256": "641e0b0fa75764812fff544c174f7c4838b57f6272eaae246eb7c483a0a35afc"
     },
-    "res/BlackStudioUpdater/zstandard/_cffi.pyd": {
+    "res/BlackStudioUpdater/_internal/zstandard/_cffi.cp312-win_amd64.pyd": {
         "sha256": "14db1d573f7ba8f41563bbc7cda6f1a46e5f86c1b7096d298593971a0b1c6c60"
     },
     "share/tcl8/8.4/platform-1.0.19.tm": {
