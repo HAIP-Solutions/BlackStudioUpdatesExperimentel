@@ -12,11 +12,13 @@ PySide6.QtQuickControls2, except for defaults which are replaced by "...".
 import PySide6.QtQuickControls2
 import PySide6.QtCore
 
-from typing import List, List, Optional
+from typing import List, Optional
 from shiboken6 import Shiboken
+from typing import TypeAlias, TypeVar
 
 
 NoneType: TypeAlias = type[None]
+PlaceHolderType = TypeVar("PlaceHolderType", bound=QObject)
 
 
 class QIntList(object): ...

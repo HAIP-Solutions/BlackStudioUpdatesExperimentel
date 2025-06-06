@@ -1047,7 +1047,7 @@
                         "arguments": [
                             {
                                 "name": "errorCode",
-                                "type": "quint32"
+                                "type": "Http2::Http2Error"
                             },
                             {
                                 "name": "errorString",
@@ -1133,7 +1133,7 @@
                         "arguments": [
                             {
                                 "name": "errorCode",
-                                "type": "quint32"
+                                "type": "Http2::Http2Error"
                             }
                         ],
                         "name": "sendRST_STREAM",
@@ -1312,7 +1312,7 @@
                         "arguments": [
                             {
                                 "name": "errorCode",
-                                "type": "quint32"
+                                "type": "Http2::Http2Error"
                             },
                             {
                                 "name": "lastStreamID",
@@ -2981,7 +2981,7 @@
                                 "type": "QString"
                             }
                         ],
-                        "name": "error",
+                        "name": "networkError",
                         "returnType": "void"
                     }
                 ],

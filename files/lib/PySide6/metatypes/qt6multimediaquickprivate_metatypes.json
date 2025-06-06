@@ -312,6 +312,30 @@
                 "classInfos": [
                     {
                         "name": "QML.Element",
+                        "value": "VideoSink"
+                    }
+                ],
+                "className": "QQuickVideoSink",
+                "object": true,
+                "qualifiedClassName": "QQuickVideoSink",
+                "signals": [
+                    {
+                        "access": "public",
+                        "name": "videoFrameChanged",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QVideoSink"
+                    }
+                ]
+            },
+            {
+                "classInfos": [
+                    {
+                        "name": "QML.Element",
                         "value": "VideoOutput"
                     }
                 ],
@@ -735,21 +759,6 @@
                 "className": "QCameraFormatForeign",
                 "gadget": true,
                 "qualifiedClassName": "QCameraFormatForeign"
-            },
-            {
-                "classInfos": [
-                    {
-                        "name": "QML.Foreign",
-                        "value": "QVideoSink"
-                    },
-                    {
-                        "name": "QML.Element",
-                        "value": "VideoSink"
-                    }
-                ],
-                "className": "QVideoSinkForeign",
-                "gadget": true,
-                "qualifiedClassName": "QVideoSinkForeign"
             },
             {
                 "classInfos": [

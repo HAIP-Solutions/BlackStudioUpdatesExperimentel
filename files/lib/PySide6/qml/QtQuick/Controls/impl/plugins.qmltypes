@@ -61,7 +61,9 @@ Module {
                 "MenuBarFocusOnAltPressRelease",
                 "MouseCursorTheme",
                 "MouseCursorSize",
-                "UnderlineShortcut"
+                "UnderlineShortcut",
+                "ShowIconsInMenus",
+                "PreferFileIconFromTheme"
             ]
         }
         Enum {

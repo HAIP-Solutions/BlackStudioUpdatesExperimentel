@@ -14,12 +14,14 @@ import PySide6.QtCore
 
 import os
 import enum
-from typing import Any, ClassVar, List, List, Optional, Tuple, Tuple, Union, overload
+from typing import Any, ClassVar, List, Optional, Tuple, Union, overload
 from PySide6.QtCore import Signal
 from shiboken6 import Shiboken
+from typing import TypeAlias, TypeVar
 
 
 NoneType: TypeAlias = type[None]
+PlaceHolderType = TypeVar("PlaceHolderType", bound=QObject)
 
 
 class QAccelerometer(PySide6.QtSensors.QSensor):
