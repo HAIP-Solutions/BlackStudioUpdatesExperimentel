@@ -25,9 +25,7 @@ icon =
 python_path =
 
 # python packages to install
-# ordered-set: increase compile time performance of nuitka packaging
-# zstandard: provides final executable size optimization
-packages = Nuitka==2.1
+packages = Nuitka==2.4.8
 
 # buildozer: for deploying Android application
 android_packages = buildozer==1.5.0,cython==0.29.33
@@ -64,6 +62,9 @@ plugins =
 # of the app bundle
 # eg: NSCameraUsageDescription:CameraAccess
 macos.permissions =
+
+# mode of using Nuitka. Accepts standalone or onefile. Default is onefile.
+mode = onefile
 
 # (str) specify any extra nuitka arguments
 # eg: extra_args = --show-modules --follow-stdlib

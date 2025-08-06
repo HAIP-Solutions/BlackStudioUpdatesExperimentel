@@ -13,11 +13,13 @@ import PySide6.QtXml
 import PySide6.QtCore
 
 import enum
-from typing import List, Text, Tuple, Tuple, Type, Union, overload
+from typing import List, Text, Tuple, Type, Union, overload
 from shiboken6 import Shiboken
+from typing import TypeAlias, TypeVar
 
 
 NoneType: TypeAlias = type[None]
+PlaceHolderType = TypeVar("PlaceHolderType", bound=QObject)
 
 
 class QDomAttr(PySide6.QtXml.QDomNode):

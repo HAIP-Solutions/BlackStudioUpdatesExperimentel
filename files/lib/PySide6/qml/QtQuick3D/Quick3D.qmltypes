@@ -4739,14 +4739,6 @@ Module {
             name: "setInverseBindPoses"
             Parameter { name: "poses"; type: "QMatrix4x4"; isList: true }
         }
-        Method {
-            name: "onJointChanged"
-            Parameter { name: "node"; type: "QQuick3DNode"; isPointer: true }
-        }
-        Method {
-            name: "onJointDestroyed"
-            Parameter { name: "object"; type: "QObject"; isPointer: true }
-        }
     }
     Component {
         file: "private/qquick3dspecularglossymaterial_p.h"
