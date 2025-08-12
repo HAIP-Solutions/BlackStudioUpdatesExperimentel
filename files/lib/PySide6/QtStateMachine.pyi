@@ -14,11 +14,13 @@ import PySide6.QtCore
 import PySide6.QtGui
 
 import enum
-from typing import Any, Any, ClassVar, List, List, Optional, Sequence, Set, Set, Type, Type, Union, overload
-from PySide6.QtCore import Signal, Signal
+from typing import Any, ClassVar, List, Optional, Sequence, Set, Type, Union, overload
+from PySide6.QtCore import Signal
+from typing import TypeAlias, TypeVar
 
 
 NoneType: TypeAlias = type[None]
+PlaceHolderType = TypeVar("PlaceHolderType", bound=QObject)
 
 
 class QAbstractState(PySide6.QtCore.QObject):

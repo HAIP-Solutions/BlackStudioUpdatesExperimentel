@@ -13,12 +13,14 @@ import PySide6.QtDBus
 import PySide6.QtCore
 
 import enum
-from typing import Any, Any, ClassVar, Dict, List, List, Optional, Sequence, Type, Type, Union, overload
+from typing import Any, ClassVar, Dict, List, Optional, Sequence, Type, Union, overload
 from PySide6.QtCore import Signal
 from shiboken6 import Shiboken
+from typing import TypeAlias, TypeVar
 
 
 NoneType: TypeAlias = type[None]
+PlaceHolderType = TypeVar("PlaceHolderType", bound=QObject)
 
 
 class QDBus(Shiboken.Object):

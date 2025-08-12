@@ -15,12 +15,14 @@ import PySide6.QtGui
 import PySide6.QtWidgets
 
 import enum
-from typing import Any, Any, ClassVar, Dict, Dict, List, List, Optional, Sequence, Tuple, Tuple, Union, overload
+from typing import Any, ClassVar, Dict, List, Optional, Sequence, Tuple, Union, overload
 from PySide6.QtCore import Signal
 from shiboken6 import Shiboken
+from typing import TypeAlias, TypeVar
 
 
 NoneType: TypeAlias = type[None]
+PlaceHolderType = TypeVar("PlaceHolderType", bound=QObject)
 
 
 class QCompressedHelpInfo(Shiboken.Object):

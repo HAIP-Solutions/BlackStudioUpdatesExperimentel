@@ -84,11 +84,9 @@ static PyObject *convertToPrimitiveType(const QVariant &out, int metaTypeId)
         return PyFloat_FromDouble(out.toFloat());
     case QMetaType::Bool:
         if (out.toBool()) {
-            Py_INCREF(Py_True);
-            return Py_True;
+            Py_RETURN_TRUE;
         }
-        Py_INCREF(Py_False);
-        return Py_False;
+        Py_RETURN_FALSE;
     default:
         break;
     }
@@ -632,20 +630,16 @@ if (ret == nullptr) {
 // @snippet qbytearray-mgetitem
 if (PyIndex_Check(_key)) {
     const Py_ssize_t _i = PyNumber_AsSsize_t(_key, PyExc_IndexError);
-    if (_i < 0 || _i >= %CPPSELF.size()) {
-        PyErr_SetString(PyExc_IndexError, "index out of bounds");
-        return nullptr;
-    }
+    if (_i < 0 || _i >= %CPPSELF.size())
+        return PyErr_Format(PyExc_IndexError, "index out of bounds");
     char res[2] = {%CPPSELF.at(_i), '\0'};
     return PyBytes_FromStringAndSize(res, 1);
 }
 
-if (PySlice_Check(_key) == 0) {
-    PyErr_Format(PyExc_TypeError,
+if (PySlice_Check(_key) == 0)
+    return PyErr_Format(PyExc_TypeError,
                  "list indices must be integers or slices, not %.200s",
                  Py_TYPE(_key)->tp_name);
-    return nullptr;
-}
 
 Py_ssize_t start, stop, step, slicelength;
 if (PySlice_GetIndicesEx(_key, %CPPSELF.size(), &start, &stop, &step, &slicelength) < 0)
@@ -1028,6 +1022,8 @@ void QSingleShotTimerFunctor::operator()()
     Shiboken::GilState state;
     Shiboken::AutoDecRef arglist(PyTuple_New(0));
     Shiboken::AutoDecRef ret(PyObject_CallObject(object(), arglist));
+    if (Shiboken::Errors::occurred())
+        Shiboken::Errors::storeErrorOrPrint();
     release(); // single shot
 }
 // @snippet qtimer-singleshot-functorclass
@@ -2075,7 +2071,7 @@ if ((classMethod && (count > 2)) || (!classMethod && (count > 1))) {
 
 bool arg_qpermission = (classMethod && (count == 2)) || (!classMethod && (count == 1));
 
-auto callback = [callable, count, arg_qpermission](const QPermission &permission) -> void
+auto callback = [callable, arg_qpermission](const QPermission &permission) -> void
 {
     Shiboken::GilState state;
     if (arg_qpermission) {

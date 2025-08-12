@@ -17,11 +17,13 @@ import PySide6.QtQml
 import PySide6.QtQuick
 
 import enum
-from typing import Any, ClassVar, List, List, Optional, Union, overload
+from typing import Any, ClassVar, List, Optional, Union, overload
 from PySide6.QtCore import Signal
+from typing import TypeAlias, TypeVar
 
 
 NoneType: TypeAlias = type[None]
+PlaceHolderType = TypeVar("PlaceHolderType", bound=QObject)
 
 
 class QIntList(object): ...

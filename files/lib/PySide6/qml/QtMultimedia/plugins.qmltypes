@@ -583,11 +583,6 @@ Module {
             Parameter { name: "colorTemperature"; type: "int" }
         }
         Method {
-            name: "_q_error"
-            Parameter { type: "int" }
-            Parameter { type: "QString" }
-        }
-        Method {
             name: "isFocusModeSupported"
             type: "bool"
             Parameter { name: "mode"; type: "FocusMode" }
@@ -1906,6 +1901,15 @@ Module {
         Method { name: "videoSink"; type: "QVideoSink"; isPointer: true }
     }
     Component {
+        file: "private/qquickvideooutput_p.h"
+        name: "QQuickVideoSink"
+        accessSemantics: "reference"
+        prototype: "QVideoSink"
+        exports: ["QtMultimedia/VideoSink 6.0"]
+        exportMetaObjectRevisions: [1536]
+        Signal { name: "videoFrameChanged" }
+    }
+    Component {
         file: "private/qtmultimediaquicktypes_p.h"
         name: "QScreenCapture"
         accessSemantics: "reference"
@@ -2291,12 +2295,10 @@ Module {
         Method { name: "stop" }
     }
     Component {
-        file: "private/qtmultimediaquicktypes_p.h"
+        file: "qvideosink.h"
         name: "QVideoSink"
         accessSemantics: "reference"
         prototype: "QObject"
-        exports: ["QtMultimedia/VideoSink 6.0"]
-        exportMetaObjectRevisions: [1536]
         Property {
             name: "subtitleText"
             type: "QString"
