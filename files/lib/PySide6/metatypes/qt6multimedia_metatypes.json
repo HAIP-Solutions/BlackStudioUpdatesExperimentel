@@ -25,6 +25,11 @@
                         ],
                         "name": "activeChanged",
                         "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "errorChanged",
+                        "returnType": "void"
                     }
                 ],
                 "superClasses": [
@@ -1557,19 +1562,6 @@
                             }
                         ],
                         "name": "setColorTemperature",
-                        "returnType": "void"
-                    },
-                    {
-                        "access": "private",
-                        "arguments": [
-                            {
-                                "type": "int"
-                            },
-                            {
-                                "type": "QString"
-                            }
-                        ],
-                        "name": "_q_error",
                         "returnType": "void"
                     }
                 ],
@@ -3872,14 +3864,14 @@
                         "arguments": [
                             {
                                 "name": "error",
-                                "type": "int"
+                                "type": "QCamera::Error"
                             },
                             {
                                 "name": "errorString",
                                 "type": "QString"
                             }
                         ],
-                        "name": "error",
+                        "name": "errorOccurred",
                         "returnType": "void"
                     }
                 ],
@@ -4154,11 +4146,6 @@
                     },
                     {
                         "access": "public",
-                        "name": "errorChanged",
-                        "returnType": "void"
-                    },
-                    {
-                        "access": "public",
                         "arguments": [
                             {
                                 "name": "error",
@@ -4264,11 +4251,23 @@
                 "signals": [
                     {
                         "access": "public",
+                        "arguments": [
+                            {
+                                "name": "self",
+                                "type": "QPointer<QSample>"
+                            }
+                        ],
                         "name": "error",
                         "returnType": "void"
                     },
                     {
                         "access": "public",
+                        "arguments": [
+                            {
+                                "name": "self",
+                                "type": "QPointer<QSample>"
+                            }
+                        ],
                         "name": "ready",
                         "returnType": "void"
                     }

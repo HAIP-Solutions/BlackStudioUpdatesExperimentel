@@ -5089,8 +5089,6 @@ Module {
             name: "handleMeshSmoothChanged"
             Parameter { name: "enable"; type: "bool" }
         }
-        Method { name: "handleRowCountChanged" }
-        Method { name: "handleColCountChanged" }
         Method { name: "handleCameraRotationChanged" }
         Method { name: "handleArrayReset" }
         Method {

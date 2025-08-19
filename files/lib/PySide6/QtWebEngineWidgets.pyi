@@ -18,9 +18,11 @@ import PySide6.QtWebEngineCore
 
 from typing import ClassVar, Optional, Set, Union, overload
 from PySide6.QtCore import Signal
+from typing import TypeAlias, TypeVar
 
 
 NoneType: TypeAlias = type[None]
+PlaceHolderType = TypeVar("PlaceHolderType", bound=QObject)
 
 
 class QIntList(object): ...

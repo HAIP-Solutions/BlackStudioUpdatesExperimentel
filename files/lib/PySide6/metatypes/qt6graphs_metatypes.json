@@ -2161,16 +2161,6 @@
                     },
                     {
                         "access": "public",
-                        "name": "handleRowCountChanged",
-                        "returnType": "void"
-                    },
-                    {
-                        "access": "public",
-                        "name": "handleColCountChanged",
-                        "returnType": "void"
-                    },
-                    {
-                        "access": "public",
                         "name": "handleCameraRotationChanged",
                         "returnType": "void"
                     },
