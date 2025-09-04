@@ -13,7 +13,7 @@
                 ]
             }
         ],
-        "inputFile": "ui_delegates_manager.h",
+        "inputFile": "ui_delegates_manager_p.h",
         "outputRevision": 68
     },
     {
@@ -978,9 +978,33 @@
     {
         "classes": [
             {
-                "className": "FaviconImageResponseRunnable",
+                "className": "FaviconImageResponse",
                 "object": true,
-                "qualifiedClassName": "FaviconImageResponseRunnable",
+                "qualifiedClassName": "FaviconImageResponse",
+                "slots": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "pixmap",
+                                "type": "QPixmap"
+                            }
+                        ],
+                        "name": "handleDone",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QQuickImageResponse"
+                    }
+                ]
+            },
+            {
+                "className": "FaviconImageRequester",
+                "object": true,
+                "qualifiedClassName": "FaviconImageRequester",
                 "signals": [
                     {
                         "access": "public",
@@ -994,14 +1018,71 @@
                         "returnType": "void"
                     }
                 ],
+                "slots": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "icon",
+                                "type": "QIcon"
+                            }
+                        ],
+                        "name": "iconRequestDone",
+                        "returnType": "void"
+                    }
+                ],
                 "superClasses": [
                     {
                         "access": "public",
                         "name": "QObject"
-                    },
+                    }
+                ]
+            },
+            {
+                "className": "QQuickWebEngineFaviconProvider",
+                "object": true,
+                "qualifiedClassName": "QQuickWebEngineFaviconProvider",
+                "signals": [
                     {
                         "access": "public",
-                        "name": "QRunnable"
+                        "arguments": [
+                            {
+                                "name": "faviconResponse",
+                                "type": "QPointer<FaviconImageResponse>"
+                            }
+                        ],
+                        "name": "imageResponseRequested",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QQuickAsyncImageProvider"
+                    }
+                ]
+            },
+            {
+                "className": "FaviconProviderHelper",
+                "object": true,
+                "qualifiedClassName": "FaviconProviderHelper",
+                "slots": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "faviconResponse",
+                                "type": "QPointer<FaviconImageResponse>"
+                            }
+                        ],
+                        "name": "handleImageRequest",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
                     }
                 ]
             }

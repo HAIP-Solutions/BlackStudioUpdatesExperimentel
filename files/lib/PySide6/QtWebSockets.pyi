@@ -15,12 +15,14 @@ import PySide6.QtNetwork
 
 import os
 import enum
-from typing import ClassVar, Generator, List, List, Optional, Protocol, Sequence, Union, overload
+from typing import ClassVar, Generator, List, Optional, Protocol, Sequence, Union, overload
 from PySide6.QtCore import Signal
 from shiboken6 import Shiboken
+from typing import TypeAlias, TypeVar
 
 
 NoneType: TypeAlias = type[None]
+PlaceHolderType = TypeVar("PlaceHolderType", bound=QObject)
 
 
 class QIntList(object): ...

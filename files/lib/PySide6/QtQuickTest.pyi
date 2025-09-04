@@ -12,9 +12,11 @@ PySide6.QtQuickTest, except for defaults which are replaced by "...".
 import PySide6.QtQuickTest
 
 from typing import Sequence
+from typing import TypeAlias, TypeVar
 
 
 NoneType: TypeAlias = type[None]
+PlaceHolderType = TypeVar("PlaceHolderType", bound=QObject)
 
 
 class QIntList(object): ...

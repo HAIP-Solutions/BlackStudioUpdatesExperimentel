@@ -12,11 +12,13 @@ PySide6.QtWebChannel, except for defaults which are replaced by "...".
 import PySide6.QtWebChannel
 import PySide6.QtCore
 
-from typing import ClassVar, Dict, Dict, Optional
+from typing import ClassVar, Dict, Optional
 from PySide6.QtCore import Signal
+from typing import TypeAlias, TypeVar
 
 
 NoneType: TypeAlias = type[None]
+PlaceHolderType = TypeVar("PlaceHolderType", bound=QObject)
 
 
 class QIntList(object): ...
