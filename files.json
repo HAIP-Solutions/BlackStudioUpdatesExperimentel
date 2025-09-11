@@ -133,7 +133,7 @@
         "sha256": "4c4c3743a091882eae0a128323b013b853536b87bad250f13c27582a9582259a"
     },
     "BlackStudio.exe": {
-        "sha256": "fa2a58e82c1e6810f747dfa8f7e3e102d6106f68e9ef71d6838f32f018a564b6"
+        "sha256": "fff3b06cf37cbefc6fef0b967f165d7d0488f3467dd320c0217e9b335c77ac53"
     },
     "concrt140.dll": {
         "sha256": "36085f98ac4bddf2fa23d8747dd8586b987660323b389448e1a9fba3251a702c"
@@ -196,7 +196,7 @@
         "sha256": "1794a90e19985ee2dee89f9bdffac8dcb3676e2555db9469384493d14708aed5"
     },
     "lib/library.zip": {
-        "sha256": "0cc8a465058520b8115fa4ad9b84c1f0c5e2907546d58430da912a24376feffc"
+        "sha256": "a3eadc0bbb6e8cf384b10b40330a54db737834d921fb7ca2d1473a0a03056851"
     },
     "lib/libssl-3.dll": {
         "sha256": "2e9fbcd8f7fdc13a5179533239811456554f2b3aa2fb10e1b17be0df81c79006"
@@ -787,7 +787,7 @@
         "sha256": "df74f2a31baa628abefa3cff4f59423210889643bee736673cac02be0996b50c"
     },
     "lib/BlackStudioUpdater/__init__.pyc": {
-        "sha256": "31fd131fee612a911656a222ef1d122e90dfcfaddbab74d78f4f26d499ff0177"
+        "sha256": "43e0912097ba78c0b88824b6fe13f9357eea7dd85e7e31ee3cff38a8108e1dbe"
     },
     "lib/certifi/cacert.pem": {
         "sha256": "966ddc609c44bfd4a8031e00b5cdcd893d43f7677deb9bdc203e87dfd7fff77a"
@@ -1020,7 +1020,7 @@
         "sha256": "accf4c837980c9f6247f58e9cf5014bbc0b15ba50bda2131b063bcd34c6aeb0f"
     },
     "lib/cv2/gapi/wip/draw/__init__.pyc": {
-        "sha256": "1fb4bc3c2b8773fa8ae17260268a6a883ca0185a31123d4180d37b217401662c"
+        "sha256": "e8db4b48ed355d68191d9ac769962440cddfc4ff20cb7f0d04d699bd93e5e487"
     },
     "lib/cv2/mat_wrapper/__init__.pyc": {
         "sha256": "9f020d373ddaf26166a60c0b488ad11a36bcebd942d19f748ba0d42a4dd3047f"
@@ -4133,7 +4133,7 @@
         "sha256": "f71c534e413d3083f8c45370991bccf63d107e516ba9c15ba3008079d1a176aa"
     },
     "lib/mpl_toolkits/__init__.pyc": {
-        "sha256": "9c4ca4b6d80a54921e28ed2946dfe4380e8c30a8803ece55d5d3c976da18d3e0"
+        "sha256": "f1e4fcc91b421d4ef08f8c9ac4f0500a5872b594eff9c3009213b5d4e336439c"
     },
     "lib/mpl_toolkits/axes_grid1/axes_divider.pyc": {
         "sha256": "2ac8cb0ec32cf60737b04bb89f1f53bcdd59b60800452180f86c6ac106381403"
@@ -17653,7 +17653,7 @@
         "sha256": "b29e4098f9f53f05e3281636d079de58b05a26c03669cea4ec1673e51750fa31"
     },
     "lib/pywin32_system32/__init__.pyc": {
-        "sha256": "9109420cdbaec6b53c2d2d65786e665613ae5bc12b87fb8cef8c9c3fad1f7d92"
+        "sha256": "45f15dd93e11308d16aed6481e329df964493c57ee1c04c383a83cc5429f7ac9"
     },
     "lib/re/_casefix.pyc": {
         "sha256": "00e3615f61bf785fa28443fdb967c836e20cbbc9b5eaf75e28e3dc44bb5594c5"
