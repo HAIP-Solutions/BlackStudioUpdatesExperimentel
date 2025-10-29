@@ -133,7 +133,7 @@
         "sha256": "4c4c3743a091882eae0a128323b013b853536b87bad250f13c27582a9582259a"
     },
     "BlackStudio.exe": {
-        "sha256": "642fa0a29463e07f71cabd72a1f62a767529262cc9667b29084db4a69ac9ae74"
+        "sha256": "cef64c2df040d6a236fb974c601e0e5633c8c95c9aa16fc64b457ec784c180be"
     },
     "concrt140.dll": {
         "sha256": "36085f98ac4bddf2fa23d8747dd8586b987660323b389448e1a9fba3251a702c"
@@ -143,6 +143,9 @@
     },
     "Manual_BlackStudio_V2-35.pdf": {
         "sha256": "104ee3a132eaeddd7127d75be73a66374ca526d8084a71d2be89c44ef3bbccc9"
+    },
+    "Manual_CanvasPresentation.pdf": {
+        "sha256": "5b3d99a6787625e1a921d416da52bf9295f3a15be5cf3cc8cd2a115acb92664d"
     },
     "Manual_NewFeatures.pdf": {
         "sha256": "f8a71d89897cfd678e8bb6c7847c3836068d9ebd89164030f158778aced0dd04"
@@ -196,7 +199,7 @@
         "sha256": "1794a90e19985ee2dee89f9bdffac8dcb3676e2555db9469384493d14708aed5"
     },
     "lib/library.zip": {
-        "sha256": "7be4ddc57b95daf1b2876399b30b858e2aea20be2ec0627c36782b2b79d075d8"
+        "sha256": "38200ac87f3af78dd67fb1f1296c8bc88491cfbc4a6ee20b5b4e29cfac4121b3"
     },
     "lib/libssl-3.dll": {
         "sha256": "2e9fbcd8f7fdc13a5179533239811456554f2b3aa2fb10e1b17be0df81c79006"
@@ -784,10 +787,10 @@
         "sha256": "eaea7598e479012d2f08c07f9385ac57f8f5a15ad6e309ce77ca83692764c2c6"
     },
     "lib/BlackStudioUpdater/HAIPUpdaterAPI.pyc": {
-        "sha256": "a9dc9652791628644a442c3673e71482d015ae365d5ca35e776843176536eda8"
+        "sha256": "4777f9d3931755442ae2261740d29e50999cf4f9f995f4e48877ab9812232f49"
     },
     "lib/BlackStudioUpdater/__init__.pyc": {
-        "sha256": "4471a29ec7162b1341c86b93a8b654a72f5b78852ccc4b129acb3dbb39c45675"
+        "sha256": "fc53f377d9dd77a7603c31a8c79ef7e7974be1ef8e5773d3a5761180a96c46bd"
     },
     "lib/certifi/cacert.pem": {
         "sha256": "966ddc609c44bfd4a8031e00b5cdcd893d43f7677deb9bdc203e87dfd7fff77a"
@@ -1020,7 +1023,7 @@
         "sha256": "accf4c837980c9f6247f58e9cf5014bbc0b15ba50bda2131b063bcd34c6aeb0f"
     },
     "lib/cv2/gapi/wip/draw/__init__.pyc": {
-        "sha256": "3086c66a34adf388358077563d5b0d99df80d2ef4b65c1a67b7e4181c00a4b21"
+        "sha256": "235f29bab7a57b12e15591e10748ca5cb089da6a3465a49500eb3288f8473791"
     },
     "lib/cv2/mat_wrapper/__init__.pyc": {
         "sha256": "9f020d373ddaf26166a60c0b488ad11a36bcebd942d19f748ba0d42a4dd3047f"
@@ -4133,7 +4136,7 @@
         "sha256": "f71c534e413d3083f8c45370991bccf63d107e516ba9c15ba3008079d1a176aa"
     },
     "lib/mpl_toolkits/__init__.pyc": {
-        "sha256": "2a9724b5edab467e70bc01442d14b1adcca33e13709d86bcdb3af2c906c9272e"
+        "sha256": "76fcd788be25ab0b95214f4aa037806f7279c5cedc5d24011e129882a881ff13"
     },
     "lib/mpl_toolkits/axes_grid1/axes_divider.pyc": {
         "sha256": "2ac8cb0ec32cf60737b04bb89f1f53bcdd59b60800452180f86c6ac106381403"
@@ -17653,7 +17656,7 @@
         "sha256": "b29e4098f9f53f05e3281636d079de58b05a26c03669cea4ec1673e51750fa31"
     },
     "lib/pywin32_system32/__init__.pyc": {
-        "sha256": "57b4862dee6117c206048527bf7141442f170991eee33b70b76cb0edb2be00c2"
+        "sha256": "b7dcf9bff56caea343be2260be188367cc48bbc398eaf7175aa68c53d997062a"
     },
     "lib/re/_casefix.pyc": {
         "sha256": "00e3615f61bf785fa28443fdb967c836e20cbbc9b5eaf75e28e3dc44bb5594c5"
@@ -25645,10 +25648,10 @@
         "sha256": "595f279f7756178c16462bb5a172bbbdbae8029ad8cbe40f126a903619b447a8"
     },
     "res/BlackStudioUpdater/BlackStudioUpdater.exe": {
-        "sha256": "61703634eba5bb3d9629a8cbe71cfb7e454d8c91503c7110b9d1100d9df0aaf2"
+        "sha256": "eaacd57187b9e3130e2023e9a2ea4ade05f9747c32a07556f2a1f786846d3ff1"
     },
     "res/BlackStudioUpdater/_internal/base_library.zip": {
-        "sha256": "dc0268e1d063677c96a4e0b2fb2d19c074fcb461ad8067fe6e9ef14b67754832"
+        "sha256": "4d64df93b5d0e1fbb197cfb85e59dfda8c14a23c69b33c941ad051cf4c4704c2"
     },
     "res/BlackStudioUpdater/_internal/libcrypto-3.dll": {
         "sha256": "05fe080eab7fc535c51e10c1bd76a2f3e6217f9c91a25034774588881c3f99de"
