@@ -133,7 +133,7 @@
         "sha256": "4c4c3743a091882eae0a128323b013b853536b87bad250f13c27582a9582259a"
     },
     "BlackStudio.exe": {
-        "sha256": "b72d9b9ec36ce46fe04b9f9d432b01c41d906b4cfe3ec520ff5dd1ebc838deb1"
+        "sha256": "11b21dbc9a287fc068b8d1c2f4b7749efab297a00c069d1e51263b64d58d1753"
     },
     "concrt140.dll": {
         "sha256": "36085f98ac4bddf2fa23d8747dd8586b987660323b389448e1a9fba3251a702c"
@@ -199,7 +199,7 @@
         "sha256": "1794a90e19985ee2dee89f9bdffac8dcb3676e2555db9469384493d14708aed5"
     },
     "lib/library.zip": {
-        "sha256": "901d26c1587dca1c4fd2197164ca65ecc57361d72cdc659cc2960d1c466807bc"
+        "sha256": "46222becfaa51c8fb11af13beaa5d62f40e7c349afc55ca6c6be42f855413590"
     },
     "lib/libssl-3.dll": {
         "sha256": "2e9fbcd8f7fdc13a5179533239811456554f2b3aa2fb10e1b17be0df81c79006"
@@ -790,7 +790,7 @@
         "sha256": "4777f9d3931755442ae2261740d29e50999cf4f9f995f4e48877ab9812232f49"
     },
     "lib/BlackStudioUpdater/__init__.pyc": {
-        "sha256": "e083563e11e1f0e037289414cf5f47872f6e4efc21bb95ffe81baa73d8fe145f"
+        "sha256": "f9c97e86b2c616a5bbd254e730d75edad08c9467a5535d6a947829f46933d538"
     },
     "lib/certifi/cacert.pem": {
         "sha256": "966ddc609c44bfd4a8031e00b5cdcd893d43f7677deb9bdc203e87dfd7fff77a"
@@ -842,6 +842,24 @@
     },
     "lib/collections/__init__.pyc": {
         "sha256": "e1e1f89a8abb62186ae3f79fd33697a78ab1221a1866b04e64db89fb349d05bc"
+    },
+    "lib/colorama/ansi.pyc": {
+        "sha256": "498f8deba04f059ff608907d856f4c6827d7a52b0dadef2cbb7052b88a764341"
+    },
+    "lib/colorama/ansitowin32.pyc": {
+        "sha256": "46e36a1629e2fd9d7f9d51b601ae57c1c63d2890db9f29470e0098bd61671b72"
+    },
+    "lib/colorama/initialise.pyc": {
+        "sha256": "e3c8b6fa597a9635e9ace6a4f0ae8bc0cfb7aa3634d26ddf2200addbcb74bdd1"
+    },
+    "lib/colorama/win32.pyc": {
+        "sha256": "96d4ca506575b50754427b7c0422357b09dae7a0141084856d512b2aec2894ec"
+    },
+    "lib/colorama/winterm.pyc": {
+        "sha256": "78efd681d40b428ec1d935e0ed181555bb2270ba37e01440b4962dc761eb9f67"
+    },
+    "lib/colorama/__init__.pyc": {
+        "sha256": "0aa32cdd6a2b0c73b35643aa6b0fd24489aed4bc41e2712e6227a434d611c9dd"
     },
     "lib/concurrent/__init__.pyc": {
         "sha256": "555f82aa9471850dc7b150a77b7e5d91497f05a6262b3d364e455a3d42e28f36"
@@ -1023,7 +1041,7 @@
         "sha256": "accf4c837980c9f6247f58e9cf5014bbc0b15ba50bda2131b063bcd34c6aeb0f"
     },
     "lib/cv2/gapi/wip/draw/__init__.pyc": {
-        "sha256": "60d2d8c9b4ced0277e8d5bd7588989b48881ee9c3619af5534b868d4bc5ea5c5"
+        "sha256": "11c5e30242439e6d95bd9e97a0ea4d5173a0b9fafed750ffb7ac786d8f40e521"
     },
     "lib/cv2/mat_wrapper/__init__.pyc": {
         "sha256": "9f020d373ddaf26166a60c0b488ad11a36bcebd942d19f748ba0d42a4dd3047f"
@@ -4136,7 +4154,7 @@
         "sha256": "f71c534e413d3083f8c45370991bccf63d107e516ba9c15ba3008079d1a176aa"
     },
     "lib/mpl_toolkits/__init__.pyc": {
-        "sha256": "2f5b4345d4f767c85955c7b42b745e7249c91f263ef28f124ffcebf9fbc2a3fe"
+        "sha256": "f083529806d3f2d228e864d30a7859ab27fd88f2a666e560c279e89f733a025b"
     },
     "lib/mpl_toolkits/axes_grid1/axes_divider.pyc": {
         "sha256": "2ac8cb0ec32cf60737b04bb89f1f53bcdd59b60800452180f86c6ac106381403"
@@ -8663,88 +8681,70 @@
         "sha256": "95029ec1763810b90e0346ee6dcd40d8ffa06f3939a0f34b55282f2dbf5fc54c"
     },
     "lib/pyqtgraph/colormap.pyc": {
-        "sha256": "9eb98fdef3389db90ff2206bc1461950b9595bb2cc3f070cf822615e130b4ef4"
+        "sha256": "3380ed5313aa015e01cd5188749287a61997d645abe5e40a730f74eebff810cd"
     },
     "lib/pyqtgraph/configfile.pyc": {
-        "sha256": "e9597d3e64cc4af43b69566c72cc05c642ee6057fed2a1b86e7d346ee2ae8e15"
+        "sha256": "f91bc064b69e9238d11672594efad8ae56e7ab271c1dab470849b542dade4784"
     },
     "lib/pyqtgraph/debug.pyc": {
-        "sha256": "71a3d4f649fea7c17e3fb31bc4ffb065173e593844edd4c5c056395356c0b310"
+        "sha256": "d06bdeb278f95a1b9d1a5aa775db09375e8d3cfef0cbc175bf00a1b539017202"
     },
     "lib/pyqtgraph/exceptionHandling.pyc": {
-        "sha256": "97f85dc26af51c23b12f15fdac9067bb8d7671ada2fda1921078f28faa6c8a4a"
+        "sha256": "c3f4bbb79d14fd8a5d6f4273f49e2acc043d9a37dfa51c827579b8025be975b7"
     },
     "lib/pyqtgraph/frozenSupport.pyc": {
-        "sha256": "d42f0d90c5d518c49cbab6f1468d77febb282ccc8cf6678598c285518a16eb95"
+        "sha256": "83d6d25af502d690d62d578d56fa20c0313441f91aa24c0899d6811a29fb739d"
     },
     "lib/pyqtgraph/functions.pyc": {
-        "sha256": "011e3db499b2c54c48592a7ddc471fde75c67829449cd6e8bf3bdb4cb331df52"
+        "sha256": "44dd0f67dcc893ca8495068858f711aa7304c729e0b1bfa8a9d36029b9f80b1d"
     },
     "lib/pyqtgraph/functions_numba.pyc": {
-        "sha256": "d56bd5b49e70c8e10ecca09ea182e7ba110de5c220cca1c79ec360c2122abe78"
+        "sha256": "160eacfca44f0040f4783df1ab29b3dc8f300591ebdc8192218bbe7b0d01870c"
     },
     "lib/pyqtgraph/functions_qimage.pyc": {
-        "sha256": "3216f815b0b834de666c881df58fe5e1589ca58bc28f2d239f92a6ad25827fd1"
+        "sha256": "61b7d70c6720af4d85ea29636d9b5bbc139d560595b5cecfd9d219696c4acd33"
     },
     "lib/pyqtgraph/PlotData.pyc": {
-        "sha256": "bbeee2ea4a10eb05be418d811988bc9d0070991e5c7f16e8586eafd57dc17608"
+        "sha256": "490be55dec68c73f49baa9e0d1c0ebc0481a78f284c8f2322406bbc11da6d4dc"
     },
     "lib/pyqtgraph/Point.pyc": {
-        "sha256": "3beada2bb62af56c4158684cb3ac4501b7e29521bb114de698d44f4290fc41ba"
+        "sha256": "f586b86a281783ce251beeded9442b4f671898764ec062ba63745e8ffcf8d4bb"
     },
     "lib/pyqtgraph/reload.pyc": {
-        "sha256": "63d501c0e31f4a4cfd1eadc97c6f8f351bc4c27c976bb9cfcb848e8d4449cc2c"
+        "sha256": "3330c5d5987294acf9839f155c539da34a4eadc1a46502c3a56a5ab0cb752e3f"
     },
     "lib/pyqtgraph/SignalProxy.pyc": {
-        "sha256": "1c60c2a9e096b0438f454b5e06d26e94f65f7aab67bb93c7ef164b02050ddd3d"
+        "sha256": "2d797ca33b16117e65c961e9bb1c17c35ea8c812fda1be2246592ce3c5987d50"
     },
     "lib/pyqtgraph/SRTTransform.pyc": {
-        "sha256": "f8bffdfbfbf7a463800f2fbdc7b1b7f1ce35dca642506a817af2bf7b911e3f3f"
+        "sha256": "f4c8a5a984b44133dcd935e4f8d8928d0b62c675f67334cc2c129248565e1b25"
     },
     "lib/pyqtgraph/SRTTransform3D.pyc": {
-        "sha256": "7dcaa19732ff8c2f4be0b744ff162dd8315fd473ddde1a59c9abd97ec127e8c1"
+        "sha256": "db229d4e207031fef3b0b5e8ad63f5a5062eaa58e3ed4c4411b1da5f51de0275"
     },
     "lib/pyqtgraph/ThreadsafeTimer.pyc": {
-        "sha256": "65f99a4f531445881a280c79f0d78ca3e973e25f6ac11216840cd22f3b4a2f21"
+        "sha256": "681dd01fac477d8b0f3571a59a35422813e7c05ea0ccac485338f012a11a780a"
     },
     "lib/pyqtgraph/Transform3D.pyc": {
-        "sha256": "739b9b289bc2e9631796b672d60aad343dd386b8d8f1011c47f4f04df9b3b9b9"
+        "sha256": "906548dd2f2b8e5397cfc444d35e922f958e30eaf549b47510de0c6549d543dc"
     },
     "lib/pyqtgraph/units.pyc": {
-        "sha256": "58961d44b30ff042438cc07a67bf0b26df0b520ebc7ea8ad8188b0fdcdb4f929"
+        "sha256": "3c986c7b082ee40877e390eadb3270e53bc77e64699b5e57c78d1804dd3922a9"
     },
     "lib/pyqtgraph/Vector.pyc": {
-        "sha256": "022e4037e154eaa8ddab16dece7d417ae888eaa871b379d41a2dbd284800075b"
+        "sha256": "8d81ddc98d8b8316f6983b50efa03b28e0392c0bb6f9bcd35b1010f41b9a4576"
     },
     "lib/pyqtgraph/WidgetGroup.pyc": {
-        "sha256": "288d90f955d5d16ded65b6c68e6155c45e2fd9702340b9eba881b05b5aefa0e0"
+        "sha256": "0916a74f56b5627e9fa848a17c6464285ab5604a18fac880e8b893d0f14f01b7"
     },
     "lib/pyqtgraph/__init__.pyc": {
-        "sha256": "433e11861b07531fff04e4717802fb8c92b403552576f94a3775de9339dccf07"
-    },
-    "lib/pyqtgraph/canvas/Canvas.pyc": {
-        "sha256": "c9e3e32b0ce4314f30401a5f1fa4582a8973e2dd09a4f9c1dc01b31f3ed8b964"
-    },
-    "lib/pyqtgraph/canvas/CanvasItem.pyc": {
-        "sha256": "e1ae252105115cb8c9bdef2e1669711344cde14721479c35a39caf140ee5037c"
-    },
-    "lib/pyqtgraph/canvas/CanvasManager.pyc": {
-        "sha256": "2b80bb6c6ee228b0b61b7770028d315d5972d0f41432e86d615da1b4d7ad0cda"
-    },
-    "lib/pyqtgraph/canvas/CanvasTemplate_generic.pyc": {
-        "sha256": "0f3cd4c04e0e45c38c0b38651afc08652c7abf28f8edd3061042a46aa7002c8e"
-    },
-    "lib/pyqtgraph/canvas/TransformGuiTemplate_generic.pyc": {
-        "sha256": "c9624a8542c0f64986787c483ead34e1532cacedc1ff8400b16e0725850b7959"
-    },
-    "lib/pyqtgraph/canvas/__init__.pyc": {
-        "sha256": "7ea2a8d26051b5e364e64733c5686623e9845ed12998375fb5401f528aee09e4"
+        "sha256": "35115470ec2ec45af10b8f5434a8874699f5e2ba77101e912605850cd591b2d2"
     },
     "lib/pyqtgraph/colors/palette.pyc": {
-        "sha256": "cbe5bfc37bfd5605a8ba240d671c682687f9fa279888ee37b155cd850344d515"
+        "sha256": "8170ee28849bfdd0062d4fe51a35148e6d92765a3e551813115d5e2d278370db"
     },
     "lib/pyqtgraph/colors/__init__.pyc": {
-        "sha256": "562e83c6b89b430dda6d400882f20b8812fb76958f3851efd6d8dfb428ea2139"
+        "sha256": "5b1432fde704f41f51c34efbbf26042297b8e74a1c35f37ac45db9ee985ad1f1"
     },
     "lib/pyqtgraph/colors/maps/CC-BY license - applies to CET color map data.txt": {
         "sha256": "c97deeeca4ae375a0334bc7f7af5f707aabfcec959c53c783b9f8771d28fd5b3"
@@ -8966,403 +8966,406 @@
         "sha256": "e85975c3f057d63f50c7d5554c62839c23b64675a661fc4610aa826d074dd595"
     },
     "lib/pyqtgraph/console/CmdInput.pyc": {
-        "sha256": "0b7b4a6373fffe94a415a9e0dc238d820d378e01bf2db0a302631586f43539aa"
+        "sha256": "ce4522f45eca44ffc791d1037a8970bb96d10df693ae20b3f9d0444e236c8d2d"
     },
     "lib/pyqtgraph/console/Console.pyc": {
-        "sha256": "b5004e4cdd0f3c4abc20d47d9e0b902802c29e4771fd6aaf800eedcb528ac955"
+        "sha256": "e48ccdf1ce6162cd26298352301cd37589ec4a6d7db02e2ffb8c9ce519b9b892"
     },
     "lib/pyqtgraph/console/exception_widget.pyc": {
-        "sha256": "08c3c29b9f55a08780d5f985c3a76b713b2978e24b473e10d4b17253820851e9"
+        "sha256": "eec61bc09a2e707f64f98dd7681a0fd00b21833b6917bbcdca37c032bb65954d"
     },
     "lib/pyqtgraph/console/repl_widget.pyc": {
-        "sha256": "3afd95730242cf185d969b22664e4c61fd21bd3088b52516d6ea37cf6a35d069"
+        "sha256": "40937ed884557e1476271711914e83faa0efa8516ccff6c64ac78497ef5e4ad4"
     },
     "lib/pyqtgraph/console/stackwidget.pyc": {
-        "sha256": "5c7a8699077873e40023b6b1ba737eaaa8cdd6cadaf3c6994ed195e0b9624955"
+        "sha256": "40bb60e3f917d40c8ff3a038f2ea28972d641925989d8f66a70cef5361e89346"
     },
     "lib/pyqtgraph/console/__init__.pyc": {
-        "sha256": "b9ff41240e7c1239bfca0c67e4bb24ed026c375f89cf31d989d8535a3444dbf7"
+        "sha256": "a9c311b7a2fb65bdf2cd26f068be62e4722cdd79ce9cdfb055745f82426bd31a"
     },
     "lib/pyqtgraph/dockarea/Container.pyc": {
-        "sha256": "92e91663d43811dd85c2d8cc9f243f18a0f5fb557b680e10b4bd1db13116454f"
+        "sha256": "15e99d8f99a83bd274037ccd6491b04aa98fd96b06fa3b1d65137e02e6bf53cb"
     },
     "lib/pyqtgraph/dockarea/Dock.pyc": {
-        "sha256": "37311700ae8b1052e2331efcbe1648071b09116a2c28361b1375f274a9c75227"
+        "sha256": "72a119ce650fe4e73cb2c4169453b84e12053bd22eeeb869b43dc31fb0b84766"
     },
     "lib/pyqtgraph/dockarea/DockArea.pyc": {
-        "sha256": "95f589acbcdde1faba83a798a26dffd92f758f010a3a975515e87a48ca3e4f62"
+        "sha256": "b571b89c33ca369f414b07e79a2ce27dd1daaa2f0b9b4bd53cb92d3dae2108db"
     },
     "lib/pyqtgraph/dockarea/DockDrop.pyc": {
-        "sha256": "8e6885577cb5706bad4fc23ab05ad066aff0adc0f20366daeefb9a0cff1b5160"
+        "sha256": "265412806484ed2851a525216de2b351a5eaf67c9ce06956351250e2632bde7b"
     },
     "lib/pyqtgraph/dockarea/__init__.pyc": {
-        "sha256": "1ff58c1be8ebf97c074b1fd12fcf8546232c311ab21572bde03242e3c0cdc325"
+        "sha256": "9683a99fcd40fab4bd6397e45747b9a691907d21823d414c762ac6112e95db14"
     },
     "lib/pyqtgraph/examples/Arrow.pyc": {
-        "sha256": "b529de11081811375c0cb99cf2c33ac15cb735d178f1a945b1fc64f207d48086"
+        "sha256": "31ccedfe5562f0e2c7a225a34be80957cfa48c4d52371fb4ec1e0f9f3b55f0ce"
     },
     "lib/pyqtgraph/examples/AxisItem_label_overlap.pyc": {
-        "sha256": "21781e1cefa9bf7f33baa8fcb91ef1aa99932ddf07632f19c51cb7f310084155"
+        "sha256": "fdd077eec29a8f33c7d88df382156c3d739e72fa4f82d06e40126ce688e698b9"
     },
     "lib/pyqtgraph/examples/BarGraphItem.pyc": {
-        "sha256": "c6ccca86c334020bfbd269dd6700ab3484dd74ad7e37ed425b342fbb02ce440f"
+        "sha256": "94928f320e71c071b4c7ee3240ed4ad0809fe8faabcfe5428aee98f33f2fa24a"
     },
     "lib/pyqtgraph/examples/beeswarm.pyc": {
-        "sha256": "3e04ec289e2382a57040e687f437c3f86c87336710921cfa394842c24fe71f88"
+        "sha256": "6455a8dd748eec16e50b1b107d0a3c76fce934a448d575046f0c02ab631cf663"
+    },
+    "lib/pyqtgraph/examples/BoxplotItem.pyc": {
+        "sha256": "0742760525450fb4b514a42d6dde41a7986bd03cce030f69438718a7a9cdf1ae"
     },
     "lib/pyqtgraph/examples/CLIexample.pyc": {
-        "sha256": "d6931e08e634a0f01069d33c58f08a6e16b202e60bec25221c18f0c192c5cc3f"
+        "sha256": "3964a5a11493b45a0e21f5eb19813fd0f5f7f20b53537c38bc5e3219716f2532"
     },
     "lib/pyqtgraph/examples/ColorBarItem.pyc": {
-        "sha256": "a55c003764b32000355542eb0ad3b65758bc487c561a106c2623f3f20d4d9eff"
+        "sha256": "6b9d2795fdcaeb2424ba7720d58e629de3e03e0588a9c660642a95f062c00d33"
     },
     "lib/pyqtgraph/examples/ColorButton.pyc": {
-        "sha256": "d34680c46eafa290d36ca3a3883a0fb0c427872184a8fe1b7206c93ceed2cb49"
+        "sha256": "35a79207a4d8490c96c4478f97ec09119476400205a081ae6d01fb5eece2d94d"
     },
     "lib/pyqtgraph/examples/ColorGradientPlots.pyc": {
-        "sha256": "54edccd366973d9ab73b368ae9641607c4405f067a3b32f248468207ac582a0f"
+        "sha256": "3d938e34f2776c77703a9821d70f855bf6c0449db6d96320a285ed39dbe372dd"
     },
     "lib/pyqtgraph/examples/colorMaps.pyc": {
-        "sha256": "5df93f08dde755f768063d79ebea63b9e4f432640502129dbd6723222961e4bc"
+        "sha256": "9ca25cf0ed21dd4c5e4e8c084a90a202b0d8b81b51a3fef3510c6ef522a0e2a1"
     },
     "lib/pyqtgraph/examples/colorMapsLinearized.pyc": {
-        "sha256": "3f7f2c8bd09fc3f75cc0f56696c8eb750cfcff88f786a2371b456269378b0fa9"
+        "sha256": "f23b74e6c6da10f64996f1210776f4972a17616fd1dce36e863f3f20332e0b81"
     },
     "lib/pyqtgraph/examples/ConsoleWidget.pyc": {
-        "sha256": "bf7841dda0dd69b9430b88e034a23b0c3e4d9702260c87068eb79a2b0ebfa653"
+        "sha256": "47073aac97c9bb2769bd5949d94e181b46a3ac2a820828b07eef19a14709c25f"
     },
     "lib/pyqtgraph/examples/console_exception_inspection.pyc": {
-        "sha256": "676139384c4679a0baf0ef5ec0cb484ba5414371d957cc944c30c13a9e018075"
+        "sha256": "7414e0a04d51e0891922d90b73ad87fd3db672de41f090013ea396ca74a94e25"
     },
     "lib/pyqtgraph/examples/contextMenu.pyc": {
-        "sha256": "043398317b5d597acfe45531c9ae66657410b9c41205bc95b2005b8d84b02a90"
+        "sha256": "7297f21db45c589b8a29f4b2bf0241bdf7cb2d6b0fdc450e9de5cee2bb0a0e10"
     },
     "lib/pyqtgraph/examples/crosshair.pyc": {
-        "sha256": "29cf1ae03ce9654068336b0e4ae3ea0101de6af7943faa4ae95e560ebb7a04d8"
+        "sha256": "bb6b41b5fecba1953d22d87eff652ce9f0fe7e2c51d168882b3d860f6bcd3528"
     },
     "lib/pyqtgraph/examples/customGraphicsItem.pyc": {
-        "sha256": "4b23277894038d1ef5586f97658a41deb3ea968513c0a34dfceea0b98ed68210"
+        "sha256": "3df31de8b4b2f4d909127789a2f0c51e400806bfa0f10cd0302da22e528bcfc1"
     },
     "lib/pyqtgraph/examples/CustomGraphItem.pyc": {
-        "sha256": "ee9ef5f7d13cce41bc6238087c0a164fe540059132403800981841ba30a838e4"
+        "sha256": "0fcf1d1ebb268c6886f5ff71df725dc33c4e55490682a36f8fa8078b83844425"
     },
     "lib/pyqtgraph/examples/customPlot.pyc": {
-        "sha256": "f9569410e00d7436a2884413f7cfcd13bb688b68188d00caddee905971d05d08"
+        "sha256": "6713f6894a4cd74f6b61eec27bf7f8743aa0d5de664132fcabf62721e2954167"
     },
     "lib/pyqtgraph/examples/DataSlicing.pyc": {
-        "sha256": "b20273c288e5e3580f829e8c220f90edace0823643b5f86f67902827691e7145"
+        "sha256": "d407bc2c0117bfde6850898befde8042d4275f6f95cf2d362ec8596807cc262b"
     },
     "lib/pyqtgraph/examples/DataTreeWidget.pyc": {
-        "sha256": "506aa7e3525ab81e8150832f564835a9909023555957a46911e1cbe2c0013c47"
+        "sha256": "76d08bc323566142480180e419829f12c7727d4c9674d69a500db29ae359e05e"
     },
     "lib/pyqtgraph/examples/DateAxisItem.pyc": {
-        "sha256": "8cae472b76246659f95b27ca4e55c3c3e616b1faebd976075af5afd2956286a7"
+        "sha256": "ee33a6000a4d5a6732e1caefe6f32e7de06e608c9fe9a4c02991c0cbf5dc5b56"
     },
     "lib/pyqtgraph/examples/DateAxisItem_QtDesigner.pyc": {
-        "sha256": "acd24d2e8a831f77a233a4896b4b2d71ce55c5111bb43c828e2ac8f0749af828"
+        "sha256": "68b4e758381f3339de4692c9422e9855451c0de08f1927fc5b882ca14eb0831c"
     },
     "lib/pyqtgraph/examples/designerExample.pyc": {
-        "sha256": "0971c4e1abb0e51bf2407c9e0358bcf4d0e7ac0d65421486a6a9ef3ccbec64cf"
+        "sha256": "eef4a5ce03ba3fd807495a22843b6735f25ad1d896c2915a223435946ab8db7c"
     },
     "lib/pyqtgraph/examples/DiffTreeWidget.pyc": {
-        "sha256": "e865be6643bc904f7245d74f07fbee59c7c050bb8cb35e4ad37375f186203956"
+        "sha256": "21e4986fdd0bf5d343f7b055db6d80ff7189dc5748ae551c5ade4411d0a294e8"
     },
     "lib/pyqtgraph/examples/dockarea.pyc": {
-        "sha256": "bc1ee57d3f229edc91b853d8fea1b6c6bb1531239e6e460ecb7c50d98089f258"
+        "sha256": "262756dfcc84ec6acb33fcada323c95d2864259a95fb5c78b76dab120a2f7831"
     },
     "lib/pyqtgraph/examples/Draw.pyc": {
-        "sha256": "3987245e2aad7037f60ee3d99ffbf5df375ef052ed1a215392dcd20fd40d8b01"
+        "sha256": "322e38268a1da3942297b6d0390c40d50ce4503dd5fa11b579471851beef46b6"
     },
     "lib/pyqtgraph/examples/ErrorBarItem.pyc": {
-        "sha256": "5909ef87da7415fb0afe9c07ac0d889eb7273626c22841e67d554a076992649f"
+        "sha256": "ddf6fbcfa2d12f80f578c13ffc8dfe6014341fdce9f2d739191af452d8fdb956"
     },
     "lib/pyqtgraph/examples/ExampleApp.pyc": {
-        "sha256": "a4d945a7d651a2330c137af64476dcf39d943ba1992239f6f5a1698294b5e394"
+        "sha256": "860f3eb6656c36562be47a5640fc02e6c60cf197e87222efc84b8dcd951f8646"
     },
     "lib/pyqtgraph/examples/exampleLoaderTemplate_generic.pyc": {
-        "sha256": "6146783d6945772667f64446b34a5f8c0ba86707b79d9dd269b3da35e4f82853"
+        "sha256": "9f13c2166b3a60649d3771ce0dd5501aca8c413686bc1c5e228eac9abca651a2"
     },
     "lib/pyqtgraph/examples/FillBetweenItem.pyc": {
-        "sha256": "e43adc241cea44a144cbe8faa9f1bec2ae15a83ae97842d52a4d648931f61d0e"
+        "sha256": "ff39382d4813725dbb483b66b981d26bb3e4afa1493c2bc3b32ffc2a0e14ed1c"
     },
     "lib/pyqtgraph/examples/Flowchart.pyc": {
-        "sha256": "c53fb17708a5b95842e516320c46eba6e1669a9aeb9c048584e0b7fdbc3f80eb"
+        "sha256": "ff5022cfafe7d01172dfe282af4acbcf36379b8ae1e9fce94968a925b6cc6a64"
     },
     "lib/pyqtgraph/examples/FlowchartCustomNode.pyc": {
-        "sha256": "555fb3ff434b86715901cf79a3d483b50082ecfd3d2270f17c384e8c6896fb81"
+        "sha256": "3f42af8f6fa3436d16cd195ae316e8c01f22ce5842a410d14f8f7f13907a0953"
     },
     "lib/pyqtgraph/examples/fractal.pyc": {
-        "sha256": "24957cdbc1394372c663d9098961c4b81fe5e043ec75d8009bcf6a63188d3ba9"
+        "sha256": "49603efd0e950f0a408c801b38516e8c3ae27ad2dc965f2ddae5fd3c6e969d25"
     },
     "lib/pyqtgraph/examples/GLBarGraphItem.pyc": {
-        "sha256": "09480ad2db5636d922076295414b6ad96eec95ea0094997da33c53613e2ed23b"
+        "sha256": "d697ee3119976c0b53888d4a413866f020f3368ad82f69b8edf40109f72d7936"
     },
     "lib/pyqtgraph/examples/GLGradientLegendItem.pyc": {
-        "sha256": "0e58bc03693c900f70fcfcc7e5fef006df91a08450fb061423984cefba577421"
+        "sha256": "dad11cc376e1a5c830f0048fa4e80c66d3b3ac3ce026fac70c5be222f9fc9bf5"
     },
     "lib/pyqtgraph/examples/GLGraphItem.pyc": {
-        "sha256": "1bcc2911be65115ecc8a00821aaf818ab9365f2c2a79b8d300be4c56b5a9486e"
+        "sha256": "937648d7fa640d3f72b4fc2209e2844588b172936a6c397f800286aed8973cdb"
     },
     "lib/pyqtgraph/examples/GLImageItem.pyc": {
-        "sha256": "8123e533d7b3fb35ab8d294b832fd00ce97f5092022c1cbc9f30da3f3da2f07f"
+        "sha256": "7082d01d2309e59cef21153ae1c4df5017e6e47a3f4fcaf621be454ea4690a7a"
     },
     "lib/pyqtgraph/examples/GLIsosurface.pyc": {
-        "sha256": "bcdf8456b229856a5daf9da21ebd44d8a1494a5b9064f4f8ec9a98e78d261493"
+        "sha256": "eb424b06314e4652f1ad36152222890bc3c4db07dd3b2b353adc7ef55fca3b10"
     },
     "lib/pyqtgraph/examples/GLLinePlotItem.pyc": {
-        "sha256": "0681076b9f4d42bd98665f1eac501d05bacb9cdfeba36ef6a9062d7a44553269"
+        "sha256": "727e8d64cbb02d1221bb127ba8e5ab98c7458cd99cd2d0961d0111465870e5f3"
     },
     "lib/pyqtgraph/examples/GLMeshItem.pyc": {
-        "sha256": "9163d45b21b077941c7e5e3e95bc3fd7a1759f10656c54446851c4672e203fed"
+        "sha256": "87b2fab373996e3f19b151b6ee5fb079b99f4b67b95d187bae8771c1874617a1"
     },
     "lib/pyqtgraph/examples/glow.pyc": {
-        "sha256": "facaa2397746b9f87fcd4822bf8d77ed1e11ad34e63b78ee844c0ea987319773"
+        "sha256": "25c214a079514065e4dec67828c379aed0bb8de90d6b57d55f093215c4a1f922"
     },
     "lib/pyqtgraph/examples/GLPainterItem.pyc": {
-        "sha256": "f27db3968494acfb82ccfe78c7b405492505bcb8a1a598357aaafa5d78ddbff0"
+        "sha256": "b7ace12c16506fc6cb5857e76c3bbf74a1e95c4728df190c617a23a58d8e34f2"
     },
     "lib/pyqtgraph/examples/GLScatterPlotItem.pyc": {
-        "sha256": "6e5bdea071946c623078218bec36fb998cecf78036900e79ac7ae2ff2a107ec2"
+        "sha256": "b739a6de12bcfecafb77e2f780c4ddd5d647488a89cda4ff9139c584bb1d413f"
     },
     "lib/pyqtgraph/examples/GLshaders.pyc": {
-        "sha256": "67ce3a2f81f85374a95aff225555041b824b37e9d00ab844facf220c79bffc3e"
+        "sha256": "24c5e10ad8d94a807f902e4b845c294d32a572a597cf87c0c11b19c2f9542fbe"
     },
     "lib/pyqtgraph/examples/GLSurfacePlot.pyc": {
-        "sha256": "c146f17cec7e792ea6621f18019a7e1d046207336cd09154ee8100a9ba96473b"
+        "sha256": "7be99d5688b374d7d8bb4e11aa00b1dd9484b663c5a0a248f119ebb736340222"
     },
     "lib/pyqtgraph/examples/GLTextItem.pyc": {
-        "sha256": "ce5c97900ad85d92f0e19d884f55cbd31eef52842298f1e0b8166b809fc179c6"
+        "sha256": "f9619908ec15a5650122a78cbe2dc0630b4d9e08e4997b51227f5c37fee1926f"
     },
     "lib/pyqtgraph/examples/GLViewWidget.pyc": {
-        "sha256": "42f8c70250bc48d23d56925ffba0902bc68ad9e85399c83d347d19f1c2e85200"
+        "sha256": "777bdc6ff1896b52f4d3657fc877bd93bf48d75272e28956afbc071b972b42d3"
     },
     "lib/pyqtgraph/examples/GLVolumeItem.pyc": {
-        "sha256": "cd230e62368ad2f8c9138ba7837f5fb225cc3eec36f83e18a516c8ac17dcdeff"
+        "sha256": "ce2fc4a033e9e51ee3b7bd045c1ca97321545f669bcd1ccb1325c82adc4638f9"
     },
     "lib/pyqtgraph/examples/GradientEditor.pyc": {
-        "sha256": "91779b120ab2f50ba0cde4ba1578b397f8744baae0364ff23ccce16896c5b661"
+        "sha256": "659b49adc7bc33b3d98bf6ff933f7bd3a73c217274e216d2a5d3892d0fda4548"
     },
     "lib/pyqtgraph/examples/GradientWidget.pyc": {
-        "sha256": "e05c180c03bd61999fbd90936d58d49ceb2fd574b6a39150371882ce968451f7"
+        "sha256": "22662ac197cc2fe39fac53efacdca0e255ebbcaad690f2d3f62ddec662ffb300"
     },
     "lib/pyqtgraph/examples/GraphicsLayout.pyc": {
-        "sha256": "b4c755510135cdd8e5609d164d329b1846efec6e758d08376daf6d0a362267e4"
+        "sha256": "dd1c7ae05edbb687aafabb948c8762de3ac9bd6e2eda43c74fd5ea4d3c804424"
     },
     "lib/pyqtgraph/examples/GraphicsScene.pyc": {
-        "sha256": "bf34f2e392b097f94629eb63da676aa0ba2181667bb42abde4e55eda327f7f5f"
+        "sha256": "41919f323a137ad9d0bf08152ed46a398fdbb736f0b58b49c02c325b302901e2"
     },
     "lib/pyqtgraph/examples/GraphItem.pyc": {
-        "sha256": "78fea9116bfa34e6c783c466072091fa050d55810d7c5e37d2730ee2ebb45ddd"
+        "sha256": "72ea7d9c8e02b7023bab2e4e7c4cf983c65805c2da2cf59865391bc611673be3"
     },
     "lib/pyqtgraph/examples/hdf5.pyc": {
-        "sha256": "a8c5684e8639872530e62fff061cf526de59693efdb796bb441ffdf1b81e6d41"
+        "sha256": "aa9be849fa4af2e0708fdb4afd6c689dd88a2eddaf7e7a5773939e90003e3414"
     },
     "lib/pyqtgraph/examples/histogram.pyc": {
-        "sha256": "26bd5e95c6fd14fef6c8ae0e5eeb1d13690e0d88e299126024b2ee810fddbc84"
+        "sha256": "95f71178efe27ef2299762a5d0fbddd1c7e353645da55c4462de1a1af8242cbd"
     },
     "lib/pyqtgraph/examples/HistogramLUT.pyc": {
-        "sha256": "449515d08216f4bfa6745fa05cb2935114c65f1f6a99aef16e69f5c46e408eaa"
+        "sha256": "6251188c7d0d2d04286d58dac74a29d29043d3d919454ad37abcef565bad6f73"
     },
     "lib/pyqtgraph/examples/imageAnalysis.pyc": {
-        "sha256": "608a94622e4bb28719239845ad376a3e4411fcbd91964aff53681389c896297c"
+        "sha256": "a0f9fdc07152dedef262c78a1be346353b12a248124f141b9bef744207838f66"
     },
     "lib/pyqtgraph/examples/ImageItem.pyc": {
-        "sha256": "ac5fc2551a346751c53594ad045e7502283a0bbe1c5c3ff7bafd1bfbe4753829"
+        "sha256": "af53feb1f54baeac6e4a92fdba8b01a89eda005dd3211803447c0e21c3675b6f"
     },
     "lib/pyqtgraph/examples/ImageView.pyc": {
-        "sha256": "5d990e9e453b8a040f5eec193da4183d40086a113a8fd5ab35dfcef078e44a01"
+        "sha256": "14f3fdd2d7c0cc58e736e7f64949bd19f0e1b8bd4c389be189c3c1370281018b"
     },
     "lib/pyqtgraph/examples/InfiniteLine.pyc": {
-        "sha256": "b426f1c6e8bfb2874179068c30f7f10add84093a26dcb63eb1ca55086c5d9729"
+        "sha256": "993401252c688cc2f805e3e6bd097068cdcf0417f4a4624c27fb86e23f1f15ac"
     },
     "lib/pyqtgraph/examples/infiniteline_performance.pyc": {
-        "sha256": "826ce17a24af221eb67e2dc3bd787495456d04cca860c9862e1996bc4f1256ea"
+        "sha256": "005795129cedd48bae2a4302a31ccf0262f0819aa71e321ad516e2fdeb8ef9f4"
     },
     "lib/pyqtgraph/examples/InteractiveParameter.pyc": {
-        "sha256": "af157d4df74180c4ea02f65b71ce7baf4b42cfa2df9ff46a4269f81d6d67e7b7"
+        "sha256": "2652df4d3ec312d1c6e0853fa00513c07746290e71d9c7ee869b66a68128c0ae"
     },
     "lib/pyqtgraph/examples/isocurve.pyc": {
-        "sha256": "5c1b667bbe64f59b6c1de6951eefbe25ff45cd6315e0cf9bde00fc28538f0776"
+        "sha256": "e986ae4d13fb930bea900477105bfe09480107daf4a2dadd3e3565ae28ee92a6"
     },
     "lib/pyqtgraph/examples/JoystickButton.pyc": {
-        "sha256": "7e48478582844123af73e5d56b4c0169f74c8267b5fdca0f7a17dd6b21d2e7f6"
+        "sha256": "a18be26322d1e64a728e0a52f9b6eac26ab40f2ccc53c12cc382f2401f3b3bfd"
     },
     "lib/pyqtgraph/examples/jupyter_console_example.pyc": {
-        "sha256": "8daec2ddd349122c360ad0def583ef3a2975cb17a70f1c2074f8a0901373b546"
+        "sha256": "e6ecef6518504c6b8fd8ef14a67d9b036e4dc0b64525c0207e883e6165460a52"
     },
     "lib/pyqtgraph/examples/Legend.pyc": {
-        "sha256": "96aebd7e307be1136d039b3a1c034a6de9797ead6c7759934330c0ed6641684e"
+        "sha256": "042d7a2c9caf6a898e08c6f1a7a20bb821158ed4604643b6f7d2419b1f8bba5e"
     },
     "lib/pyqtgraph/examples/linkedViews.pyc": {
-        "sha256": "d53fb067bc4a918efa5717e70e255716b0dd026c1fe5adaf0fd1b3d7ed455ddf"
+        "sha256": "1b2c7a2925befbb70dc799c9b21237895fd10c969a97846aca88912d2d4698da"
     },
     "lib/pyqtgraph/examples/logAxis.pyc": {
-        "sha256": "1f63d942c405c35b701790300e97a851b5768c1a41973dbd3de9ccdfef4a7cef"
+        "sha256": "edf3dafdda69bed7ae87391957d22ebe6eb6171af76224f601181cc60652871f"
     },
     "lib/pyqtgraph/examples/LogPlotTest.pyc": {
-        "sha256": "3a03c84c1947fa9874095fd292cee8064d3ef7fa988e2645152c3ac8fad38705"
+        "sha256": "8191ec089ebfe2bf3896dc18b538dd93d15fa49e436a959463a74460526be2e1"
     },
     "lib/pyqtgraph/examples/MatrixDisplayExample.pyc": {
-        "sha256": "dad8ccf2157bd5d99e0f554172f884ae1cbdc7a243c7fa9c4747e08d62b75239"
+        "sha256": "a0b6f68d9259c4f75f82212d26b0507ba2549751aaee8dd58a06cb8a69e641f2"
     },
     "lib/pyqtgraph/examples/MouseSelection.pyc": {
-        "sha256": "b3a14cecf7ee16893759a85a8402664db65e85549fdbeb8a475a1acc756749b1"
+        "sha256": "387d70cc39afddd7748e8f67c4e06d9136503380a4c07ec8216915814c367322"
     },
     "lib/pyqtgraph/examples/MultiDataPlot.pyc": {
-        "sha256": "4178fb5b4b2cbc335966bd93bfdb90202787e665acb33a4911d6fc03b300bab5"
+        "sha256": "087ec93658982cf0a6946af2b9c0341b0fdc5b8795a2a863334e4bff4abe8c26"
     },
     "lib/pyqtgraph/examples/MultiplePlotAxes.pyc": {
-        "sha256": "5d39b064d4ec28690ec2e98854246b6841f5a029b71537e5e1a2a13f4d63a3d4"
+        "sha256": "7f9010dba322942c30ddb550103b1138ac64eee9df477a65cab2a637a41d0264"
     },
     "lib/pyqtgraph/examples/multiplePlotSpeedTest.pyc": {
-        "sha256": "0c777f56d23172a484995ce039fa30d707c4c59461591a70f500d30e73bf1199"
+        "sha256": "ebd2ec63a8eaf7c94d584dc9364ce156ced2964d1050a56915a5d585d9bf0deb"
     },
     "lib/pyqtgraph/examples/MultiPlotSpeedTest.pyc": {
-        "sha256": "1fa83d8efad06d90c8f5005975f14ba9c67766dad13d33e3c36593ad09182cb9"
+        "sha256": "564d32febb6667128feaea72a02648040695dae6dcd2868d8a7b1e3092b71585"
     },
     "lib/pyqtgraph/examples/multiprocess.pyc": {
-        "sha256": "360cf4f337a1efac8d7f79d4903ab2e6df284c45a92935a7094ec58317321d3c"
+        "sha256": "54dacb699b532baeb25eb7a4696a84cdb762f3b12b57867f216668668558f0d2"
     },
     "lib/pyqtgraph/examples/NonUniformImage.pyc": {
-        "sha256": "78fcc99aaeb59d01f7b1eafe18af0a6899d01e04c12be35f7bf4e6e4f455cd80"
+        "sha256": "5e727e75620100a40e33b0a7e012b6c095e6da8e24a1a894a968ea163fa12f9b"
     },
     "lib/pyqtgraph/examples/optics_demos.pyc": {
-        "sha256": "d25cb6db71de8cd9baef43a64f64ad09623e85c5abb51184e1b6bde3274e7e07"
+        "sha256": "8bcdd84d526dc558ae301e6e0cab29e3e93c1158383bb93a58cf5e950ea5da75"
     },
     "lib/pyqtgraph/examples/PanningPlot.pyc": {
-        "sha256": "17b461b48577dd9e147961ea1cd68044c31d09320260c768527df37ccc5754fe"
+        "sha256": "2aa4b08664974781ae8593130c44fc4b362237df03740e531ddd2ffe0417b13d"
     },
     "lib/pyqtgraph/examples/parallelize.pyc": {
-        "sha256": "fc1e6466782b78494b06cea7e477fed28d62810fd1192ff0642dd7411314c38e"
+        "sha256": "516de1e99c3da2c18bea311a38b161d860bf2ff5fbf99af9f77e965723738307"
     },
     "lib/pyqtgraph/examples/parametertree.pyc": {
-        "sha256": "ddee3844099208d09f99289c85162be10e6abe9a5caa6cffc261ccdb94c65a2f"
+        "sha256": "47a1268e75378f9d68cdfb41cf98dab983653ebf6eac21aa58d618fa64bc25cf"
     },
     "lib/pyqtgraph/examples/PColorMeshItem.pyc": {
-        "sha256": "86a0b0b5ccb372c7fa57ce4f9fb4ca86f5e8b7b01b63d3b108175573e6dc335a"
+        "sha256": "01b1a598a242d1cee3ed028c3a757348b4442be290b17665662d091cac34e852"
     },
     "lib/pyqtgraph/examples/PlotAutoRange.pyc": {
-        "sha256": "36b651cd75ac328b85eec709bac9b70a382831356a629fd8b06260393f4e45ab"
+        "sha256": "1e39bd698d404cc54189129a201a00714b0477e58656ce53feba1995552f3d30"
     },
     "lib/pyqtgraph/examples/PlotSpeedTest.pyc": {
-        "sha256": "33d92de47f53f470de228bf9ace6e9fe809768d72ff599eb0e29142360f184ff"
+        "sha256": "b891054e85591edfdb971652dc40b72bd4c0499af790295901862572a7b70a69"
     },
     "lib/pyqtgraph/examples/Plotting.pyc": {
-        "sha256": "a0ff360583225d1015a5b540ff400875f73ff1dec3cc7335a14fff85438efcb3"
+        "sha256": "444fc76784c2276c03d077b3afb381b8a337bdfe936f931fc7af6f616530f886"
     },
     "lib/pyqtgraph/examples/PlotWidget.pyc": {
-        "sha256": "f2c59eeb2386809f0e6beae00b6d7fc3322fd399eedca257e68de7120c752fab"
+        "sha256": "58d2bdc668f0f4f019f40f69ae33cc4f1d1623dc615848b5dd186e2e1b7f9744"
     },
     "lib/pyqtgraph/examples/ProgressDialog.pyc": {
-        "sha256": "6f6bc562387b9c34eb0f39a3f194000ee528dd31ad430d94516958df1a1e0cd5"
+        "sha256": "08182af4e5667445e5ae74ff67ff12821dec3b26629009163a0f2421e3b54340"
     },
     "lib/pyqtgraph/examples/relativity_demo.pyc": {
-        "sha256": "555ce9c3c02102d30a14a3da58a80e6fc64a1e9a85a4753fd9eba71c72d85ef8"
+        "sha256": "a6c2f7574373880a6ad776669e3f6dca36ea12c69d256751a8d06d433bd11d93"
     },
     "lib/pyqtgraph/examples/RemoteGraphicsView.pyc": {
-        "sha256": "7644281ba3e254608ef4b4657697ea54cb2ce6a2fe528db37315ab17966cb19d"
+        "sha256": "cfbd45b1ccb92fbccfeba3c4df23456e7b9472c0b39c072fa4e164ae47e7d17f"
     },
     "lib/pyqtgraph/examples/RemoteSpeedTest.pyc": {
-        "sha256": "74e50c652d73e7a762824688e4ddbd14ce383a4e40ae5026ae4137242fab2cec"
+        "sha256": "b57445302c53dc051c459fd49ef4009365958d122b4f1e520cf549b42bc60972"
     },
     "lib/pyqtgraph/examples/ROIExamples.pyc": {
-        "sha256": "ef6520fc46a3e7ddcef14e3faf07ecb8f48a94c1b5149175b3a2b06c04475c75"
+        "sha256": "bf74729a60b5e2771c4378f8a203bedf3a217834ef3b5d159b4b72213fce07a5"
     },
     "lib/pyqtgraph/examples/ROItypes.pyc": {
-        "sha256": "7e6c933f60a4fbbbddefd7aeaf632e2e1dd5ce806460b3281ca73d2df95bdf46"
+        "sha256": "d32b6b1e5147051b8f4efc4e1289e4fb22a7f93db7c8700ee845ba3ee8b7feff"
     },
     "lib/pyqtgraph/examples/RunExampleApp.pyc": {
-        "sha256": "94d41818081fab37d25898b87545fc77698c66f693db67d4ede30aea26f46979"
+        "sha256": "11ac1154db99e40d169e201f1f87fa86ee55d6c6d271d5efd879ebc5d52c29b3"
     },
     "lib/pyqtgraph/examples/ScaleBar.pyc": {
-        "sha256": "38c1e15f4ffd96be7d63472fdb9456a89065f33fb890266d088fc1eeec793e87"
+        "sha256": "e4e01a519b26e63c9059b662e07a6a3afa1de9246666147dc534c494c85a29df"
     },
     "lib/pyqtgraph/examples/ScatterPlot.pyc": {
-        "sha256": "345b3e7855bf63fc3e3cdd76c8d55a3ca0aca42a64d1352137ba0dfc54278b96"
+        "sha256": "805042be079221af314e4e5ce9b4b41706a3dcf06b9305ab2952f9f0f4cf3693"
     },
     "lib/pyqtgraph/examples/ScatterPlotSpeedTest.pyc": {
-        "sha256": "045b66db793d10792158885e43b3c84244dc4730d3a3401bbd2f4344b3901804"
+        "sha256": "e70bc24b9cb59b4f25752c5b3917a18bca38151e6bbbcb6dd87c6a9ea270548a"
     },
     "lib/pyqtgraph/examples/ScatterPlotWidget.pyc": {
-        "sha256": "d3452861be3fecebad3a62642c622bd638218c75629d2cbdf71f7fa68de7a5c6"
+        "sha256": "11c0a31b470d181bb6168471d7a5efd4424981b6fa72d3b3d37d0ce595c25d72"
     },
     "lib/pyqtgraph/examples/scrollingPlots.pyc": {
-        "sha256": "b6f9d36a5f7712c225552fb3abfc5e7504edcdfbe89ea8aded2ff3cf2e9611f1"
+        "sha256": "2b1e5658b90460783c8b104fea762b9d48e299b4ef06878025ee3e2c73f47a3a"
     },
     "lib/pyqtgraph/examples/SimplePlot.pyc": {
-        "sha256": "5d402da31c322c2f0f81d4acec34e8986ca399587dce7af1b76a1e89e328991a"
+        "sha256": "5251f2c3884a9794a5bbe73485bc603ea4910687efd351647defcc46905d87a5"
     },
     "lib/pyqtgraph/examples/SpinBox.pyc": {
-        "sha256": "9078c385bbe2e00192a0a055d9d13ecf5a1c2452e525c0637b21e32ef4dc0bc2"
+        "sha256": "998580563fbe9c4e312c4cf604d78f02e11866fdfed9758a8809ae977e824b05"
     },
     "lib/pyqtgraph/examples/Symbols.pyc": {
-        "sha256": "3da7e34b39eb1b9da1a4cf215dbd7b9649adaf5555a1cbc92f2d31bf43171f62"
+        "sha256": "04f2ad06dc04070c90bf07085c074bc376bf6d953f17f3cfa366645d7886ce6e"
     },
     "lib/pyqtgraph/examples/syntax.pyc": {
-        "sha256": "e64825ec88277090fc4a530c8367b1229421034ff1c39191baad662c8428a9a9"
+        "sha256": "039766149b20b27515f52e8b2e396e30e466f866ba1753fddea71641bdf8848b"
     },
     "lib/pyqtgraph/examples/TableWidget.pyc": {
-        "sha256": "c03a51bc325c17bb638b5afe617d5077a9720786fad0218a2612f93e85814182"
+        "sha256": "a98490cb360e55457c0c00893859585c1cc92103c68372a02f535f488cfc5ee8"
     },
     "lib/pyqtgraph/examples/template.pyc": {
-        "sha256": "63e41edeb1b27a95e1f1001cf9946a8f08846d9b084e4c10439af16dcb8ab040"
+        "sha256": "cbeb67fb0727c3b4a529a6a0ba95df706e646a43ad6f6e149e10a9d7e078b862"
     },
     "lib/pyqtgraph/examples/test_examples.pyc": {
-        "sha256": "ba4be124f7904110d9492fa719868ce1090483219f7e774d076c0cd2a536138e"
+        "sha256": "a73461b4c1ec05a25a4d42dc52f1f60b0a91c071bfc91fff14fbc6810bc94b2e"
     },
     "lib/pyqtgraph/examples/text.pyc": {
-        "sha256": "5c70ae056ec1f0eb00bb0669725ce35764abccfee06ab420934b57cebc19df6c"
+        "sha256": "8c438f2f6a71a00405c1da84dd9a0405e968af0b55571355fdf8044a2d78bd46"
     },
     "lib/pyqtgraph/examples/TreeWidget.pyc": {
-        "sha256": "42a87a8e8e438c2597f2dc3c341bf565140e4c54274d3a9ee6b9a8d1092c55b6"
+        "sha256": "54e7748abab796d4f7f4fb2eeec74c99240955743d9280aa9ad198381a60c73e"
     },
     "lib/pyqtgraph/examples/utils.pyc": {
-        "sha256": "a65b4979b9ba8fcb3ea99af8b648891d938b2237a71b0ab1355b6beff42f4e66"
+        "sha256": "3f1fdaae3c8f0f774e51a12eec2429cc5bcb81dc2ca30e5517ba59f82285bb35"
     },
     "lib/pyqtgraph/examples/verlet_chain_demo.pyc": {
-        "sha256": "5d454f04dec15d3b6a56b75415a41a1d6a8cc1e1a64da6f1b6522205dac2e97e"
+        "sha256": "478d8a4ad0f07ee81c4d4fd1ac6532db5831b5357a0078fae408cc1288a288a0"
     },
     "lib/pyqtgraph/examples/VideoSpeedTest.pyc": {
-        "sha256": "8152b3801b8d39af7192a14500814f0a894fa650001c5ba649adee5ef20ca2fb"
+        "sha256": "b291d10fe78a1d808efd6f3da90e6205ece0e47a581b0cfac5304ff4c365c337"
     },
     "lib/pyqtgraph/examples/VideoTemplate_generic.pyc": {
-        "sha256": "7009b03f00653deab4d79ccda6aa14770150ef406a3408d3edc70619496deb4c"
+        "sha256": "33799eafa72b079fe0e5db25430a19cf9fa576fd204f49f06ddd2de08b3a68f4"
     },
     "lib/pyqtgraph/examples/ViewBox.pyc": {
-        "sha256": "e217cf82c16e9c2295c212dafd2d58ea5623aa1a498cdf2d8d2ce6640ed66680"
+        "sha256": "38420534f01d71b17dd353bff9e01e51a5701236278d42752f09ed6a97bd5b41"
     },
     "lib/pyqtgraph/examples/ViewBoxFeatures.pyc": {
-        "sha256": "fb6ddd0a6374f371c53af6830ba8f47839d308dbbdb9fe858beca5243675e9f6"
+        "sha256": "0cabf8f8f3f5d4c6ec7db466e58b062791dfe1be9454453a395b8381c7617240"
     },
     "lib/pyqtgraph/examples/ViewLimits.pyc": {
-        "sha256": "3e23c628dad8aab41434d2b56ac4f056b8fb17be34d72011301f1bb147bcbf06"
+        "sha256": "8544bd0020c2b43d19225d56e26cea9bb2d0de3ed3b59d8c4dbe934b3d1b3139"
     },
     "lib/pyqtgraph/examples/_buildParamTypes.pyc": {
-        "sha256": "4105271d6e24e96759840751648c9abee11689d4dd6cb527ad35c210c657b540"
+        "sha256": "951753c119c8d73025cd358f94685fc2d46feb65a9f78e1eae8d080974e1d255"
     },
     "lib/pyqtgraph/examples/_paramtreecfg.pyc": {
-        "sha256": "8ba82e290864d783bbbbdca92ae4f373995a1463d46202855e52ba514c79a9f7"
+        "sha256": "c5d3463238c89849b7348f41eff4e11a506c92781ecda63d85e52ef1b708d633"
     },
     "lib/pyqtgraph/examples/__init__.pyc": {
-        "sha256": "d01415e176664dd3f1b7264170da913271d0988bb51816c599b4ca5660bb54ea"
+        "sha256": "7c13324d1ddd433b58797a2f3b9652cf803f926409ef44a3a9155b7aea83287f"
     },
     "lib/pyqtgraph/examples/__main__.pyc": {
-        "sha256": "25152e9a2180e7a04edc9a1fd72874c74f41b2b356a560a92598cdb7f87869c9"
+        "sha256": "5ef92c8842fcf11d77d0984345e710993b6b1c18359bb58d23483e24aad566fe"
     },
     "lib/pyqtgraph/examples/optics/pyoptic.pyc": {
-        "sha256": "b0bf539d30d88c5272500350ad3b511b882a8e62dc8d11a1059f4f2a1a1fbc01"
+        "sha256": "802d79abf6df46f844a9cbfa7e1df1585fac2a307eebd31f6909108326a6acf0"
     },
     "lib/pyqtgraph/examples/optics/schott_glasses.csv.gz": {
         "sha256": "26ad82decee2f04e87bc4e85d484ae767eae49c3a7099eee0d6cab82c113c9e4"
     },
     "lib/pyqtgraph/examples/optics/__init__.pyc": {
-        "sha256": "b0ad2faed65048e2bbf81b8e68645140b52bb4cf8ef0e016fefb61acf14abdf2"
+        "sha256": "ab3834ce39d71b6de0fd3fff826187edab7195acd271dc79e051844a656355ae"
     },
     "lib/pyqtgraph/examples/relativity/relativity.pyc": {
-        "sha256": "1bd41bb1635a1ff23d76d63feaa40a1d762773a0ad7809056d44b55198cbc5c4"
+        "sha256": "50d3d61d3cebbcb8c2e180f17c553e259a09ad3feb4a3c34a75e000f5644600f"
     },
     "lib/pyqtgraph/examples/relativity/__init__.pyc": {
-        "sha256": "c2a1742f1ecbeca05ee533634bf0850b9383559504e9528d32518d5c7c706c89"
+        "sha256": "14cca813f60a20dc80fda6992921f0b1af50e32ccc0273050acaf6a7e61e7d26"
     },
     "lib/pyqtgraph/examples/relativity/presets/Grid Expansion.cfg": {
         "sha256": "b5dfa95d32d8c59f41d79e2d76980950d64d69d821e8814e1318d727abbfd0a4"
@@ -9374,235 +9377,235 @@
         "sha256": "cc88a3c01828a72b4ee2bb90fab3f8941cdef9c95019135b893cc7f8909b6ff4"
     },
     "lib/pyqtgraph/examples/verlet_chain/chain.pyc": {
-        "sha256": "7bd5b95eab7066e177742667c0c67721ce4bf8442a3e17a8d54853c1ca1782a3"
+        "sha256": "2cced72da4a00cc76d089cfc6ac96286383e0095767d3ca39f1325c6d5eece59"
     },
     "lib/pyqtgraph/examples/verlet_chain/relax.pyc": {
-        "sha256": "2cff81dd40106cce51c27791a8b391a584189a25f3da709de392dd74a4d06fd9"
+        "sha256": "eec773c1c32560c9cf3e6867a602be6b773a0836ee8fd55a8bed484a46434b8d"
     },
     "lib/pyqtgraph/examples/verlet_chain/__init__.pyc": {
-        "sha256": "8b7f430d5be43198362ddc80fc6223609882610f6ff790b32b6ed88b655ba4ee"
+        "sha256": "fdab2ac12e56750f7df4de89b8bca4928553e678616a5f7da429dd62a5927d2d"
     },
     "lib/pyqtgraph/exporters/CSVExporter.pyc": {
-        "sha256": "5968becf2308583d4bbfe7db1c1c1c00ecbe24b3e53b2e66c3b09e97dec99815"
+        "sha256": "c5932723f9dfb5325e0aa638c184011063fe8219c114307e7000268a55f79bdc"
     },
     "lib/pyqtgraph/exporters/Exporter.pyc": {
-        "sha256": "90092ba3f7c1e34c9518cfcf9fca5f12e52e6792bce67d5e014f1663d2ac02f0"
+        "sha256": "c4ce7938d1f9d86348d507be3a8e29ca46c3594e8714d4f42b0eed3d1eb5be00"
     },
     "lib/pyqtgraph/exporters/HDF5Exporter.pyc": {
-        "sha256": "f47f7ec52ec7774dcc427a3acfff018258a78e92f3dee2c0b1a9696fc35ee64f"
+        "sha256": "bd4899e2ff6e5f592e8aeedb23ee9c2fb2697c542c83f54773842590fb29b1b5"
     },
     "lib/pyqtgraph/exporters/ImageExporter.pyc": {
-        "sha256": "b61f9a84c48afdbdff8b62e563518221fb93d9514d87ce2965a4ccfaf4639866"
+        "sha256": "6ef47f225528d4da960a91d5773f1c6317bf1fd5af0ed9cf4dab851c1da0afe8"
     },
     "lib/pyqtgraph/exporters/Matplotlib.pyc": {
-        "sha256": "8d79d542b89ac9e0e4ab44de7834811f177d7552d6adc04ea294db3fd5dc3af8"
+        "sha256": "7ea2f612795db2a7d34ce94b2e518856d312f5c4104cc1e23bc56b204d90ae49"
     },
     "lib/pyqtgraph/exporters/PrintExporter.pyc": {
-        "sha256": "f1ebae7178e12c880670b47d1e5bfab34647c683abe0ed23d8dac637b4dd7dc0"
+        "sha256": "3baf21af30f492fd7fcc0634e44aada645509ed6736fc92d6bc913d2dbda7ea6"
     },
     "lib/pyqtgraph/exporters/SVGExporter.pyc": {
-        "sha256": "1a332972d880192313c410f08001653cbe4e7240371151d8d4494bb2ec4e7fb2"
+        "sha256": "0f4740fc401837702a4e9ae1773444c28b3946ad0cc23788e4c0c1e36e17ea2b"
     },
     "lib/pyqtgraph/exporters/__init__.pyc": {
-        "sha256": "6f571f4b684affe0b4aace03424cbe697f084bc45ae5f531e51cd4fd34d1e31d"
+        "sha256": "49e55f42c849b65330dd4efdcc41cb5034c0c47e69919a25237c831cc2e218fa"
     },
     "lib/pyqtgraph/flowchart/Flowchart.pyc": {
-        "sha256": "49b976381b5dc32e4b5142143df721c55b8ac0c9474cf2ab9e10d412d80e2eb0"
+        "sha256": "62a9cbd863714ad31a82d2b43943047017a273afdf66b5e5b393e17208c7b652"
     },
     "lib/pyqtgraph/flowchart/FlowchartCtrlTemplate_generic.pyc": {
-        "sha256": "533021d270afda90165481b7c5d8fd703b59c226c8c579aaf8f3fbdb7ec173bc"
+        "sha256": "ef675547d9b038646aefb0191f915c7ecfdbebce362f0cecb9a4608bb3445359"
     },
     "lib/pyqtgraph/flowchart/FlowchartGraphicsView.pyc": {
-        "sha256": "5bb81e043b7b7e4293d720655ce6a339358300a7cf47076b4d01b8ea5ad80829"
+        "sha256": "07e5a8f245be9e4649c6b36dfc1ca538993ad65cf269ca3ce41f9791d227f821"
     },
     "lib/pyqtgraph/flowchart/Node.pyc": {
-        "sha256": "a173f6e1b2aa8c9c1e28a86eda9617c24d0228891ba3c7723a5eacb4042fe0df"
+        "sha256": "758c3e856436bfe8db72cd248dbdefec0423141690fc734ee812b113c32c4bb0"
     },
     "lib/pyqtgraph/flowchart/NodeLibrary.pyc": {
-        "sha256": "5b33804ed9fe2ab72e2892c69ee1b3f9ad1769d9f40062a47cec190738e32620"
+        "sha256": "37259980a9b1129e55f2a59f8c6a15f6915ca73a604fea193909154551ed6fa9"
     },
     "lib/pyqtgraph/flowchart/Terminal.pyc": {
-        "sha256": "8dc7e16d930bcdf054e5d89c7f4a99922c049d360210d5cca773c1c19726516f"
+        "sha256": "a4e26240dabc6407a83951845568e614803ef0c670fd8e4700e0e386ec236a29"
     },
     "lib/pyqtgraph/flowchart/__init__.pyc": {
-        "sha256": "e6954ec82139f3877753b44e34bfa838756df4f48d533358d5882448419c54f8"
+        "sha256": "7d39490c089a0c681187f8e0afff86fa47af9549af2cffbfa712a27a9d96f53a"
     },
     "lib/pyqtgraph/flowchart/library/common.pyc": {
-        "sha256": "6b4f60ef5ecd6786f0b16067de5731c05bb28e5fe54697a973bbaf145e64ed7a"
+        "sha256": "182ae7a7b8330ebdc8a55eae14cdb073fbdd747ddd7f35333d9a780c61d36cbf"
     },
     "lib/pyqtgraph/flowchart/library/Data.pyc": {
-        "sha256": "efd5c4beacd3ad3fb4db5b77e6d0c59a4350b87cd40354fd2eb6dfe543a4d398"
+        "sha256": "fabf026771df8dffd14aa45fed0642976a3b6e742c082d599ab1b974e24494d6"
     },
     "lib/pyqtgraph/flowchart/library/Display.pyc": {
-        "sha256": "12fcdead6a76fbcc77c7fc81aa1e9aafacb3faa83fa0a9034819447849b1d758"
+        "sha256": "5359042a6a2bae558f617207d7949f9840c987777ee5cf06c31841e49d895c4d"
     },
     "lib/pyqtgraph/flowchart/library/Filters.pyc": {
-        "sha256": "b457ebb7f6435f26c54b961f86a07eed64e00c3894ee0af1e7e51f55260f3318"
+        "sha256": "38287e3985c754448e9ba6f5a673b3284a2d206a09b28c032f081602c715de95"
     },
     "lib/pyqtgraph/flowchart/library/functions.pyc": {
-        "sha256": "37f4b2d06cb3cde9b8242e5614d3d59f5e2d7ccd62dd1f863bee8334a60fd026"
+        "sha256": "31990d1d9c641524174b0e346c5b3ca1d7c7bc6091d832f49b24b8eef441b2e2"
     },
     "lib/pyqtgraph/flowchart/library/Operators.pyc": {
-        "sha256": "2eb22f29f8a9de62a65f30120357f368fc9d4709c54b08cff9be0106dfb888f9"
+        "sha256": "f3facf07ee215ed1b057d7aac19aae4e87fecbf96f3bf21aa0ba950ea0c875a9"
     },
     "lib/pyqtgraph/flowchart/library/__init__.pyc": {
-        "sha256": "77622e40891462d2bb6ec4666773d9baff64a0740adc8eb843aeeac4b3fc2e9f"
+        "sha256": "2790039f8c69f5b804bd3dd013749bf6469c78f0fe6dbd931905302581420acc"
     },
     "lib/pyqtgraph/graphicsItems/ArrowItem.pyc": {
-        "sha256": "be130aeacd31f0bc48f5a5396963e19bda0c32192dc15a82a299f22b35607488"
+        "sha256": "3677b1f599fd0c60187ba9466c00ae5de4ea7b3fca66fc1d31d74c32c5dad33f"
     },
     "lib/pyqtgraph/graphicsItems/AxisItem.pyc": {
-        "sha256": "708d1ef4dd6c0eafdeeb804323df742e1b6ac1e0f867857ca36f8acac57c8848"
+        "sha256": "5dfbc9568655303fd116eb4ad0cbebd26377200c7dde043b20bb70a8fe2e94ad"
     },
     "lib/pyqtgraph/graphicsItems/BarGraphItem.pyc": {
-        "sha256": "84f5bbc956c9f018694c3f94499cbf2ee10997c9b942a00a7df37c3b57b7ec1c"
+        "sha256": "13a7f2725c81a1d09e3fe47d36207627e3a67d77920c0ce9766968eda2915ca4"
+    },
+    "lib/pyqtgraph/graphicsItems/BoxplotItem.pyc": {
+        "sha256": "7249af7dc5759594b541d7211e3b4b9005ee13dd53499d4d1032a67821dd7743"
     },
     "lib/pyqtgraph/graphicsItems/ButtonItem.pyc": {
-        "sha256": "785dbd1027a726d931a223a97e1a8a0d67cdb89e7a96409d1a11a8b799fdfc40"
+        "sha256": "38bf5a48e5ff48b9f68505c68dee3a51e07e982980fe2560e896aa162bef68fb"
     },
     "lib/pyqtgraph/graphicsItems/ColorBarItem.pyc": {
-        "sha256": "0c7d3047a05a6280b4a481a403655850d8c970722d09b9c16fdb1caca18400a2"
+        "sha256": "49179f614e126c11b3cc8f473c74aaadaa2dbb2a5a6cfc1765475296fce2f643"
     },
     "lib/pyqtgraph/graphicsItems/CurvePoint.pyc": {
-        "sha256": "3823bd4d2e3373cc24d5cbec1aa300032e869fa9eb7b0512ee16821f0bb7fafb"
+        "sha256": "733550a1092c1442c1e5a35f89f39b54fad5c3529fe61a16e3b6cef13fbbc70f"
     },
     "lib/pyqtgraph/graphicsItems/DateAxisItem.pyc": {
-        "sha256": "e3b202db96a7fc76160e3e9677c18e12d9e3ab27e146222ee47fd0966231b32b"
+        "sha256": "ae723f48494e0982cf8364e4bd947bcccfd6f900fdf00c3a3121c597e0f6514f"
     },
     "lib/pyqtgraph/graphicsItems/ErrorBarItem.pyc": {
-        "sha256": "6da4ab2362b8c7dad6b760e040fe01dc57ecf1f6a92e25446000049704c2c02b"
+        "sha256": "e64b4be27f9f37680fe121aae7a7e928432afb9563d3279d1e518568a3bd8f30"
     },
     "lib/pyqtgraph/graphicsItems/FillBetweenItem.pyc": {
-        "sha256": "b4bcee27ff2fc9946b2135bbf751ebaf183edd5c44a973a7b07b5e8ce4fdaa8e"
+        "sha256": "1bc9f904acd1244f382faba57c39101f83489092efb08f4fd128f84f1e84965d"
     },
     "lib/pyqtgraph/graphicsItems/GradientEditorItem.pyc": {
-        "sha256": "bc3d458dbc60f3abb7764d230de1af6eff595d631fd9243cbf82d1dab821807b"
+        "sha256": "ae6131dfb8205862508972a79f0761a8e2b55c17833c220e70921a23bff56168"
     },
     "lib/pyqtgraph/graphicsItems/GradientLegend.pyc": {
-        "sha256": "a10f225f904c5a4a8a7c44f9f69f4b0a9cc24c4369012fabc5cbacba164160fb"
+        "sha256": "faece61577698907c246beed1abefd59c5748908475d26dcb6f5d32fddb93fd4"
     },
     "lib/pyqtgraph/graphicsItems/GradientPresets.pyc": {
-        "sha256": "065b1cbaedb8b11fae4082d611748623aab5e9491e2fdd0f402ca4d7d3a0eee8"
+        "sha256": "6288635b3915a2e391fc16c86c83cc12bb4e72c661bcd746cb4528444ce76b7f"
     },
     "lib/pyqtgraph/graphicsItems/GraphicsItem.pyc": {
-        "sha256": "0a4c5e585119810a63f7428b1f373b66b3a28bf4d576bc4d5956e624e62075bc"
+        "sha256": "cbb9089ee1711a36eb16b4388a71c404071c7f9fbacbef5ccee085b45dd553ff"
     },
     "lib/pyqtgraph/graphicsItems/GraphicsLayout.pyc": {
-        "sha256": "b9f63e0ed66586e93f8e88d66cfcc392b93b5f2c91c937eb6012d99e19d3b246"
+        "sha256": "7f7d6a14ab893d4230c699585b084f5be279388d8cdb2b9b1aa6dfa249c98ccc"
     },
     "lib/pyqtgraph/graphicsItems/GraphicsObject.pyc": {
-        "sha256": "6bfa25b06ef64f23e00a48c8fa60020d7cbbed137d43ed6f464619620a32471d"
+        "sha256": "0040bf768f325c789720496f163fc90ad24ff81972b26b896bc75556f65cb660"
     },
     "lib/pyqtgraph/graphicsItems/GraphicsWidget.pyc": {
-        "sha256": "7c9beffdb54c68f869c0ac9a2bb5ef5b9f1808f4189caa1a4f934fd3e47fb06b"
+        "sha256": "bd316a45a06669c2555e5d7630fd6a6e7700c5c65abeb1af1b0c6137b05c0f0c"
     },
     "lib/pyqtgraph/graphicsItems/GraphicsWidgetAnchor.pyc": {
-        "sha256": "818b7efee3b78f331cdfc0de0a7edf92db382e395ffe0ba03649300daea5b3c9"
+        "sha256": "93e28be13d0bd3e81c1f16b683c77541ba353b8603a059243a5371214d038b62"
     },
     "lib/pyqtgraph/graphicsItems/GraphItem.pyc": {
-        "sha256": "b8a58a45439f417f7d6ada2e2f3eb72862de0fa8e4d1c2d58e4cb8d99ae4a0cc"
+        "sha256": "f0db96bb8664e23b28ed357d6970f8a292502590ad6d7e353d07e735f06e6d03"
     },
     "lib/pyqtgraph/graphicsItems/GridItem.pyc": {
-        "sha256": "c3f61340c4954e26b3b7732aa2f04350fdbc47da4b769e4b9d7b16cfaa51e324"
+        "sha256": "f5653a7007ffdbef7c89ba5d3a91071dddf3d8595b672ccf9545709a30c527c8"
     },
     "lib/pyqtgraph/graphicsItems/HistogramLUTItem.pyc": {
-        "sha256": "30a11e02d1a773b4d88b6257a3cf501634fe71d7452f26b73a8ea10da48b74fa"
+        "sha256": "36f1148ee943775a0df24410d83bb08abb3fa7ac09995adcba9ce778cf62f0dd"
     },
     "lib/pyqtgraph/graphicsItems/ImageItem.pyc": {
-        "sha256": "784443dd8891ef8056157c7943dc0c60bd19519169c03a885c8e7dce85e730a9"
+        "sha256": "bc32a92bc4c851c5ec2d4811bd1ae9c740b3f7d08f7c9097778ec7c08f1b4658"
     },
     "lib/pyqtgraph/graphicsItems/InfiniteLine.pyc": {
-        "sha256": "ce3d00a96d3eab97662a571489a0f70d3ff53c078ac17c3769ef61e2ba006919"
+        "sha256": "f280735c80052eb3c8c8e115d6add7fe94433f382350ab912a9adf4f5c7636e6"
     },
     "lib/pyqtgraph/graphicsItems/IsocurveItem.pyc": {
-        "sha256": "2e40b44c45f32813c0f62c634ff9f0fb4545d6291130d384a70ca0aa19689ed0"
+        "sha256": "982682a4e0736e836a14e8d50594f0f2b1622badaacc4aeed2b6106787a68e29"
     },
     "lib/pyqtgraph/graphicsItems/ItemGroup.pyc": {
-        "sha256": "ea8aa83b9a22f23996ef8d9252290a8f761928b3420d0fcc58c1b5c8dced4f81"
+        "sha256": "ba3478866bb49b052e7127fd1483fe7dfc0cdc8453cab1085061293cab1e18e8"
     },
     "lib/pyqtgraph/graphicsItems/LabelItem.pyc": {
-        "sha256": "6a18ac88eaf4068e2fa41fdd0c7b348618e59e1738f799b4fede49bcc8d94d9e"
+        "sha256": "0c5fea50e9dd9bb8ca76bcfa53cd25caa11f28266e8f74066f6d136b7c558f53"
     },
     "lib/pyqtgraph/graphicsItems/LegendItem.pyc": {
-        "sha256": "3a0d9da5d92e60a259aa9807658863b280c46e6bc1fbb6efc2f4df2d01e5f9ac"
+        "sha256": "e3b1dfb0a9f7f448be5ae6e10f25601a24b35646ea92b6bc101dd89648fa925d"
     },
     "lib/pyqtgraph/graphicsItems/LinearRegionItem.pyc": {
-        "sha256": "0fb8a32185410ff413c358f92be9cb6a15a07efd7ba04d8a273ea5215fe5e970"
-    },
-    "lib/pyqtgraph/graphicsItems/MultiPlotItem.pyc": {
-        "sha256": "1621442b2aece8b829bfe3672e07f593e7c599891f7d631466dd774d77fa39c2"
+        "sha256": "c41846f8a1005e25998139823ea8baa76dc48eb533954c5c2581309ac04d5248"
     },
     "lib/pyqtgraph/graphicsItems/NonUniformImage.pyc": {
-        "sha256": "70e349d4a4d81797b5ca6d7dcbcaa3935f883feba59af13565db8ff5ed1b3727"
+        "sha256": "fb26a29f3786c621678a2c0fb60243c5a8a50fee6439931c8cb0b0b5e3fd5a53"
     },
     "lib/pyqtgraph/graphicsItems/PColorMeshItem.pyc": {
-        "sha256": "6248e487a9844575e7ad82631a154501df0b074d5efbd6d0afe2d4a596c6e183"
+        "sha256": "7efe5db2d0bde118effd3ace5aa51656db69e0b556cd9619fc5bc0ee5d659e51"
     },
     "lib/pyqtgraph/graphicsItems/PlotCurveItem.pyc": {
-        "sha256": "ad543a37533ca23af49439e2da5c0642c913d421993ecb5176ba9bd79631aa99"
+        "sha256": "cf1ae1117a9e08750ca7b672b7c27cc498833be2177be83036dac894e698a71e"
     },
     "lib/pyqtgraph/graphicsItems/PlotDataItem.pyc": {
-        "sha256": "c91b36a25dd26f45a705d815ebfeca5222b90d8b982455bc576ccfbececd690c"
+        "sha256": "d5e5630890bb2431e15473a2af92c600152e87e05cce939dab7275fcb759d3b3"
     },
     "lib/pyqtgraph/graphicsItems/ROI.pyc": {
-        "sha256": "22d6764a8badf06661bee90b8208fae2c51e4f7327d434431dd36c6b3dd7e1ac"
+        "sha256": "fa905e72b1d75dff64d82f20b99097f869eb1310ed8970b0bff11a894cf5e587"
     },
     "lib/pyqtgraph/graphicsItems/ScaleBar.pyc": {
-        "sha256": "0d7fdc1f2c00650f871936e0db6dbfa9486a5fe80340da4bc98462a3e28d85ed"
+        "sha256": "27a1b36bd1c2a5da1b78049a5359186a9362953e765b68f9f149b36552a021f4"
     },
     "lib/pyqtgraph/graphicsItems/ScatterPlotItem.pyc": {
-        "sha256": "09f13db47e2be16a5f769465aa6db525d43ef5d1d4196581628b80666bdc3329"
+        "sha256": "a5102824b2419ffdbc98cf260bd58fc6f8437ea72d33d74903cd3aa3cb205ada"
     },
     "lib/pyqtgraph/graphicsItems/TargetItem.pyc": {
-        "sha256": "be879341958c2ffe4ff0be8124b8bedeaf1d7cbefb5557eaf71fa5f77df612ed"
+        "sha256": "b3c660cdc762a88529eb72b89743fcdf8314fd7f30ddbce921a190bbb5091471"
     },
     "lib/pyqtgraph/graphicsItems/TextItem.pyc": {
-        "sha256": "b782539689b2cba094280e7b673c57e065fa0fc6fa6f497ff22ee535c4e889af"
+        "sha256": "990c1706ef7712c12800e6fc92f658fc5a8fdcf54c9032f78411f55c81ba263c"
     },
     "lib/pyqtgraph/graphicsItems/UIGraphicsItem.pyc": {
-        "sha256": "4a80e049d699a5086a62f70f35e67b54db9577dd4e2bf49163f7e205d327f5cd"
+        "sha256": "c58d8cb3abb2537170419347ff3714850d4ffbc5fe92397da6f4abc0cd44f77f"
     },
     "lib/pyqtgraph/graphicsItems/VTickGroup.pyc": {
-        "sha256": "1c9202adf998ea06355d4e17d10843b8d2f08097f8ba7dbd1161a281c45fad47"
+        "sha256": "22e1569787e39c9c61493ae7a5f03d947af2e52835a6aab27cac06fdc4d0801e"
     },
     "lib/pyqtgraph/graphicsItems/__init__.pyc": {
-        "sha256": "a7c8f806ba3a3d563bdb1f8bd56fc02b56eee61d93c7eca345166d1c2e47380b"
+        "sha256": "3c0e611f241370920f9079993cc2fad7ccdad470c589a943b82bc747c30380db"
     },
     "lib/pyqtgraph/graphicsItems/PlotItem/plotConfigTemplate_generic.pyc": {
-        "sha256": "b92666a609cc34f71dac88f60c3e9983f26b880e3150ae097b0a7ee9df9d7c6a"
+        "sha256": "cfd3eced4191d07ede34842d07a654847fdc63ea1e37334a9840ee99ae0afca8"
     },
     "lib/pyqtgraph/graphicsItems/PlotItem/PlotItem.pyc": {
-        "sha256": "773607f09990e99b2a513681bd04d8bec35411214199661f28829025813e9008"
+        "sha256": "723badb921b8bc70732dfddd2320759c4d385d68ae759438fdd29c17d06df44b"
     },
     "lib/pyqtgraph/graphicsItems/PlotItem/__init__.pyc": {
-        "sha256": "95f1213b03213a41b36ea0fc55e67dd35e0450ca727ad98dd1c1294198c86711"
+        "sha256": "cbce317a061c0ff0503f589ac1a8e988eb2d17ca30bbeceb37cebb1bdda86f9d"
     },
     "lib/pyqtgraph/graphicsItems/ViewBox/axisCtrlTemplate_generic.pyc": {
-        "sha256": "624450175d37fcf5b8866709e938bc9eda8820a6583b9cff7450ded307e22f8c"
+        "sha256": "605832658b9bd4e53c67ebbdd02d5f046a56f38c748be7acdbb2c7531542faa8"
     },
     "lib/pyqtgraph/graphicsItems/ViewBox/ViewBox.pyc": {
-        "sha256": "88b891a024116e96607c136a5abc879b1d7f12648aa2072bc891322b08fc4b95"
+        "sha256": "9ca4a33c52460609a0d43b79178d80f9dca7e5ab42f1790f622b08c34341dcac"
     },
     "lib/pyqtgraph/graphicsItems/ViewBox/ViewBoxMenu.pyc": {
-        "sha256": "02e65991fdadea19625e4cfc448eaf7f8a32a104f02651745702fdfbfaa58d6d"
+        "sha256": "8a833a520e7136f3b631a09b191b98f4d2fc9c2bf9811db405a38e8b8abb611f"
     },
     "lib/pyqtgraph/graphicsItems/ViewBox/__init__.pyc": {
-        "sha256": "ff3d270b1a8724ba8580484c0bc334ff6384ee7c2a8f88c16ce6fc14a60ee221"
+        "sha256": "3dac16bc13c252b9fdee63dafbdb3fe0be0e30d1bcf834831c333f09d5b88b56"
     },
     "lib/pyqtgraph/GraphicsScene/exportDialog.pyc": {
-        "sha256": "73f6ea027fa5072f00cd4efd5bc5eff86555b8613d6948ed845dd2f0295aa34b"
+        "sha256": "e1bc43dd9f7e800f3c13e3dfaed2e48548a41ed344b36ea1c6344729bb347279"
     },
     "lib/pyqtgraph/GraphicsScene/exportDialogTemplate_generic.pyc": {
-        "sha256": "eddc1287ffdcf7619864a0448ea9aa24e34ce362d2ddb81f86cf921edd1cc0cb"
+        "sha256": "f51b10daf0d458ae04c239c2a933238c1f8b771185001bd18459688e114bb91f"
     },
     "lib/pyqtgraph/GraphicsScene/GraphicsScene.pyc": {
-        "sha256": "ea48b219bcae81b6bbbd197c6558d95b63307b6b295275a0419de57de362401d"
+        "sha256": "477c2370baa6fb4d0825f496486f96d2cee3713f0ff5ad0b6e2fcef3f75b3c45"
     },
     "lib/pyqtgraph/GraphicsScene/mouseEvents.pyc": {
-        "sha256": "6f3e0fa2afe42a953d4d38d9c3a26f2e1000bccc741f3367523dd7002b8c3270"
+        "sha256": "55724f8ff9c9055c8567632559afcdbcb17f4c77c385703c749017dd7d825959"
     },
     "lib/pyqtgraph/GraphicsScene/__init__.pyc": {
-        "sha256": "fd03fdc64787f0a21eb714f76fb10533119f2cc775ac3f56d2645fec4089dada"
+        "sha256": "c0aefdacba84b76d2887738516d59ecdc865fb118fa039e2fc6d9fef15b28682"
     },
     "lib/pyqtgraph/icons/auto.png": {
         "sha256": "35364e48b4c021dfa0da77a3b70f61cc4c3db0e7760d1e291c760c985e92d3bb"
@@ -9623,7 +9626,7 @@
         "sha256": "3a4a82f66a87f58d821f85e8e914e92ba6b5134dbf322dc6d660563a93be486b"
     },
     "lib/pyqtgraph/icons/__init__.pyc": {
-        "sha256": "f6a559c821aa29444ba70889b97ea15a4b15edc0944c59061f65fd4c3ec5179b"
+        "sha256": "d541c629660dd6eacca1ecb4f05802d98fc01cf29514beb8a2f2223fb96761b8"
     },
     "lib/pyqtgraph/icons/peegee/peegee.svg": {
         "sha256": "c5f109773bb4c846b7c8cd912c8c8e8735196cf6c88c483ca58e6e03f1617995"
@@ -9650,181 +9653,181 @@
         "sha256": "6b020c36877345b8a7469cbcf778b88a595d65b0c4b2de561776448da5be5d0e"
     },
     "lib/pyqtgraph/imageview/ImageView.pyc": {
-        "sha256": "806374cb514a7e00c4c9c15384cdcc8db9d7c8b0a29f6d6e53a8b1bd24dc4e87"
+        "sha256": "ae9625e047c68cd7c0b3098eecee21fd5fec0e1cf62745e30c3f9480b647137f"
     },
     "lib/pyqtgraph/imageview/ImageViewTemplate_generic.pyc": {
-        "sha256": "fbd10078cf35bc5e9b990c2049519e6cc2dc446f9f44f5df9a9ba949d9bef291"
+        "sha256": "a78d9831af71b718b41c4091879e26ae356fb618d1a877c1eb74122db035fc46"
     },
     "lib/pyqtgraph/imageview/__init__.pyc": {
-        "sha256": "c61bf12b1d4469f3ee43b2dc4080f70796fea2d3c08f4eaf875fe0036e40de46"
+        "sha256": "0a7135346672a59bae2f1880c6ae48b4baa75a30d9ac42252e52fb2b6e625480"
     },
     "lib/pyqtgraph/jupyter/GraphicsView.pyc": {
-        "sha256": "e2db42517cdffa5ebf6bc44abebab4ea9d6d05b025322eab7c86fe7e0ac9cb06"
+        "sha256": "20f76627c2920110b63088ba541cb4a15b7c97e257190894092ace925699e474"
     },
     "lib/pyqtgraph/jupyter/__init__.pyc": {
-        "sha256": "a2dec250bb366fdec16f0853aba9653bb51401738ca0699e8a273223a118af6c"
-    },
-    "lib/pyqtgraph/metaarray/MetaArray.pyc": {
-        "sha256": "6b05f131146e0ccf7bca1f76e25f31d2aa5f34fb323ac4062dbc25616745324c"
-    },
-    "lib/pyqtgraph/metaarray/__init__.pyc": {
-        "sha256": "623f4a941e6a6a8bdf775f1f60000100055d1e655f650bbe323d7e6762a0d5ee"
+        "sha256": "40c15a400ead4d4ed38afb6de03e83e3a38b1f097520eff86e14e8071a8a4c4a"
     },
     "lib/pyqtgraph/multiprocess/bootstrap.pyc": {
-        "sha256": "049c0ee0a02c4ef5b1db983b947b1663a8794779e512f96ddfd1d5ec3bcaadf6"
+        "sha256": "fffda4a85aee6f46548bffc044e4037823a520d6fe3e7b182e62ab57d77a0aa0"
     },
     "lib/pyqtgraph/multiprocess/parallelizer.pyc": {
-        "sha256": "a7f609d6560759e4747d613bef584688ac496b6bcc0a391a6035b20ed74d5ab4"
+        "sha256": "2fd64bc2a8d8377a47af966fd11d03cd1eb6f363b9666f8c1c2b3b261496b29f"
     },
     "lib/pyqtgraph/multiprocess/processes.pyc": {
-        "sha256": "48dafceacc79765ff7f7bb79459d4076d6306177c67c264e327b608ddecf7071"
+        "sha256": "d339e82721c131d94751acc8b2f99923a50c5b4547ef02bd9d1e29551ae951e3"
     },
     "lib/pyqtgraph/multiprocess/remoteproxy.pyc": {
-        "sha256": "8eceb12642c33e1e87387f766854b287f66747642707f6baf16b35262e6e3905"
+        "sha256": "05c1f454e2c1be270ed506ae88060618a79b596eaa87cb0895aef090b58acde5"
     },
     "lib/pyqtgraph/multiprocess/__init__.pyc": {
-        "sha256": "a501773172caea0ed6bc65036a7e6ad2f122aa83a10d421d8237602b460a167c"
+        "sha256": "18010ca7779af04cc530b1211c6d387b0698e7b6b667ffc552d25ebc67f756c8"
     },
     "lib/pyqtgraph/opengl/GLGraphicsItem.pyc": {
-        "sha256": "8feccaa23ceff15af08d33f00d155e90e65bda3ddc453b635cc4cfcf5200f06c"
+        "sha256": "c3e101f547ac20f0c443055a79674669ec5c815e559d72af12d47ff5c64d05c9"
     },
     "lib/pyqtgraph/opengl/GLViewWidget.pyc": {
-        "sha256": "ce735f57ea148b4f45e5b774f33f4007de667dfc9d57fc32ea2d43ca27f0a232"
+        "sha256": "69ea80b129f70dddd05c1cd14fc799850b4c6832cbde235298548e15ca0be6a7"
     },
     "lib/pyqtgraph/opengl/MeshData.pyc": {
-        "sha256": "44e459cbd5786126558b374bda69eb7b1767be39326a7b2fd0b59a3bff1ad636"
+        "sha256": "a15033c645ae80b0532be7362982d87346d0b62afd3a422c3d45d0a2fb731f59"
     },
     "lib/pyqtgraph/opengl/shaders.pyc": {
-        "sha256": "2ba03c31fac7a7ad638c42a24874a85989c17c6872fe98fc0cda3a3055742b73"
+        "sha256": "8f1b284e8a5e2f9f84c7630fdba4ba8ea811578b05d97b600cc1d390b96bff28"
     },
     "lib/pyqtgraph/opengl/__init__.pyc": {
-        "sha256": "1f82233ddadfab63039f325c49fdbc2545e69384cd656be7e81e931fdd531bfe"
+        "sha256": "e27669a96b0ca85b300d1df5e7af79b050439c12bb36e4a695db807d6298f5cf"
     },
     "lib/pyqtgraph/opengl/items/GLAxisItem.pyc": {
-        "sha256": "7386c1bcbe616652c443d1ed92d8252be62e1daf27a3bf39b25d30852a3e7249"
+        "sha256": "e455f5b2fd41e3de5dd71c272450e10c3a8ce838dc58146a28a074a50eb175a9"
     },
     "lib/pyqtgraph/opengl/items/GLBarGraphItem.pyc": {
-        "sha256": "955d97d51968e008eee8c6b93c12410918caf038e01f2dfd82065e051d5bb5e0"
+        "sha256": "883de5cc383bc461fba4924b90241dbf8eb784d6d58a991886ffba2273937099"
     },
     "lib/pyqtgraph/opengl/items/GLBoxItem.pyc": {
-        "sha256": "09d25b659a611ce0e3c1fa2700c9a0d538bf78620269166da70055498d0e56b2"
+        "sha256": "bc6c27cbfb3a6156bd03767dd3ad97a2a20725a6c2284a71743fcbc73861b08a"
     },
     "lib/pyqtgraph/opengl/items/GLGradientLegendItem.pyc": {
-        "sha256": "29c4db8a9c4ff478f4563a8a717ad0baaaa33027b4838be7fe10eb8d35b0acc3"
+        "sha256": "91b07a8f039fbf9434fd17cc660ca06542c4049726461397c89e5377c8497417"
     },
     "lib/pyqtgraph/opengl/items/GLGraphItem.pyc": {
-        "sha256": "50242d0a5358e1cd6d00b7f450d80514cbf62d0d37ee940cf2cc37a27cb3493a"
+        "sha256": "2b30c45916e3ea1bd492d23d976b7d8ea10971dd869823c9d1fc75a7321dce50"
     },
     "lib/pyqtgraph/opengl/items/GLGridItem.pyc": {
-        "sha256": "0a26f26b98bcff48f0a8faf97c3cf279b4b960a8f89a060f613061ee875aeb09"
+        "sha256": "a85896d3130985b9f574cc19aa77f5d105eb66f1e0c49c545a535f8d056c91d4"
     },
     "lib/pyqtgraph/opengl/items/GLImageItem.pyc": {
-        "sha256": "ddca7d85a3369e4c0f6dca8305c8fe1af7d893219bb26f636d536aeaf62d7b88"
+        "sha256": "3c8205b466e90ebec58ce9527ef868030a0ab47a1ab1fc33c88ed9e9be1fe449"
     },
     "lib/pyqtgraph/opengl/items/GLLinePlotItem.pyc": {
-        "sha256": "4901e1211dcdf93cc9b77277995e8658bf8c5cef533de618bb479110bf2ae201"
+        "sha256": "29302cffac13fb87eb312455f404d974f320a278f08a18fce39195ebecca99de"
     },
     "lib/pyqtgraph/opengl/items/GLMeshItem.pyc": {
-        "sha256": "cb636c58c94c3750d2ab7d37ee3d17a38a62d86d4eb93d681fca885cbe9fd752"
+        "sha256": "1274f9d4e27a2668e5d267e4c86c098a67f3bada437654623612f1885ff6521e"
     },
     "lib/pyqtgraph/opengl/items/GLScatterPlotItem.pyc": {
-        "sha256": "1fd06fbfe6cc649874ad968cc9a729ba2f62e08c812f3626867d7c0446f891d8"
+        "sha256": "dd62da7c6cd2014394c24855d2f635d4749a725c9716e933c05baaa168ebb17d"
     },
     "lib/pyqtgraph/opengl/items/GLSurfacePlotItem.pyc": {
-        "sha256": "d80d59bab7b9e8af0dd7f6ecd1d46fe60498d56f336ca71308fd9e0d3d1e4568"
+        "sha256": "c55cbf121b1ccaae5b82422c471dc30be66503f1d92fe8c045d6f732fc10bdaf"
     },
     "lib/pyqtgraph/opengl/items/GLTextItem.pyc": {
-        "sha256": "b993c353b3a91e28e7c667432f7cfc2a03ba68ec04effa35a43acdddaadb3aa8"
+        "sha256": "eff70ad5cd0db68733ec04fd9e2f29be8de1167c83fadcf15cf59db81dc7a416"
     },
     "lib/pyqtgraph/opengl/items/GLVolumeItem.pyc": {
-        "sha256": "e14ce73a399c46448e98f0abe64324ecb31646acf3feebb560901764ade33128"
+        "sha256": "93471aa57a70b2eb9263e96c3eed29d18f63f4ff80026447841dba125c837394"
     },
     "lib/pyqtgraph/opengl/items/__init__.pyc": {
-        "sha256": "3db23ede4bb3124a0666663466790743629f868c6f78511089467543c8e4b153"
+        "sha256": "436f627f82b96f860c344af0624c3fe5aa23fd7358dadfe0d3c342e5eee117b5"
     },
     "lib/pyqtgraph/parametertree/interactive.pyc": {
-        "sha256": "d2e48a400eb4b67821e987003d62666b6addab379a136e5c3f794d76a68065c5"
+        "sha256": "f58eeb566e3f4e4f7fdc0df1fa4d05e1f5e4fa290cf51405fa6fcedd017a35e8"
     },
     "lib/pyqtgraph/parametertree/Parameter.pyc": {
-        "sha256": "fc4d7cd390078daf8ac8fbe29c488bfe49d8e4dc55c4d5f1497be26f170fc686"
+        "sha256": "4eeb1a44e8055d3b9f7f2c58fd06dff9c32addc67951f2222ca679465656677d"
     },
     "lib/pyqtgraph/parametertree/ParameterItem.pyc": {
-        "sha256": "8f7ebf885bdf1399237b86dd8080ddc511b3667a9990dc47ce37b113e09b33f9"
+        "sha256": "23d07f68c8b2c113fd9c2fe1d5c852c1e0be7c0507dfebab5c368f04dc73a392"
     },
     "lib/pyqtgraph/parametertree/ParameterSystem.pyc": {
-        "sha256": "1ac48ece9a75599f9964215cf9f95126826b26e9070908da9be2c67bf0b7c7dc"
+        "sha256": "04e834fd7d3696ebaa7ddc93aa6913f806fc25e8b9c38e4609fe29fdc9cbf7a6"
     },
     "lib/pyqtgraph/parametertree/ParameterTree.pyc": {
-        "sha256": "e45386249d3609b50caad211017c5d6eb115ae104c5a86c52b2a1a8f4818e602"
+        "sha256": "baaae6144ee0910a693741cebcd9213bb850a628ac8519d8f088341ac2aedd56"
     },
     "lib/pyqtgraph/parametertree/SystemSolver.pyc": {
-        "sha256": "b23607eb42a76e26680f310211640bff9a7ce8c80e351a0e471f33c6938c05b2"
+        "sha256": "b2107865a8ec4942f5ba94a695356d9cc254bec8444f3d49cde8cc49a13136b5"
     },
     "lib/pyqtgraph/parametertree/__init__.pyc": {
-        "sha256": "8243a3c71dc59445e2b7ee01bfd7c9a3769876fe401c168c550636f457456eb9"
+        "sha256": "8f6a1e38a574e0ba34f69ff52bab71ef76c8837c400839acd3ed37142d855d88"
     },
     "lib/pyqtgraph/parametertree/parameterTypes/action.pyc": {
-        "sha256": "8af8b089a5b9fc890d5b78da26bf305adddd507d49d02edcee9f0ff888d99d1f"
+        "sha256": "e1fd512a3887a6cc542107c1a5eacc68a6d5f8ae514f1931a845c81df0b35fe7"
     },
     "lib/pyqtgraph/parametertree/parameterTypes/actiongroup.pyc": {
-        "sha256": "f410e4e8c34dea29f7ca27f698166faa1354e235dccea5ff701d25ca7010c8bb"
+        "sha256": "7ca8750f75313733486b5078a683015d318fb4baa31c57eb13f39d5614cce516"
     },
     "lib/pyqtgraph/parametertree/parameterTypes/basetypes.pyc": {
-        "sha256": "7b9812876cf2ba622d2ac9f876aa8f742cca6cd9fd8cb8b743153a8565f79ac1"
+        "sha256": "d2de8413a6d44d46cc25d16d153a1978469d33a27d9968a7df28919e2fcd6e47"
     },
     "lib/pyqtgraph/parametertree/parameterTypes/bool.pyc": {
-        "sha256": "811ca9b381f59230c779e01b73d1f2c365411d2016dc1897a02ef64531016c4c"
+        "sha256": "929940a3e048b6f6ed5c63cdc881468b5513961f8f60e87b79e83a80bfee53e1"
     },
     "lib/pyqtgraph/parametertree/parameterTypes/calendar.pyc": {
-        "sha256": "485a7c61d96d420e2f82e4d41ec4ae024b0fc6b030146038bfc9030ad4bf9b47"
+        "sha256": "9990292d1b1473812bcdbc1430bfcfee93cc8e3cdfe1de365eeefcd3101bfac7"
     },
     "lib/pyqtgraph/parametertree/parameterTypes/checklist.pyc": {
-        "sha256": "2eab2568007208f33582f30e0f49c14208882f3fb5146632cc4191cb15038875"
+        "sha256": "b0cb6e952b1ec55ebb69562cc5ed1e42f3225d79cbdd11ea8c4c378abfa3f697"
     },
     "lib/pyqtgraph/parametertree/parameterTypes/color.pyc": {
-        "sha256": "86b4377b96dcfaff13fd22e8231357a60c3eb2f2563a6b2d431d7657705dc7d3"
+        "sha256": "fafc4cb90c4fb6b8246076abe57e11ed91bcdf3ccdf9582e69e35a114d046086"
     },
     "lib/pyqtgraph/parametertree/parameterTypes/colormap.pyc": {
-        "sha256": "3e768fe8ef471b9cd737d2d6157683ffca3fbce5efb6639916a40a0f21b951f2"
+        "sha256": "191c68d47f7946e63617df43d2750c6e65b081f22e0e95975200ed65abe38eaa"
     },
     "lib/pyqtgraph/parametertree/parameterTypes/colormaplut.pyc": {
-        "sha256": "3b43f69959818c32a6292a7b26b794f65c5f660d29c081ac69acfa29fb82bd66"
+        "sha256": "ded596a240a32bbf7cfa4125419d95f9f8c79c4a655c7254301e30ac4e5b182c"
     },
     "lib/pyqtgraph/parametertree/parameterTypes/file.pyc": {
-        "sha256": "e8ef158caae5140a3e33709d17c5beec32ac4c43693ef518d2cce36d965d96c9"
+        "sha256": "36e6fe5235eacebec9481db58cd41c37a079b6ba48e5a7e6e0767d1720bf2c7c"
     },
     "lib/pyqtgraph/parametertree/parameterTypes/font.pyc": {
-        "sha256": "c6eb78ad7f835e69e6d9611e4e2866412daa9113aca008447eac609b8e2362f3"
+        "sha256": "1c873061ce0a28a60ea9f2d4b4ef1a2635d54ab56f5a7f0f499951d837297318"
     },
     "lib/pyqtgraph/parametertree/parameterTypes/list.pyc": {
-        "sha256": "4026be6b94039bddcd67ae577f4c907c8ab80ecc4e67b8def55451e5bb1c289b"
+        "sha256": "cf35def14da845485b94185c9e5c94a35d3faf0cb7cb145cd260187d55d060d6"
     },
     "lib/pyqtgraph/parametertree/parameterTypes/numeric.pyc": {
-        "sha256": "710fab58d41803642b3879135044e17071f10b666bdf009d976039c32427e63a"
+        "sha256": "308ce69c96355bfe3cd95158f3aa9f020aa3e7636feef04a820ade12e2584d9d"
     },
     "lib/pyqtgraph/parametertree/parameterTypes/pen.pyc": {
-        "sha256": "1501f93eecff21302c665de6425b8689d29045b031bdc4177c1feb6f1921fe33"
+        "sha256": "e436fd8b7e36cf0624dc1a6199660457a6fe5aedc6bf2cc7e29af42370a49434"
     },
     "lib/pyqtgraph/parametertree/parameterTypes/progress.pyc": {
-        "sha256": "65bf5a7c45f31deab02d0aed4749ed6d8d7ce322dba0f66963789e87857cedb4"
+        "sha256": "746c7245e1302d5b5b7989439463014b9b9257e9809a4c5a9c5d672bf47b0b07"
     },
     "lib/pyqtgraph/parametertree/parameterTypes/qtenum.pyc": {
-        "sha256": "4c11be0ac04d79b278d55bdeb61f5ac7ea35411e729f4aec3d7be3abbca97c1e"
+        "sha256": "084e54725727fbb10a1bb2fd472bc4a2050d01ffbd26cb5e19773f9fe372f2d9"
     },
     "lib/pyqtgraph/parametertree/parameterTypes/slider.pyc": {
-        "sha256": "9e322d6e04eef5b20d59e2d56e9088a1771e5c135ba7aa20cd980f8608d0accf"
+        "sha256": "beb0e16ce83a5e429f7c5ae06dadb488990fdcd41ded9b9b0b68f7ba4615115d"
     },
     "lib/pyqtgraph/parametertree/parameterTypes/str.pyc": {
-        "sha256": "a01586f784f18aaa62a9e11be6eae8258d4594b236bae9756d0fa5ee575fd154"
+        "sha256": "c1ad983eec51192ce331f19b13756baa103a60c525fcd58fcb7d2929f8a41200"
     },
     "lib/pyqtgraph/parametertree/parameterTypes/text.pyc": {
-        "sha256": "5a5215c93b3831e558414c959bdda7a56f072955584bbf878e87d3c15954ebe8"
+        "sha256": "9f60fffb3fd65d90936aeb7ac4bb84ed61768cabc95084eba94d441f9522a641"
     },
     "lib/pyqtgraph/parametertree/parameterTypes/__init__.pyc": {
-        "sha256": "25b41ee02785d5ef5687cfc8f7794cf365fe11facad4de88e17e2e8fc72835bf"
+        "sha256": "af76a6810979d544062c8df841c640a8bcb339946440e459e13701bbcfa9c107"
     },
     "lib/pyqtgraph/Qt/internals.pyc": {
-        "sha256": "34d99f8f9ca99b2657881667c9dd3d8e639116e85cd18ba5df1d700054c852cf"
+        "sha256": "ebdb37faeba5231daf58246d1f23d0fbd80d1c3f1161b26c5cd023d406c96b22"
+    },
+    "lib/pyqtgraph/Qt/OpenGLConstants.pyc": {
+        "sha256": "6cc2d7da787e72d70cb7fc9d66027385f8abf21c379f37808bcfdb1b060a811d"
+    },
+    "lib/pyqtgraph/Qt/OpenGLHelpers.pyc": {
+        "sha256": "7d941c00bdc772299a275baf2f3278e5f22ca177d02db0d959edce48ad24296b"
     },
     "lib/pyqtgraph/Qt/QtSvg.pyi": {
         "sha256": "4864e8beed8fc49c42d3011870a9ba4820fe2a0ec77c0e0f289a6970c2a672bc"
@@ -9833,166 +9836,154 @@
         "sha256": "154c5b2440e3e9d37de7895e1b199b6d2cab0b502379e5794545ec18165efef7"
     },
     "lib/pyqtgraph/Qt/__init__.pyc": {
-        "sha256": "db13d5fc881f14260ef98ff300592164625c90e05d7c60ff86139da73bdfa885"
+        "sha256": "3d104190c9cce7d3443d902d0aef8691e015208d131ec7820828f28cb0f50755"
     },
     "lib/pyqtgraph/Qt/__init__.pyi": {
         "sha256": "3654f830c0bf52783c9ea08ca3b3dbe798a79008b38fd2b830f6451c49301dbc"
     },
     "lib/pyqtgraph/Qt/compat/__init__.pyc": {
-        "sha256": "19f09b40e16a5e7cb0a8360ea2b58525c9d1182252b32340c9dc19a2b3e52d6d"
+        "sha256": "fd59092e057f7e68966ad1a9177d0e98552ce925ebb2738ecbd605161b095bda"
     },
     "lib/pyqtgraph/Qt/QtCore/__init__.pyc": {
-        "sha256": "8583bf8ab7b927607b4d3cd071fc825084cae6d52cd5dafe9a4339b1ad1bca52"
+        "sha256": "aa79bb687c0b4741f525ebe50e874c020d5fa8e560df8b1a0d92e51f48502692"
     },
     "lib/pyqtgraph/Qt/QtCore/__init__.pyi": {
-        "sha256": "c60232a138c39541391162105a4d3efb504948efc9110a8026992ec53bab99aa"
+        "sha256": "c4804c8cbb4ea789a6c0ed0f67fe91e572f77f3c6cc4b56153bce9c19082aeb6"
     },
     "lib/pyqtgraph/Qt/QtGui/__init__.pyc": {
-        "sha256": "30cbe8b06924964a99a978bddb2a4feb226ae371d3904b7e4979124cf51fee54"
+        "sha256": "179133a47bd4d73e2e651b459e5d415f7d77d259421cb21cc4edb79004685f8c"
     },
     "lib/pyqtgraph/Qt/QtGui/__init__.pyi": {
         "sha256": "36c68edefd2bc25fa51c16df2f2a19b2ff06b06996fb210afa813f5200f29e5d"
     },
     "lib/pyqtgraph/Qt/QtWidgets/__init__.pyc": {
-        "sha256": "4f42e21c5393bbb86eadc60c4b2ecfc0e46e76b0938b501e7dfb38f7629cd405"
+        "sha256": "52ba6f466177117a69ed04b90cc08841b5cf5a3d6c540f9c5fbcafae70730c29"
     },
     "lib/pyqtgraph/Qt/QtWidgets/__init__.pyi": {
         "sha256": "9be0c4cbd6c1841e8723ffef518cb2befb509b7d047bb6cee56388e574beaa61"
     },
     "lib/pyqtgraph/util/cprint.pyc": {
-        "sha256": "4a03bddf72e73d3787b54ed30f81d063c0e288b14ee744d63847a7aa79a7049c"
+        "sha256": "01885dbb71cdf489e00a72d7d9f46a496300b5cd2bdc201dc1577f10385b7cab"
     },
     "lib/pyqtgraph/util/cupy_helper.pyc": {
-        "sha256": "5d56d98e8b3172c4096c9fa9920d01c1b5a5aa6ef7d73ebcb8ce20df7a10ac51"
+        "sha256": "88f771645aefc1f3b4748401d9ce049af92817a1e6f6a6e625c48aad22ade8c5"
     },
     "lib/pyqtgraph/util/garbage_collector.pyc": {
-        "sha256": "2ba06ae791c65f18b121690ac71b5c212cb9790bc235d157e5daa7e3e7483d1d"
+        "sha256": "0efaf22999da25ebe3513e968fbff1c6c5b915b190b300b9f26848abfe9271d7"
     },
     "lib/pyqtgraph/util/get_resolution.pyc": {
-        "sha256": "40aeff11fb072e5e1a65d7284efdfd39a15d3843a62c818d4ac51713a0a8e68a"
+        "sha256": "d72e1f811e7a47cc03319f61a50c21d2cbb3f9a34ee33ffb7b94de8bb50dd15f"
     },
     "lib/pyqtgraph/util/glinfo.pyc": {
-        "sha256": "c061e904e3970dd1d41216f512b9d5a429975b41f6326f02b46675a0cc2c4447"
+        "sha256": "80e1364f5519721d0cd5e6053966ee3a7b80049758c4fbf116c650fe1645157e"
     },
     "lib/pyqtgraph/util/mutex.pyc": {
-        "sha256": "5d9aac72f4cd3c607d9d4b7fad703ed0b032c9e334584b7ce5589737dbbd554b"
+        "sha256": "78f7fe557f7527196effd84b35f5f972c5e91d283864f4d92f7880de417a945f"
     },
     "lib/pyqtgraph/util/numba_helper.pyc": {
-        "sha256": "3099ade2c2efc16d6536ae42d719723cb025a8af915bd3af629d56c168bbb0e3"
+        "sha256": "03b1a72fa1d9e00692c5f2deeee31b2c39383f7664a50b5fd2ba2f8f21396fac"
     },
     "lib/pyqtgraph/util/__init__.pyc": {
-        "sha256": "dcd3c15e36d2ef8753864b56e2ba6a95fad485ce4b6f0405429148ea929ad6e3"
-    },
-    "lib/pyqtgraph/util/colorama/win32.pyc": {
-        "sha256": "fed5ef88a1d1e06df5ba4e45a4a9de51be5b278fef638d4a4c61301adb09c5df"
-    },
-    "lib/pyqtgraph/util/colorama/winterm.pyc": {
-        "sha256": "93d79b878cee92aa53e3f2a430a53543b3ae47d20c03ee8cd91457a83f6027ec"
-    },
-    "lib/pyqtgraph/util/colorama/__init__.pyc": {
-        "sha256": "4a57507f0b45e36c2bba8dc680635d705f623e48eb8571f02a9efbd17c76d03f"
+        "sha256": "94f901326ee07f1d3d16504ec088805781715f14470294cd42f2022e936a83b4"
     },
     "lib/pyqtgraph/widgets/BusyCursor.pyc": {
-        "sha256": "8248a7b1d47a5cfdfcb8920c20349b0636459741f39d47f956def42d4a8c7d94"
+        "sha256": "dba45416e55c3434dabb426ac9cc047138c0c923469ac21262e5dea27539ec76"
     },
     "lib/pyqtgraph/widgets/CheckTable.pyc": {
-        "sha256": "551cdc5fde2b3b8b66fc109e75efe0ee807c649b9dda78fe3ef76e64c43fbd3d"
+        "sha256": "7fea41f5fd64eefb40617b4e550c68a23e51e03aa8a154df3977a7a4478f8c3d"
     },
     "lib/pyqtgraph/widgets/ColorButton.pyc": {
-        "sha256": "6e1c8567e38201b3eeba4cb563704e0efe76a4b7abdcfe611c2852a7b6c7dbe2"
+        "sha256": "cc29324defdfcd0ba4296993df36c5ead5dbd9c1aa8e6c49bbd86be968a3da66"
     },
     "lib/pyqtgraph/widgets/ColorMapButton.pyc": {
-        "sha256": "7911389447797cba73b4a528b27d3a289a531930b37a399da26f47c6e31d3d59"
+        "sha256": "d741873ee3d8910c67e37a2f979a72d9dad6d585cf20fb1232739d09841a573e"
     },
     "lib/pyqtgraph/widgets/ColorMapMenu.pyc": {
-        "sha256": "5d76d0dcb90ec2b3271f0e45eebcab102ac13e3d8ee94dacf23cc4f939913514"
+        "sha256": "db0d2c1af6fcde939457986a7f25b56eb84cf2b6ccc7fef0ad17e2dfe1748271"
     },
     "lib/pyqtgraph/widgets/ColorMapWidget.pyc": {
-        "sha256": "7a7ee807283dcb2b2b28d7188d4255d344d1f3e4656bdb8e63d0bb64616f14b8"
+        "sha256": "ff7080605c72a1bda16a26af8f4d0722050a5022ac8ed2562f79963f4c8b37af"
     },
     "lib/pyqtgraph/widgets/ComboBox.pyc": {
-        "sha256": "19f120af33e022fbe1fc565ad29f3e66323799ebc6e33b8cb86017d2d36304d7"
+        "sha256": "9212b38bf85639deb7c8b0785cc4dfb600460f3f28cc3db12c526391c156a6db"
     },
     "lib/pyqtgraph/widgets/DataFilterWidget.pyc": {
-        "sha256": "9c35f342a553f97f3b2688072182f4a6d39426650a78637bb9694d237a9563b7"
+        "sha256": "6d560581c53358300c553d6912a1b00c917a9556e06b722d109dc697eddb0ac6"
     },
     "lib/pyqtgraph/widgets/DataTreeWidget.pyc": {
-        "sha256": "c5a6fa76cb1684b15aca258f0d10842d666a6e2214dca1e5cf4b2ceb2b9bfdca"
+        "sha256": "7663631896d7def559547fcf8ee620a41c12a2a499155c495f5fcc9f35392929"
     },
     "lib/pyqtgraph/widgets/DiffTreeWidget.pyc": {
-        "sha256": "b9214876fa704cd9185a5972070d0091a17f2df57896091252019c738713f5ce"
+        "sha256": "7645bc0709a572e7867747a20bf3b98f4589769d02debffbc7bcc62056a059de"
     },
     "lib/pyqtgraph/widgets/FeedbackButton.pyc": {
-        "sha256": "b1fc4d5b876f425820be27687c2c310023a1c3b49aa6c34486bc12202abcf020"
+        "sha256": "9f6d67a19b01130938d535360fe8705b2b4e034b8ec2361e9b2b52d65a564a80"
     },
     "lib/pyqtgraph/widgets/FileDialog.pyc": {
-        "sha256": "38e3c01d2d9201335df1064f379ddf40b19dbd2426ecf26bf50cab6b4945f758"
+        "sha256": "e6cbebeb9972d6744ade6667369d26526bedf039b5f8890b5e843b80118cab49"
     },
     "lib/pyqtgraph/widgets/GradientWidget.pyc": {
-        "sha256": "48c347b5344405145b89b549d323710349eb01eccd83e76c5f879c40cc311ac9"
+        "sha256": "3125192eeb20984fd6ecfcd860e564c752c0ef7650823cccae7280a2f4bac408"
     },
     "lib/pyqtgraph/widgets/GraphicsLayoutWidget.pyc": {
-        "sha256": "0ee165092c7cbdf43541f0c88e55caec263d3c0b3d0b9351c2c9ef120a0f347f"
+        "sha256": "761c9ac8398d0d09b6184b7a3d4fecee3bdf42ac176cdf41a12a3f528b5a0a69"
     },
     "lib/pyqtgraph/widgets/GraphicsView.pyc": {
-        "sha256": "ce5360f7d80bce6596de2d1eb79c5369bd1a3637f2a9f9cfe58bf3243dcc1173"
+        "sha256": "d0b4dbdc4cc7be3b25d047534cbf8440f02f3b97394f332349bb82239f0c3463"
     },
     "lib/pyqtgraph/widgets/GroupBox.pyc": {
-        "sha256": "0f872ab39115b83190eeb02c87e946fd8f254b654b7e2d3154f870e437cbf181"
+        "sha256": "3bd48caae44e741242b5728b1c0b7f977a243c7e8dea0337e53829b8e4dfb4ba"
     },
     "lib/pyqtgraph/widgets/HistogramLUTWidget.pyc": {
-        "sha256": "1cac1db9ec184618b7980e53b7e50df6514743edbc275c20d43b651861411174"
+        "sha256": "9b557a0801c0f8dc9580048d18c01d73db842e9b867a2299d3bc72f27fbad624"
     },
     "lib/pyqtgraph/widgets/JoystickButton.pyc": {
-        "sha256": "c4fce611bba39e51c5d4f2cfae0d69959f4051467e73022f538ee7fedae8cd31"
+        "sha256": "935d20efb530c65730a85ab273417d2b47112790a02fafa5e746489372cfd744"
     },
     "lib/pyqtgraph/widgets/LayoutWidget.pyc": {
-        "sha256": "1faec52ae753fc35837e1181e566fbf2c32b1204bf33a1114c94e07858863ef6"
+        "sha256": "a869c835081d7a62b5d07bee905f88ae30621bc37ef729b75557ba37ca1312ce"
     },
     "lib/pyqtgraph/widgets/MatplotlibWidget.pyc": {
-        "sha256": "d528ba8c994954447a0026b3f78bd43d4240d0d90e009f3b1a8128f847c1aad3"
-    },
-    "lib/pyqtgraph/widgets/MultiPlotWidget.pyc": {
-        "sha256": "8dc00dd23718a817df7dc61ce26c79f3750779c7a5b9719ddc8ed66ffec9d81a"
+        "sha256": "d6fac942809f9e648678a7b9bba71ee4dae7a4a02fdc313f42d88973118f0dd5"
     },
     "lib/pyqtgraph/widgets/PathButton.pyc": {
-        "sha256": "386fcb2e53752e69e33c185d29349c81a2a538287541a5361ea10c6206d67f3f"
+        "sha256": "412fd712e1060490b84de9e0595efc03e184f62100168a46a3a1e3d1e058ea79"
     },
     "lib/pyqtgraph/widgets/PenPreviewLabel.pyc": {
-        "sha256": "85c195e801cd7b4bc789c3ad663a64850db9133957d7193b34492a1bf53f7e99"
+        "sha256": "0b9258ff9d6759377fb30ebb6b0d5ff987a426904af1d8c4a87ca45b2dbff10d"
     },
     "lib/pyqtgraph/widgets/PlotWidget.pyc": {
-        "sha256": "8cb92398f9c6d665aeefe6f6e4d39f13c066395fa2e6bd6691a5d9a1024582a3"
+        "sha256": "37096096fc7c2b627e515714dcc0632ac54e0fc2069abec3739aaf1ca85894e9"
     },
     "lib/pyqtgraph/widgets/ProgressDialog.pyc": {
-        "sha256": "193e234cb9f28bd353940205b413cf60e29977d58f944de8bc6bc57867070dfb"
+        "sha256": "3d2dd9ec847ca44521f54e16c4464c5e6c4006f6a476b45820e287c3ac84063e"
     },
     "lib/pyqtgraph/widgets/RawImageWidget.pyc": {
-        "sha256": "f2d5e11824c4656d66a263721cd416dad2c9c0fa7ebc63407a284f26dcd08d4c"
+        "sha256": "b32c0d2b9c66ccda2400e3ed4bdce55a3f52fc57d312b3358a56c6cb223128ae"
     },
     "lib/pyqtgraph/widgets/RemoteGraphicsView.pyc": {
-        "sha256": "d454d419df2ebb255a1f258ddf8c14c5f215f520df78f3c642faf4315f940c5a"
+        "sha256": "5a62737d69e735dfffd8a087dd52b3e3611cb9d22d25d6ac3edd21ec9db0b026"
     },
     "lib/pyqtgraph/widgets/ScatterPlotWidget.pyc": {
-        "sha256": "ebbdaf8fe2b07f00503f532322e93e620553f1eaa0021bff1128b219ca492719"
+        "sha256": "45140779b8fb49cc1074924afb8f93dcb69db6665fe97a1b0d5257dfa4c344bd"
     },
     "lib/pyqtgraph/widgets/SpinBox.pyc": {
-        "sha256": "7a1ce55471d0181724c9a75f973f46b3539ab31246cb2b7b64a914ca6e975400"
+        "sha256": "ffac8a1edfac2a3554de3f3b6b1274ea7ddd0b608e128b2b701d46e2a0e81b1f"
     },
     "lib/pyqtgraph/widgets/TableWidget.pyc": {
-        "sha256": "effb786802b55c3b5559f62da411f857c52328fb6a4013523d06261a4797ab90"
+        "sha256": "a434c3c6aa2da71e4754fc9f8b171b0993986c73151c9ae841fa6950873388f2"
     },
     "lib/pyqtgraph/widgets/TreeWidget.pyc": {
-        "sha256": "8f3253c4f3060f9be9d5fb5f7b25d8149667962a8d564518ba2fdbdb92e009a7"
+        "sha256": "4f2d1fbb165c91166e658100deaea575f1ffa183896fed001092510f33dfbca8"
     },
     "lib/pyqtgraph/widgets/ValueLabel.pyc": {
-        "sha256": "4988902bacb67c3bde48955edb57da06b2905247d0e82494ebfbcb1bc439a1ce"
+        "sha256": "e4ab93b0b959624f50ee5ec09eadf8e7437beddaa784ed46e7eeb03b5bf60dae"
     },
     "lib/pyqtgraph/widgets/VerticalLabel.pyc": {
-        "sha256": "ad3d7c5fd3996ea9ae222f1ed2878f8767235cad0fff799f68d0d680eeda075b"
+        "sha256": "c72ad8e74fcd0e47c9bff60ddfde9951f1050ca017106285597a63e4ee1823b0"
     },
     "lib/pyqtgraph/widgets/__init__.pyc": {
-        "sha256": "d4c9b90bd4faff63445bc89bf0972bf3a819865a0b227bb64c88f53ed4ea15e2"
+        "sha256": "f09ab2a2a81729dbc43f71621952b4a8ef1436984eabbf9b36ef60641e4fd737"
     },
     "lib/PySide6/assistant.exe": {
         "sha256": "427c021ef95ff37ab9b25a7f68bfa86abf086d3db259512630cc6314d0c363d8"
@@ -17656,7 +17647,7 @@
         "sha256": "b29e4098f9f53f05e3281636d079de58b05a26c03669cea4ec1673e51750fa31"
     },
     "lib/pywin32_system32/__init__.pyc": {
-        "sha256": "06912bb4a4b9cd8ce02d4887ff62ea2ff3d81d167ab0153622e0244aa5986e72"
+        "sha256": "ac4f123905c92f3fa0a901222540cc928fe4bd0a76c4911ef89d762156b2b0fa"
     },
     "lib/re/_casefix.pyc": {
         "sha256": "00e3615f61bf785fa28443fdb967c836e20cbbc9b5eaf75e28e3dc44bb5594c5"
